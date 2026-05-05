@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How to Deposit and Withdraw Funds
 
 This walkthrough covers moving funds into and out of your Premarket smart account.
@@ -24,6 +28,7 @@ This walkthrough covers moving funds into and out of your Premarket smart accoun
 
 {% hint style="warning" %}
 **Common withdrawal issues:**
-- Withdraw button disabled: balance is zero or funds are locked in open positions.
-- Funds not visible: wait for open positions to settle before withdrawing.
+
+* Withdraw button disabled: balance is zero or funds are locked in open positions.
+* Funds not visible: wait for open positions to settle before withdrawing.
 {% endhint %}

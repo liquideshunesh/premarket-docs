@@ -1,22 +1,54 @@
+---
+coverY: 0
+---
+
 # Wallet and Funds FAQ
 
-**Why is my balance not showing?**
+<details>
+
+<summary><strong>Why is my balance not showing?</strong></summary>
+
 Check that you have deposited on the correct network. Allow time for on-chain confirmations. If your position is still open, those funds will not appear as available balance until the position is closed or settled.
 
-**Can I withdraw while I have open positions?**
+</details>
+
+<details>
+
+<summary><strong>Can I withdraw while I have open positions?</strong></summary>
+
 You can withdraw funds that are not locked in open positions. Any collateral tied to active positions must remain until those positions are closed or settled.
 
-**Why is my withdraw button disabled?**
+</details>
+
+<details>
+
+<summary><strong>Why is my withdraw button disabled?</strong></summary>
+
 Your available balance is either zero or your KYC has not been completed.
 
-**What networks are supported for deposits?**
+</details>
+
+<details>
+
+<summary><strong>What networks are supported for deposits?</strong></summary>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-**Is there a minimum deposit or withdrawal amount?**
+</details>
+
+<details>
+
+<summary><strong>Is there a minimum deposit or withdrawal amount?</strong></summary>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-**Are my funds safe?**
-Premarket uses smart account infrastructure with on-chain settlement. Your funds are controlled by the smart contracts and settlement is transparent on-chain.
+</details>
 
-**What is the subkey and do I need to manage it?**
-The subkey is a delegated key used by the system to enable gas abstraction and seamless trading. You do not manage it directly.
+<details>
+
+<summary><strong>Are my funds safe?</strong></summary>
+
+Premarket uses smart account infrastructure with onchain settlement. Your funds are controlled by the smart contracts and settlement is transparent onchain.
+
+</details>
+

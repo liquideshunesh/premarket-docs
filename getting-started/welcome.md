@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Welcome to Premarket
 
 ## Context
@@ -32,9 +36,10 @@ Both market types run on a live orderbook. Prices are not set by the platform, t
 
 {% hint style="warning" %}
 **Before you start:**
-- You can lose your full position if the outcome goes against you.
-- Early exit depends on available liquidity, it is never guaranteed.
-- Settlement at expiry is always guaranteed, even if you could not exit early.
+
+* You can lose your full position if the outcome goes against you.
+* Early exit depends on available liquidity, it is never guaranteed.
+* Settlement at expiry is always guaranteed, even if you could not exit early.
 {% endhint %}
 
 Head to Getting Started for a step by step walkthrough on account setup and to place your first trade.

@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Getting Started
 
 Setting up on Premarket takes a few steps before you can place your first trade. You will need to verify your identity, create a smart account, and deposit funds. This page walks you through each step in order.

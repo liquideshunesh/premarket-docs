@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Placing a Sell Order
 
 A sell order lets you exit an existing position before settlement. You sell your shares back into the orderbook and receive USDM in return. Your profit or loss is locked in at the point of sale.
@@ -26,8 +30,8 @@ Profit = $0.05 per share
 Position closed. Realized P&L is final.
 ```
 
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| Sell button not visible | No position held in this market | Buy first |
-| Transaction pending | On-chain confirmation delay | Wait for confirmation |
-| Position still visible | UI sync delay | Refresh the page |
+| Issue                   | Cause                           | Fix                   |
+| ----------------------- | ------------------------------- | --------------------- |
+| Sell button not visible | No position held in this market | Buy first             |
+| Transaction pending     | On-chain confirmation delay     | Wait for confirmation |
+| Position still visible  | UI sync delay                   | Refresh the page      |

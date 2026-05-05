@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Receiving Your Payout
 
 After a market settles, your position has a fixed value. All positions on Premarket are auto-expired and auto-exercised at expiry. You do not need to manually claim or trigger settlement.
@@ -12,8 +16,8 @@ After a market settles, your position has a fixed value. All positions on Premar
 
 **Pre-TGE Markets:** Payout depends on where the token's FDV lands at launch relative to your band. Settlement is automatic.
 
-| Issue | Cause | Fix |
-|-------|-------|-----|
-| Nothing happened after settlement | Blockchain confirmation delay | Wait a few minutes and refresh |
-| Cannot withdraw | Missing required token for options withdrawal | Check you hold the correct token |
-| Zero payout | Position resolved out of the money | Expected outcome, no action needed |
+| Issue                             | Cause                                         | Fix                                |
+| --------------------------------- | --------------------------------------------- | ---------------------------------- |
+| Nothing happened after settlement | Blockchain confirmation delay                 | Wait a few minutes and refresh     |
+| Cannot withdraw                   | Missing required token for options withdrawal | Check you hold the correct token   |
+| Zero payout                       | Position resolved out of the money            | Expected outcome, no action needed |

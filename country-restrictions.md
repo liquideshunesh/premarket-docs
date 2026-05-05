@@ -1,6 +1,12 @@
+---
+coverY: 0
+---
+
 # Country Restrictions
 
-Premarket restricts access to certain markets based on your geographic location. These restrictions exist for regulatory compliance and are applied automatically based on where you are accessing the platform from.
+Premarket restricts access to certain markets based on your geographic location. These restrictions exist for regulatory compliance and are applied automatically based on where you are accessing the platform from. Here's the list of restricted countries
+
+* \<Check Kalshi docs (this is the source of geoblocking request) and update & verify with Arc>
 
 ## Why Restrictions Exist
 
@@ -12,7 +18,7 @@ If your region is restricted you may not see certain markets, be unable to place
 
 ## How Your Location is Detected
 
-Access is determined using IP-based geolocation, wallet metadata, and compliance checks.
+Access is determined using IP based geolocation, wallet metadata, and compliance checks.
 
 {% hint style="danger" %}
 Using a VPN or other workaround to bypass geographic restrictions may violate the Premarket terms of service.

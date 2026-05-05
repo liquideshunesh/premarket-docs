@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How Pricing Works
 
 Premarket uses an orderbook-based pricing system. There are no fixed odds or platform-set prices. Every price you see is the result of real buy and sell orders placed by other users.
@@ -36,10 +40,10 @@ Example: $5 at $0.25 = 20 shares
 Each correct share pays $1 at settlement.
 ```
 
-| Misunderstanding | Reality |
-|-----------------|---------|
-| Displayed price is guaranteed | Execution depends on available liquidity |
-| Yes + No = 100% | They do not, due to spread and orderbook structure |
-| Small trades always get exact price | Not guaranteed in low liquidity conditions |
+| Misunderstanding                    | Reality                                            |
+| ----------------------------------- | -------------------------------------------------- |
+| Displayed price is guaranteed       | Execution depends on available liquidity           |
+| Yes + No = 100%                     | They do not, due to spread and orderbook structure |
+| Small trades always get exact price | Not guaranteed in low liquidity conditions         |
 
 Head to How FDV Bands Work for a breakdown of how pricing applies to pre-TGE band markets.

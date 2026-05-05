@@ -1,12 +1,16 @@
+---
+coverY: 0
+---
+
 # How Settlement Price is Determined
 
 Settlement price is the final value applied to your position when a market resolves. It is not based on the last traded price. It is based on the rules defined for the market and verified external data sources.
 
 ## The Core Principle
 
-| Concept | Source | Meaning |
-|---------|--------|---------|
-| Market Price | Order book | What traders believe |
+| Concept          | Source           | Meaning                |
+| ---------------- | ---------------- | ---------------------- |
+| Market Price     | Order book       | What traders believe   |
 | Settlement Price | Rules and Oracle | What actually happened |
 
 ## For Prediction Markets

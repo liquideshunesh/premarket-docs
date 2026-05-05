@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Prediction Market Settlement
 
 Prediction markets resolve to a binary outcome. Every position settles to either $1 or $0 per share depending on which outcome wins. Settlement is determined by the rules defined for that specific market, not by the last traded price.
@@ -10,11 +14,11 @@ Each prediction market has a **Rules** section that defines exactly what constit
 
 ## What Happens to Your Position
 
-| Position | Result |
-|----------|--------|
+| Position                | Result                                 |
+| ----------------------- | -------------------------------------- |
 | Holding winning outcome | $1 per share credited to smart account |
-| Holding losing outcome | Shares expire at $0 |
-| Sold before settlement | P&L already realized |
+| Holding losing outcome  | Shares expire at $0                    |
+| Sold before settlement  | P\&L already realized                  |
 
 ## Example
 

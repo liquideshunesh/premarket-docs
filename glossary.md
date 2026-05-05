@@ -1,14 +1,42 @@
+---
+coverY: 0
+---
+
 # Glossary
 
 A quick reference for terms used across Premarket. This glossary will expand as new features and market types are added.
 
 ## General
 
-**Market** - A trading environment for a specific asset, event, or instrument.
+{% columns %}
+{% column %}
+**Market**
+{% endcolumn %}
 
-**Order Book** - A list of active buy and sell orders in a market. Bids are buy orders. Asks are sell orders.
+{% column %}
+A trading environment for a specific asset, event, or instrument
+{% endcolumn %}
+{% endcolumns %}
 
-**Liquidity** - The availability of buyers and sellers in a market. Low liquidity means harder execution and wider spreads.
+{% columns %}
+{% column %}
+**Order Book**
+{% endcolumn %}
+
+{% column %}
+A list of active buy and sell orders in a market. Bids are buy orders. Asks are sell orders.
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+**Liquidity**
+{% endcolumn %}
+
+{% column %}
+The availability of buyers and sellers in a market. Low liquidity means harder execution and wider spreads.
+{% endcolumn %}
+{% endcolumns %}
 
 **Maker** - A trader who places an order that adds liquidity to the orderbook.
 

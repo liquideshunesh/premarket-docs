@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How to Mint and Sell an Options Position
 
 This walkthrough covers the full lifecycle of an options position from minting through selling on the orderbook.

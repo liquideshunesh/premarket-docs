@@ -1,15 +1,19 @@
+---
+coverY: 0
+---
+
 # Market Cancellation
 
 In rare cases a market may be cancelled before it can be settled. When this happens, open positions are closed and funds are returned according to predefined rules.
 
 ## When a Market May Be Cancelled
 
-| Reason | Description |
-|--------|-------------|
-| Invalid setup | Market rules set up incorrectly or outcome definition is ambiguous |
-| Oracle failure | Data source unavailable or conflicting |
-| Underlying event changed | Event cancelled or significantly altered |
-| Market integrity | Evidence of manipulation or abnormal behavior |
+| Reason                   | Description                                                        |
+| ------------------------ | ------------------------------------------------------------------ |
+| Invalid setup            | Market rules set up incorrectly or outcome definition is ambiguous |
+| Oracle failure           | Data source unavailable or conflicting                             |
+| Underlying event changed | Event cancelled or significantly altered                           |
+| Market integrity         | Evidence of manipulation or abnormal behavior                      |
 
 ## What Happens to Your Position
 

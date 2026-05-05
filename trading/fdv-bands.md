@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How FDV Bands Work
 
 FDV bands are the pricing instrument used in pre-TGE markets. Instead of a simple yes or no outcome, you are trading whether a token's fully diluted valuation falls within a specific range at launch.
@@ -16,10 +20,10 @@ A band is a valuation range. Each band represents a separate tradable outcome wi
 
 ## Bull and Bear Directions
 
-| Direction | Meaning |
-|-----------|---------|
-| Bull | You believe FDV will land within or above the range |
-| Bear | You believe FDV will land within or below the range |
+| Direction | Meaning                                             |
+| --------- | --------------------------------------------------- |
+| Bull      | You believe FDV will land within or above the range |
+| Bear      | You believe FDV will land within or below the range |
 
 ## Payout Logic
 
@@ -27,18 +31,18 @@ FDV bands are directional spreads, not binary markets. Payout increases linearly
 
 **Bull position:**
 
-| Scenario | Result |
-|----------|--------|
-| FDV below lower strike | $0. Full loss. |
-| FDV within the range | Payout increases linearly toward the upper strike |
+| Scenario               | Result                                            |
+| ---------------------- | ------------------------------------------------- |
+| FDV below lower strike | $0. Full loss.                                    |
+| FDV within the range   | Payout increases linearly toward the upper strike |
 | FDV above upper strike | Maximum payout. Capped at the upper strike value. |
 
 **Bear position:**
 
-| Scenario | Result |
-|----------|--------|
-| FDV above upper strike | $0. Full loss. |
-| FDV within the range | Payout increases linearly toward the lower strike |
+| Scenario               | Result                                            |
+| ---------------------- | ------------------------------------------------- |
+| FDV above upper strike | $0. Full loss.                                    |
+| FDV within the range   | Payout increases linearly toward the lower strike |
 | FDV below lower strike | Maximum payout. Capped at the lower strike value. |
 
 ## Example Trade
@@ -55,8 +59,8 @@ Final FDV $230M: Larger partial payout. Further into range.
 Final FDV $270M: Maximum payout. Above upper strike, capped at max win.
 ```
 
-| Feature | Prediction Markets | FDV Bands |
-|---------|------------------|-----------|
-| Outcome type | Binary YES/NO | Directional spread |
-| Payout | Fixed $1 or $0 | Linearly scaled, capped at max |
-| Complexity | Low | Higher |
+| Feature      | Prediction Markets | FDV Bands                      |
+| ------------ | ------------------ | ------------------------------ |
+| Outcome type | Binary YES/NO      | Directional spread             |
+| Payout       | Fixed $1 or $0     | Linearly scaled, capped at max |
+| Complexity   | Low                | Higher                         |

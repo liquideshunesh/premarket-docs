@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How to Complete KYC on Premarket
 
 ## Why KYC?

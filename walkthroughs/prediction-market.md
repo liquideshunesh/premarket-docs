@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How to Trade a Prediction Market
 
 This walkthrough covers the full flow from opening a market to settlement.
@@ -25,11 +29,11 @@ Click the **Orderbook** tab. Confirm there are active bids and asks on both side
 
 ## Step 5: Track Your Position
 
-Go to **Portfolio**. Your position appears with current value, shares held, and unrealized P&L. Monitor it as the market moves.
+Go to **Portfolio**. Your position appears with current value, shares held, and unrealized P\&L. Monitor it as the market moves.
 
 ## Step 6: Exit Early or Hold to Settlement
 
-**To exit early:** Click **Sell** next to your position in Portfolio. Confirm the transaction. Your P&L is locked in immediately.
+**To exit early:** Click **Sell** next to your position in Portfolio. Confirm the transaction. Your P\&L is locked in immediately.
 
 **To hold to settlement:** Do nothing. When the event resolves, your position settles automatically. Winning shares pay $1, losing shares pay $0.
 

@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Exiting a Position
 
 Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
@@ -14,12 +18,12 @@ For options markets: if you hold equal amounts of PRM and oPRM tokens, you can u
 
 ## Why Exit Early?
 
-| Reason | When |
-|--------|------|
-| Lock in profit | Price has moved in your favour |
-| Cut losses | Market has moved against you |
+| Reason             | When                           |
+| ------------------ | ------------------------------ |
+| Lock in profit     | Price has moved in your favour |
+| Cut losses         | Market has moved against you   |
 | Reallocate capital | Free up funds for other trades |
-| Avoid uncertainty | Exit before a resolution event |
+| Avoid uncertainty  | Exit before a resolution event |
 
 ## Example
 

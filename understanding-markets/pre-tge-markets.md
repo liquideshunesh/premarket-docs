@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Pre-TGE Markets
 
 ## What are Pre-TGE Markets?
@@ -26,11 +30,11 @@ Each market offers a set of valuation bands. You pick the band that matches your
 
 FDV bands are directional spreads. Payout increases linearly as the FDV moves in your favour, and is capped at the maximum once it crosses the far strike in your direction.
 
-| Scenario | Result |
-|----------|--------|
-| FDV on wrong side of near strike | $0. Full loss. |
-| FDV within the band | Payout increases linearly toward the far strike |
-| FDV past the far strike in your direction | Maximum payout, capped at far strike value |
+| Scenario                                  | Result                                          |
+| ----------------------------------------- | ----------------------------------------------- |
+| FDV on wrong side of near strike          | $0. Full loss.                                  |
+| FDV within the band                       | Payout increases linearly toward the far strike |
+| FDV past the far strike in your direction | Maximum payout, capped at far strike value      |
 
 ## How to Trade
 

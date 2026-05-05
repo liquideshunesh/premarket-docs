@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Options Markets
 
 ## What are Options Markets?
@@ -18,10 +22,10 @@ Each option represents a price band. You are not buying the asset itself. You ar
 
 To open a position in an options market you first mint PRM and oPRM tokens. Select the band you want to trade and click **Mint**. You deposit USDM as collateral and receive two tokens in return.
 
-| Token | Role |
-|-------|------|
-| PRM | Write position token. Represents your collateral claim. |
-| oPRM | Outcome token. Represents your directional position. Tradable on the orderbook. |
+| Token | Role                                                                            |
+| ----- | ------------------------------------------------------------------------------- |
+| PRM   | Write position token. Represents your collateral claim.                         |
+| oPRM  | Outcome token. Represents your directional position. Tradable on the orderbook. |
 
 ## Trading on the Orderbook
 
@@ -30,10 +34,11 @@ To open a position in an options market you first mint PRM and oPRM tokens. Sele
 Once minted, you can sell your oPRM tokens on the orderbook via a limit order. Other users can then buy those tokens using USDM. Before placing a market order, check the orderbook to confirm there are active bids at your target price.
 
 **Lifecycle:**
-- **Mint:** Deposit USDM as collateral. Receive PRM and oPRM tokens.
-- **Sell:** List your oPRM tokens on the orderbook at your chosen price.
-- **Buy:** Purchase oPRM tokens from the orderbook using USDM.
-- **Unwind:** Return equal amounts of PRM and oPRM to recover your full collateral before expiry.
+
+* **Mint:** Deposit USDM as collateral. Receive PRM and oPRM tokens.
+* **Sell:** List your oPRM tokens on the orderbook at your chosen price.
+* **Buy:** Purchase oPRM tokens from the orderbook using USDM.
+* **Unwind:** Return equal amounts of PRM and oPRM to recover your full collateral before expiry.
 
 ## Settlement
 

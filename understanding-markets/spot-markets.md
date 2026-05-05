@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Spot Markets
 
 ## What are Spot Markets?
@@ -8,10 +12,10 @@ Spot markets allow you to trade real tokens directly against USDM. Unlike predic
 
 ## Key Characteristics
 
-- No expiry: markets are perpetual.
-- No resolution: positions do not settle to $0 or $1.
-- Real assets: you hold tokens like WETH.
-- Order book driven: trades only happen if counterparties exist.
+* No expiry: markets are perpetual.
+* No resolution: positions do not settle to $0 or $1.
+* Real assets: you hold tokens like WETH.
+* Order book driven: trades only happen if counterparties exist.
 
 ## How Trading Works
 
@@ -25,7 +29,7 @@ Trades only execute if there is liquidity. "No price available for market order"
 
 ## Maker vs Taker
 
-| Role | Description |
-|------|-------------|
-| Maker | Places order first. Provides liquidity. |
+| Role  | Description                                |
+| ----- | ------------------------------------------ |
+| Maker | Places order first. Provides liquidity.    |
 | Taker | Matches existing order. Removes liquidity. |

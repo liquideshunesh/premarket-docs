@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Understanding Markets
 
 Premarket is an orderbook-based platform. Before you trade, it helps to understand how the orderbook works, what liquidity means in practice, and what happens when your order hits the chain.
@@ -8,11 +12,11 @@ Premarket is an orderbook-based platform. Before you trade, it helps to understa
 
 Regardless of which market you trade on Premarket, the same core mechanics apply across all of them. Each market type has its own payout structure and settlement logic but the underlying infrastructure is shared.
 
-- All trades require a counterparty. No counterparty means no execution.
-- Makers place orders and add liquidity. Takers match existing orders and remove it.
-- Order matching happens off-chain. Final settlement is always recorded on-chain.
-- Liquidity is never guaranteed. You may not always be able to enter or exit when you want to.
-- Treating all markets the same is the most common mistake. Prediction markets and FDV band markets look similar in the UI but behave very differently at settlement.
+* All trades require a counterparty. No counterparty means no execution.
+* Makers place orders and add liquidity. Takers match existing orders and remove it.
+* Order matching happens off-chain. Final settlement is always recorded on-chain.
+* Liquidity is never guaranteed. You may not always be able to enter or exit when you want to.
+* Treating all markets the same is the most common mistake. Prediction markets and FDV band markets look similar in the UI but behave very differently at settlement.
 
 ## How to Read the Orderbook
 

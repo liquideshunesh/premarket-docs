@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Wallet and Funds
 
 All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
@@ -6,11 +10,11 @@ All trading on Premarket happens through a smart account. Your funds flow from y
 
 ## How the Wallet Structure Works
 
-| Layer | Role |
-|-------|------|
-| Primary Wallet | Your personal wallet (e.g., MetaMask). Fully controlled by you. Used to deposit funds and receive withdrawals. |
-| Smart Account | Your trading wallet on Premarket. All trades, positions, and settlements happen here. |
-| Subkey | A delegated key used by the system to enable gas abstraction and transaction batching. You do not interact with this directly. |
+| Layer          | Role                                                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Primary Wallet | Your personal wallet (e.g., MetaMask). Fully controlled by you. Used to deposit funds and receive withdrawals.                 |
+| Smart Account  | Your trading wallet on Premarket. All trades, positions, and settlements happen here.                                          |
+| Subkey         | A delegated key used by the system to enable gas abstraction and transaction batching. You do not interact with this directly. |
 
 ## How Funds Flow
 
@@ -36,7 +40,8 @@ Withdrawal: Smart Account > Primary Wallet
 
 {% hint style="warning" %}
 **Common issues:**
-- Withdraw button disabled: your available balance is zero or KYC is incomplete.
-- Funds not visible: you may have an open position that has not yet settled.
-- Cannot withdraw full balance: part of your funds is locked in active positions.
+
+* Withdraw button disabled: your available balance is zero or KYC is incomplete.
+* Funds not visible: you may have an open position that has not yet settled.
+* Cannot withdraw full balance: part of your funds is locked in active positions.
 {% endhint %}

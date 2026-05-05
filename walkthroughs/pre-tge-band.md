@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # How to Trade a Pre-TGE Band
 
 This walkthrough covers buying an FDV band position on a pre-TGE market from start to settlement.

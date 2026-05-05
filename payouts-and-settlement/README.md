@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Payouts and Settlement
 
 Every market on Premarket eventually reaches a point where trading ends, outcomes are determined, and positions are finalized. This is settlement. Your actual financial result is locked in here if you have not already exited your position early.
@@ -12,11 +16,11 @@ Every market on Premarket eventually reaches a point where trading ends, outcome
 
 ## Settlement by Market Type
 
-| Market Type | Settlement Trigger | Payout |
-|-------------|-------------------|--------|
-| Prediction Markets | Event outcome confirmed | $1 winning / $0 losing per share |
-| Pre-TGE Markets | Token launch | Based on FDV band result |
-| Options Markets | Expiry time reached | Based on underlying price vs band |
+| Market Type        | Settlement Trigger      | Payout                            |
+| ------------------ | ----------------------- | --------------------------------- |
+| Prediction Markets | Event outcome confirmed | $1 winning / $0 losing per share  |
+| Pre-TGE Markets    | Token launch            | Based on FDV band result          |
+| Options Markets    | Expiry time reached     | Based on underlying price vs band |
 
 {% hint style="success" %}
 All positions on Premarket are auto-expired and auto-exercised. You do not need to take any manual action at settlement.
