@@ -6,4 +6,4 @@ coverY: 0
 
 Step by step guides for every key user flow on Premarket. If you are new to the platform, start here before reading the conceptual docs.
 
-\<Add Image summarizing this section>
+\<Add Image summarizing this section & Cards linking to section sub pages>

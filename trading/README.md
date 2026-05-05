@@ -8,5 +8,5 @@ A guide to placing orders, understanding pricing, and managing positions on Prem
 
 
 
-\<Add Image summarizing this section>
+\<Add Image summarizing this section & Cards linking to section sub pages>
 
