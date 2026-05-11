@@ -1,5 +1,6 @@
 ---
-coverY: 0
+cover: ../.gitbook/assets/cover-main (3).png
+coverY: 114.55031779661017
 ---
 
 # Walkthroughs and Demos

@@ -1,12 +1,13 @@
 ---
-coverY: 0
+cover: ../.gitbook/assets/cover-main (7).png
+coverY: 205.52754237288138
 ---
 
 # Understanding Markets
 
 Premarket is an orderbook-based platform. Before you trade, it helps to understand how the orderbook works, what liquidity means in practice, and what happens when your order hits the chain.
 
-> Screenshot: Markets page showing different market types
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ## What All Markets Have in Common
 
@@ -20,7 +21,7 @@ Regardless of which market you trade on Premarket, the same core mechanics apply
 
 ## How to Read the Orderbook
 
-> Screenshot: Orderbook showing bids, asks and spread highlighted
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 The orderbook shows all active buy and sell orders for a market. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
 
@@ -32,6 +33,6 @@ When you place a market order, it matches against the best available orders in t
 
 Trades on Premarket are matched off-chain for speed but settled on-chain for finality. After a trade executes you will see a short confirmation period while the transaction is recorded on the blockchain. During this time your position may appear as pending. Once confirmed it will appear in your portfolio with full position details. Settlement at expiry follows the same process and is handled automatically.
 
-> Screenshot: Portfolio showing pending and confirmed positions
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Each market type has its own payout structure, liquidity profile, and settlement logic. Read the individual guides below before trading to understand exactly what you are getting into.

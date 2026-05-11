@@ -1,5 +1,6 @@
 ---
-coverY: 0
+cover: ../.gitbook/assets/cover-main (2).png
+coverY: 114.88824152542372
 ---
 
 # Trading Mechanics
