@@ -6,7 +6,7 @@ coverY: 0
 
 A buy order lets you open a position on an outcome or band. When you buy, you spend USDM and receive shares or position tokens representing your exposure.
 
-> Screenshot: Trade panel in buy mode with outcome selected
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Before You Buy
 
@@ -28,7 +28,13 @@ Make sure the following are in place before placing a buy order:
 3. Enter the amount of USDM you want to spend.
 4. Click **Buy** to confirm.
 
-> Screenshot: Step by step buy flow
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## What Happens After You Buy
 

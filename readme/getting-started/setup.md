@@ -22,7 +22,7 @@ To trade on prediction markets you must verify your identity. Click **Buy Yes** 
 
 Premarket uses a smart account as your trading wallet. Go to the Wallet page, click **Create Smart Account**, and wait for confirmation. All your funds, trades, and positions are managed through this account.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 4: Deposit Funds
 

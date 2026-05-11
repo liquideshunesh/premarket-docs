@@ -6,7 +6,7 @@ coverY: 0
 
 Premarket uses an orderbook-based pricing system. There are no fixed odds or platform-set prices. Every price you see is the result of real buy and sell orders placed by other users.
 
-> Screenshot: Live market showing current price and orderbook
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ## Price is Market Consensus
 

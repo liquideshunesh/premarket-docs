@@ -6,7 +6,7 @@ coverY: 0
 
 A sell order lets you exit an existing position before settlement. You sell your shares back into the orderbook and receive USDM in return. Your profit or loss is locked in at the point of sale.
 
-> Screenshot: Portfolio showing active position with sell button visible
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You can only sell a position you already hold. There is no short selling on Premarket. Selling always means closing an existing position.
