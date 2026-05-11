@@ -4,7 +4,7 @@ coverY: 0
 
 # Country Restrictions
 
-Premarket restricts access based on your geographic location. These restrictions are applied automatically based on your detected IP address and exist for regulatory compliance. Premarket fronts DFlow for prediction market liquidity, and access restrictions follow DFlow's Kalshi compliance requirements.
+Premarket restricts access based on your geographic location. These restrictions are applied automatically based on your detected IP address and exist for regulatory compliance.
 
 ## Restricted Countries
 
@@ -79,4 +79,3 @@ Access is determined using IP based geolocation, wallet metadata, and compliance
 {% hint style="warning" %}
 Using a VPN or other workaround to bypass geographic restrictions may violate the Premarket terms of service.
 {% endhint %}
-
