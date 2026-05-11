@@ -38,4 +38,4 @@
     * [Error Reference](readme/quick-help/error-reference.md)
     * [Country Restrictions](readme/quick-help/country-restrictions.md)
     * [Glossary](readme/quick-help/glossary.md)
-  * [Changelog](changelog.md)
+  * [Change Log](changelog.md)
