@@ -20,48 +20,16 @@ A quick reference for terms used across the Premarket platform. This glossary wi
 
 ## Pre-TGE Markets
 
-<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>TGE</strong></td><td>Token Generation Event. The official launch of a token.</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
-
-**FDV** - Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation.
-
-**Band** - A valuation range used as a tradable outcome in pre-TGE markets.
-
-**Bull** - A directional position betting the FDV will land at the upper end of or above the selected range.
-
-**Bear** - A directional position betting the FDV will land at the lower end of or below the selected range.
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>TGE</strong></td><td>Token Generation Event. The official launch of a token.</td></tr><tr><td><strong>FDV</strong></td><td>Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation.</td></tr><tr><td><strong>Band</strong></td><td>A valuation range used as a tradable outcome in pre-TGE markets.</td></tr><tr><td><strong>Bull</strong></td><td>A directional position betting the FDV will land within or above the selected range.</td></tr><tr><td><strong>Bear</strong></td><td>A directional position betting the FDV will land within or below the selected range.</td></tr></tbody></table>
 
 ## Options Markets
 
-**Option** - A conditional payout instrument tied to whether an underlying asset lands within a defined price range at expiry.
-
-**PRM Token** - The write position token received when minting an options position. Represents the collateral claim.
-
-**oPRM Token** - The outcome token received when minting an options position. Tradable on the orderbook.
-
-**Minting** - The process of depositing USDM as collateral to receive PRM and oPRM tokens.
-
-**Unwind** - Returning equal amounts of PRM and oPRM tokens before expiry to recover full collateral.
-
-**Writer** - A user who mints a position by depositing collateral and receives both PRM and oPRM tokens.
-
-**Expiry** - The time at which an options market resolves and positions are settled.
-
-**ITM (In the Money)** - When the underlying asset settles within the option's strike range at expiry.
-
-**OTM (Out of the Money)** - When the underlying asset settles outside the option's strike range at expiry.
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Option</strong></td><td>A conditional payout instrument tied to whether an underlying asset lands within a defined price range at expiry.</td></tr><tr><td><strong>PRM Token</strong></td><td>The write position token received when minting an options position. Represents the collateral claim.</td></tr><tr><td><strong>oPRM Token</strong></td><td>The outcome token received when minting an options position. Tradable on the orderbook.</td></tr><tr><td><strong>Minting</strong></td><td>The process of depositing USDM as collateral to receive PRM and oPRM tokens.</td></tr><tr><td><strong>Unwind</strong></td><td>Returning equal amounts of PRM and oPRM tokens before expiry to recover full collateral.</td></tr><tr><td><strong>Writer</strong></td><td>A user who mints a position by depositing collateral and receives both PRM and oPRM tokens.</td></tr><tr><td><strong>Expiry</strong></td><td>The time at which an options market resolves and positions are settled.</td></tr><tr><td><strong>ITM (In the Money)</strong></td><td>When the underlying asset settles within the option's strike range at expiry.</td></tr><tr><td><strong>OTM (Out of the Money)</strong></td><td>When the underlying asset settles outside the option's strike range at expiry.</td></tr></tbody></table>
 
 ## Wallet and Settlement
 
-**USDM** - The stable unit used for trading and settlement on Premarket.
-
-**Smart Account** - A delegated trading wallet for gas abstraction and seamless execution.
-
-**Subkey** - A delegated key that operates the smart account. Managed by the system.
-
-**On-Chain Settlement** - Final execution of a trade or settlement recorded on the blockchain.
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>USDM</strong></td><td>The stable unit used for trading and settlement on Premarket.</td></tr><tr><td><strong>Smart Account</strong></td><td>A delegated trading wallet for gas abstraction and seamless execution.</td></tr><tr><td><strong>Subkey</strong></td><td>A delegated key that operates the smart account. Managed by the system.</td></tr><tr><td><strong>On-Chain Settlement</strong></td><td>Final execution of a trade or settlement recorded on the blockchain.</td></tr></tbody></table>
 
 ## Errors
 
-**No price available for market order** - No matching orders on the other side of the orderbook. Place a limit order or wait for liquidity.
-
-**Insufficient Balance** - Not enough funds to complete the trade. Check your smart account balance and deposit if needed.
+<table><thead><tr><th width="260">Error</th><th>What it means and what to do</th></tr></thead><tbody><tr><td><strong>No price available for market order</strong></td><td>No matching orders on the other side of the orderbook. Place a limit order or wait for liquidity.</td></tr><tr><td><strong>Insufficient Balance</strong></td><td>Not enough funds to complete the trade. Check your smart account balance and deposit if needed.</td></tr></tbody></table>
