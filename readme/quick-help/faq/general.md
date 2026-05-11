@@ -51,11 +51,3 @@ USDM is the primary settlement and trading currency on Premarket.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 </details>
-
-<details>
-
-<summary><strong>Does Premarket have a token?</strong></summary>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</details>
