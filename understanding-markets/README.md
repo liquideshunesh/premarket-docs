@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/cover-main (7).png
-coverY: 205.52754237288138
+cover: ../.gitbook/assets/banner-generic.png
+coverY: 0
 ---
 
 # Understanding Markets

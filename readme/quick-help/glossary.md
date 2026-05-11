@@ -1,4 +1,5 @@
 ---
+cover: ../../.gitbook/assets/banner-generic.png
 coverY: 0
 ---
 
@@ -8,7 +9,7 @@ A quick reference for terms used across the Premarket platform. This glossary wi
 
 ## General
 
-<table><thead><tr><th width="183.6171875">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Market</strong></td><td>A trading environment for a specific asset, event, or instrument</td></tr><tr><td><strong>Order Book</strong></td><td>List of active buy (or bids) and sell (or ask) orders in a market. </td></tr><tr><td><strong>Liquidity</strong></td><td>The availability of buyers and sellers in a market.</td></tr><tr><td><strong>Maker</strong></td><td>A trader who places an order that adds liquidity to the order book.</td></tr><tr><td><strong>Taker</strong></td><td>Trader who matches an existing order and removes liquidity from the orderbook.</td></tr><tr><td><strong>Spread</strong></td><td>The difference between the highest bid and the lowest ask in an orderbook.</td></tr><tr><td><strong>Slippage</strong></td><td>The difference between the <em>expected and the actual</em> execution price.</td></tr></tbody></table>
+<table><thead><tr><th width="183.6171875">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Market</strong></td><td>A trading environment for a specific asset, event, or instrument</td></tr><tr><td><strong>Order Book</strong></td><td>List of active buy (or bids) and sell (or ask) orders in a market.</td></tr><tr><td><strong>Liquidity</strong></td><td>The availability of buyers and sellers in a market.</td></tr><tr><td><strong>Maker</strong></td><td>A trader who places an order that adds liquidity to the order book.</td></tr><tr><td><strong>Taker</strong></td><td>Trader who matches an existing order and removes liquidity from the orderbook.</td></tr><tr><td><strong>Spread</strong></td><td>The difference between the highest bid and the lowest ask in an orderbook.</td></tr><tr><td><strong>Slippage</strong></td><td>The difference between the <em>expected and the actual</em> execution price.</td></tr></tbody></table>
 
 ## Trading
 

@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/banner-generic.png
+coverY: 0
+---
+
 # Quick Help
 
 Find answers to common questions, resolve errors, and look up terms. Use the links below to jump to the section you need.

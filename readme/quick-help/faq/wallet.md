@@ -1,4 +1,5 @@
 ---
+cover: ../../../.gitbook/assets/banner-generic.png
 coverY: 0
 ---
 
@@ -51,4 +52,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 Premarket uses smart account infrastructure with onchain settlement. Your funds are controlled by the smart contracts and settlement is transparent onchain.
 
 </details>
-
