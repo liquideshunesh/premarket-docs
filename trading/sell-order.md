@@ -30,8 +30,4 @@ Profit = $0.05 per share
 Position closed. Realized P&L is final.
 ```
 
-| Issue                   | Cause                           | Fix                   |
-| ----------------------- | ------------------------------- | --------------------- |
-| Sell button not visible | No position held in this market | Buy first             |
-| Transaction pending     | On-chain confirmation delay     | Wait for confirmation |
-| Position still visible  | UI sync delay                   | Refresh the page      |
+<table><thead><tr><th width="197.09375">Issue</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr><td>Sell button not visible</td><td>No position held in this market</td><td>Buy first</td></tr><tr><td>Transaction pending</td><td>On-chain confirmation delay</td><td>Wait for confirmation</td></tr><tr><td>Position still visible</td><td>UI sync delay</td><td>Refresh the page</td></tr></tbody></table>

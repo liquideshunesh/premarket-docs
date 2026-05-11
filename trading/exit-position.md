@@ -37,5 +37,3 @@ No further exposure to the outcome.
 ```
 
 > Screenshot: Position history showing closed trade
-
-Head to Payouts and Settlement to understand what happens when you hold a position all the way to expiry.

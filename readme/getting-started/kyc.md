@@ -6,7 +6,7 @@ coverY: 0
 
 ## Why KYC?
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Prediction markets on Premarket require identity verification before you can trade. This is a regulatory requirement, not a platform preference. Verification is handled securely by Stripe Identity, a trusted third party used across financial platforms globally. The process takes a few minutes and only needs to be completed once.
 
@@ -30,6 +30,4 @@ No manual action is needed after completing verification. Trading is enabled aut
 
 Trading is enabled as soon as verification is confirmed. If your account is not enabled after completing the process, wait a few minutes and refresh the page.
 
-If the issue persists, reach out to the Premarket community on [Telegram](https://t.me/premarket) for support.
-
-Head to Understanding Markets for a breakdown of the different market types available on Premarket and how each one works before you place your first trade.
+If the issue persists, join the Premarket community on [_Telegram_](https://t.me/premarket_xyz) to talk to our team and find a resolution. Else, checkout [Understanding Markets](../../understanding-markets/) for a breakdown of the different market types available on Premarket and how each one works before you place your next trade.

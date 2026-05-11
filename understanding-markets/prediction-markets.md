@@ -46,5 +46,3 @@ If you hold your position to expiry, settlement is automatic. The winning outcom
 {% hint style="success" %}
 Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.
 {% endhint %}
-
-Head to Pre-TGE Markets to understand how FDV band trading works and how it differs from prediction markets.

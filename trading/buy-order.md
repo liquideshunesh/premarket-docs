@@ -36,7 +36,4 @@ Make sure the following are in place before placing a buy order:
 
 **No Liquidity:** You will see "No price available for market order." Place a limit order at your target price and wait for a counterparty.
 
-| Error              | Cause              | Fix                                     |
-| ------------------ | ------------------ | --------------------------------------- |
-| No price available | Orderbook is empty | Try a limit order or wait for liquidity |
-| Approval required  | USDM not approved  | Click Approve USDM and retry            |
+<table><thead><tr><th width="166.0234375">Error</th><th width="203.32421875">Cause</th><th>Fix</th></tr></thead><tbody><tr><td>No price available</td><td>Orderbook is empty</td><td>Try a limit order or wait for liquidity</td></tr><tr><td>Approval required</td><td>USDM not approved</td><td>Click Approve USDM and retry</td></tr></tbody></table>

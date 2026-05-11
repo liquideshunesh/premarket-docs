@@ -47,5 +47,3 @@ Positions are auto-expired and auto-exercised at expiry. You do not need to take
 {% hint style="success" %}
 If your band is in the money at expiry, the oPRM token holder receives the payout automatically. If it is out of the money, the oPRM expires worthless and the PRM token holder recovers their collateral.
 {% endhint %}
-
-Head to How Pricing Works for a detailed breakdown of how prices are set across all market types on Premarket.

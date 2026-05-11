@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Premarket Docs](README.md)
-  * [Welcome to Premarket](readme/welcome.md)
-  * [Getting Started](readme/setup.md)
-  * [How to Complete KYC on Premarket](readme/kyc.md)
-  * [Getting Started](readme/getting-started.md)
+  * [Platform Introduction](readme/getting-started/README.md)
+    * [Welcome to Premarket](readme/getting-started/welcome.md)
+    * [Getting Started](readme/getting-started/setup.md)
+    * [How to Complete KYC on Premarket](readme/getting-started/kyc.md)
   * [Understanding Markets](understanding-markets/README.md)
     * [Prediction Markets](understanding-markets/prediction-markets.md)
     * [Pre-TGE Markets](understanding-markets/pre-tge-markets.md)

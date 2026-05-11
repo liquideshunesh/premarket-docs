@@ -29,10 +29,15 @@ The orderbook shows all active buy and sell orders for a market. Bids are orders
 
 When you place a market order, it matches against the best available orders in the book. If your order is large relative to available liquidity, it will consume multiple price levels and your average execution price may differ from the price you saw when you entered. This is called slippage. Limit orders avoid slippage by only executing at your specified price, but they are not guaranteed to fill.
 
-## What On-Chain Settlement Means for You
+## What Onchain Settlement Means for You
 
-Trades on Premarket are matched off-chain for speed but settled on-chain for finality. After a trade executes you will see a short confirmation period while the transaction is recorded on the blockchain. During this time your position may appear as pending. Once confirmed it will appear in your portfolio with full position details. Settlement at expiry follows the same process and is handled automatically.
+Trades on Premarket are matched offchain for speed but settled on-chain for finality. After a trade executes you will see a short confirmation period while the transaction is recorded on the blockchain. During this time your position may appear as pending. Once confirmed it will appear in your portfolio with full position details. Settlement at expiry follows the same process and is handled automatically.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-Each market type has its own payout structure, liquidity profile, and settlement logic. Read the individual guides below before trading to understand exactly what you are getting into.
+Each market type has its own payout structure, liquidity profile, and settlement logic. Read the individual guides below to understand exactly what to expect with each market type:
+
+1. [Prediction Markets](prediction-markets.md#what-are-prediction-markets)
+2. [Pre-TGE Markets](pre-tge-markets.md#what-are-pre-tge-markets)
+3. [Options Markets](options-markets.md#what-are-options-markets)
+4. [Spot Markets](spot-markets.md#what-are-spot-markets)

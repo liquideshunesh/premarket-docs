@@ -46,4 +46,4 @@ Each correct share pays $1 at settlement.
 | Yes + No = 100%                     | They do not, due to spread and orderbook structure |
 | Small trades always get exact price | Not guaranteed in low liquidity conditions         |
 
-Head to How FDV Bands Work for a breakdown of how pricing applies to pre-TGE band markets.
+Head to [How FDV Bands](fdv-bands.md) Work for a breakdown of how pricing applies to pre-TGE band markets.

@@ -28,4 +28,4 @@ Settlement does not always result in a full win or a full loss. Depending on the
 If you hold both PRM and oPRM tokens before expiry, you can unwind your position and recover your full collateral without waiting for settlement.
 {% endhint %}
 
-**Oracle Sources for price-based markets:** Bybit, Binance, Hyperliquid, Chainlink.
+**Oracle Sources for price based markets:** Bybit, Binance, Hyperliquid, Chainlink.

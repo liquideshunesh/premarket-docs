@@ -4,77 +4,23 @@ coverY: 0
 
 # Glossary
 
-A quick reference for terms used across Premarket. This glossary will expand as new features and market types are added.
+A quick reference for terms used across the Premarket platform. This glossary will expand as new features and market types are added, in the near future.
 
 ## General
 
-{% columns %}
-{% column %}
-**Market**
-{% endcolumn %}
-
-{% column %}
-A trading environment for a specific asset, event, or instrument
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Order Book**
-{% endcolumn %}
-
-{% column %}
-A list of active buy and sell orders in a market. Bids are buy orders. Asks are sell orders.
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-**Liquidity**
-{% endcolumn %}
-
-{% column %}
-The availability of buyers and sellers in a market. Low liquidity means harder execution and wider spreads.
-{% endcolumn %}
-{% endcolumns %}
-
-**Maker** - A trader who places an order that adds liquidity to the orderbook.
-
-**Taker** - A trader who matches an existing order and removes liquidity from the orderbook.
-
-**Spread** - The difference between the highest bid and the lowest ask in an orderbook.
-
-**Slippage** - The difference between the expected execution price and the actual execution price.
+<table><thead><tr><th width="183.6171875">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Market</strong></td><td>A trading environment for a specific asset, event, or instrument</td></tr><tr><td><strong>Order Book</strong></td><td>List of active buy (or bids) and sell (or ask) orders in a market. </td></tr><tr><td><strong>Liquidity</strong></td><td>The availability of buyers and sellers in a market.</td></tr><tr><td><strong>Maker</strong></td><td>A trader who places an order that adds liquidity to the order book.</td></tr><tr><td><strong>Taker</strong></td><td>Trader who matches an existing order and removes liquidity from the orderbook.</td></tr><tr><td><strong>Spread</strong></td><td>The difference between the highest bid and the lowest ask in an orderbook.</td></tr><tr><td><strong>Slippage</strong></td><td>The difference between the <em>expected and the actual</em> execution price.</td></tr></tbody></table>
 
 ## Trading
 
-**Buy Order** - An instruction to purchase an asset or outcome.
-
-**Sell Order** - An instruction to sell an asset or outcome.
-
-**Market Order** - An order that executes immediately against the best available orders in the book.
-
-**Limit Order** - An order that executes only at a specified price. Not guaranteed to fill.
-
-**Position** - Your active holding in a market.
-
-**Position History** - A record of past trades and closed positions.
+<table><thead><tr><th width="184.3984375">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Buy Order</strong></td><td>An instruction to purchase an asset or outcome.</td></tr><tr><td><strong>Sell Order</strong></td><td>An instruction to sell an asset or outcome.</td></tr><tr><td><strong>Market Order</strong></td><td>An instruction to buy or sell immediately at the best available price</td></tr><tr><td><strong>Limit Order</strong></td><td>An instruction to buy or sell only at a specified price.</td></tr><tr><td><strong>Position</strong></td><td>An active holding in a market.</td></tr><tr><td><strong>Position History</strong></td><td>A record of past trades and closed positions.</td></tr></tbody></table>
 
 ## Prediction Markets
 
-**Outcome** - A possible result of an event, for example YES or NO.
-
-**Outcome Token** - A token representing a position in a specific outcome. Settles to $1 if correct and $0 if incorrect.
-
-**Settlement** - The final resolution of a market based on the real world result.
-
-**Payout** - The amount received after settlement.
-
-**Implied Probability** - The market price interpreted as a probability. A price of $0.25 implies roughly a 25% chance.
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>Outcome</strong></td><td>A possible result of an event, for example YES or NO.</td></tr><tr><td><strong>Outcome Token</strong></td><td>A token representing a position in a specific outcome. Settles to $1 if correct and $0 if incorrect.</td></tr><tr><td><strong>Settlement</strong></td><td>The final resolution of a market based on the real world result.</td></tr><tr><td><strong>Payout</strong></td><td>The amount received after settlement.</td></tr><tr><td><strong>Implied Probability</strong></td><td>The market price interpreted as a probability. A price of $0.25 implies roughly a 25% chance.</td></tr></tbody></table>
 
 ## Pre-TGE Markets
 
-**TGE** - Token Generation Event. The official launch of a token.
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>TGE</strong></td><td>Token Generation Event. The official launch of a token.</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>
 
 **FDV** - Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation.
 
