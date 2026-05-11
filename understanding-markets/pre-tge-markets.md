@@ -42,4 +42,4 @@ FDV bands are directional spreads. Payout increases linearly as the FDV moves in
 
 Select the band you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed on-chain.
 
-Continue exploring this section to understand how [options markets](options-markets.md) and [spot markets](spot-markets.md) work next, or head to [how to trade a Pre-TGE Band](../walkthroughs/pre-tge-band.md), to trade a Pre-TGE market. If you need assitance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz).
+Continue exploring this section to understand how [options markets](options-markets.md) and [spot markets](spot-markets.md) work next, or head to [how to trade a Pre-TGE Band](../walkthroughs/pre-tge-band.md), to trade a Pre-TGE market. If you need assitance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz_xyz).

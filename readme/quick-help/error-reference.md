@@ -39,5 +39,5 @@ A quick reference for all error messages you may encounter on Premarket and how 
 | Cannot unwind                     | You do not hold equal amounts of PRM and oPRM | Buy back the missing token before attempting to unwind |
 
 {% hint style="info" %}
-If you encounter an error not listed here, reach out on [Telegram](https://t.me/premarket_xyz) with a screenshot and description of the issue.
+If you encounter an error not listed here, reach out on [Telegram](https://t.me/premarket_xyz_xyz) with a screenshot and description of the issue.
 {% endhint %}
