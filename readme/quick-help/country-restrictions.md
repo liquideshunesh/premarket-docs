@@ -20,6 +20,7 @@ If your region is restricted you may not see certain markets, be unable to place
 
 Access is determined using IP based geolocation, wallet metadata, and compliance checks.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Using a VPN or other workaround to bypass geographic restrictions may violate the Premarket terms of service.
 {% endhint %}
+
