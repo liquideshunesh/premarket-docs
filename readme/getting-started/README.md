@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/banner-generic.png
-coverY: 0
+cover: ../../.gitbook/assets/cover-main (9).png
+coverY: 115.83209745762713
 ---
 
 # Platform Introduction

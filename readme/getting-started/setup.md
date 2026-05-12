@@ -7,7 +7,7 @@ coverY: 0
 
 Setting up on Premarket takes a few steps before you can place your first trade. You will need to verify your identity, create a smart account, and deposit funds. This page walks you through each step in order.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 1: Access the App
 
@@ -15,7 +15,7 @@ Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets
 
 ## Step 2: Complete KYC Verification
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="341"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="341"><figcaption></figcaption></figure>
 
 To trade on prediction markets you must verify your identity. Click **Buy Yes** or **Buy No** on any prediction market and you will be redirected to verification via Stripe Identity. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading. If you need help with KYC click [here](kyc.md).
 
@@ -23,7 +23,7 @@ To trade on prediction markets you must verify your identity. Click **Buy Yes** 
 
 Premarket uses a smart account as your trading wallet. Go to the Wallet page, click **Create Smart Account**, and wait for confirmation. All your funds, trades, and positions are managed through this account.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 4: Deposit Funds
 

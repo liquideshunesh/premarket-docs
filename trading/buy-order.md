@@ -21,19 +21,26 @@ Make sure the following are in place before placing a buy order:
 
 ## How to Place a Buy Order
 
-1. Go to **Markets** and open any active market.
-2. Select the outcome you want to buy.
-   * Prediction markets: **Buy Yes** or **Buy No**
-   * Pre-TGE band markets: select your target band
-   * Options markets: select the band and mint your position
-3. Enter the amount of USDM you want to spend.
-4. Click **Buy** to confirm.
+1. Go to **Markets** and open any active market
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+&#x20;2\. Select the outcome you want to buy&#x20;
+
+* Prediction markets: **Buy Yes** or **Buy No**
+
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+* Pre-TGE band markets: select your target band
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+* Options markets: select the band and mint your position
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+3. Enter the amount of USDM you want to spend.
+4. Click **Buy** to confirm.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
