@@ -7,7 +7,7 @@ coverY: 0
 
 ## What are Prediction Markets?
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Prediction market example</p></figcaption></figure>
 
 Prediction markets let you trade on the outcome of real world events. Each market poses a question and you take a position on whether it will resolve yes or no. If you back the correct outcome and hold to settlement, each share pays $1. If you are wrong, your shares expire at $0.
 
@@ -25,7 +25,7 @@ Prices in prediction markets reflect implied probability. A share trading at $0.
 
 ## How to Buy
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying 'Yes' or 'No'</p></figcaption></figure>
 
 To open a position, select an outcome and click **Buy Yes** or **Buy No**. Enter the amount of USDM you want to spend and confirm the trade. You will receive outcome shares at the current ask price. Check the orderbook before placing a market order to confirm there are active sellers at your target price.
 

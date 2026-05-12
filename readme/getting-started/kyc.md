@@ -7,7 +7,7 @@ coverY: 0
 
 ## Why KYC?
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption><p>KYC process</p></figcaption></figure>
 
 Prediction markets on Premarket require identity verification before you can trade. This is a regulatory requirement, not a platform preference. Verification is handled securely by Stripe Identity, a trusted third party used across financial platforms globally. The process takes a few minutes and only needs to be completed once.
 

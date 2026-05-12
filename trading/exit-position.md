@@ -7,7 +7,7 @@ coverY: 0
 
 Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Active position</p></figcaption></figure>
 
 ## When You Can Exit
 
