@@ -5,7 +5,7 @@ coverY: 0
 
 # Settlement Outcomes
 
-Settlement does not always result in a full win or a full loss. Depending on the market type and how your position resolves, the outcome can be a full payout, a partial payout, zero, or a refund if the market is cancelled.
+Settlement does not always result in a full win or a full loss. Depending on the market type and how your position resolves, the outcome can be a full payout, a partial payout, zero, or a 50/50 split if the market is cancelled.
 
 ## Outcome Types
 
@@ -15,7 +15,7 @@ Settlement does not always result in a full win or a full loss. Depending on the
 
 **Loss:** Your position settles to zero value. In prediction markets this means you backed the incorrect outcome. In options markets this means the asset settled outside your band at expiry.
 
-**Cancellation:** If a market cannot be resolved, positions are refunded or settled at a neutral value. No win or loss is applied.
+**Cancellation:** If a market cannot be resolved, it settles at 50/50. Funds are split equally between deposit token holders and outcome token holders. If you still hold your tokens at the time of cancellation, you receive your full share of the split.
 
 ## Options Markets in Detail
 

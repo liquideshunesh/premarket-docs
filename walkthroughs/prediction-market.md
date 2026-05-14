@@ -36,8 +36,8 @@ Go to **Portfolio**. Your position appears with current value, shares held, and 
 
 **To exit early:** Click **Sell** next to your position in Portfolio. Confirm the transaction. Your P\&L is locked in immediately.
 
-**To hold to settlement:** Do nothing. When the event resolves, your position settles automatically. Winning shares pay $1, losing shares pay $0.
+**To hold to settlement:** Do nothing. When the event resolves, your position settles automatically and proceeds are sent to your smart account. Winning shares pay $1, losing shares pay $0.
 
 {% hint style="success" %}
-You do not need to take any action at settlement. Premarket auto-exercises all positions at expiry.
+Settlement is automatic. Proceeds are sent directly to your smart account at expiry. Solana prediction markets require manual redemption via the DFlow contract.
 {% endhint %}

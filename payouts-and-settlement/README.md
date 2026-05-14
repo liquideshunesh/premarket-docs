@@ -24,5 +24,7 @@ Every market on Premarket eventually reaches a point where trading ends, outcome
 | Options Markets    | Expiry time reached     | Based on underlying price vs band |
 
 {% hint style="success" %}
-All positions on Premarket are auto-expired and auto-exercised. You do not need to take any manual action at settlement.
+All positions on Premarket are auto-redeemed at settlement. Proceeds are sent directly to your smart account. No manual action is needed.
+
+Note: Solana prediction markets require manual redemption. You will need to interact with the DFlow contract to burn your shares and bridge your USDC back.
 {% endhint %}

@@ -11,7 +11,7 @@ Prediction markets resolve to a binary outcome. Every position settles to either
 
 ## How the Outcome is Determined
 
-Each prediction market has a **Rules** section that defines exactly what constitutes a valid outcome. When the real world event occurs, the outcome is verified against those rules and the smart contract distributes payouts accordingly.
+Each prediction market has a **Rules** section that defines exactly what constitutes a valid outcome. When the real world event occurs, the outcome is verified against those rules and payouts are distributed automatically to your smart account.
 
 ## What Happens to Your Position
 
@@ -35,5 +35,5 @@ If it does not launch in time:
 ```
 
 {% hint style="success" %}
-Settlement is guaranteed. The worst case is holding to expiry and receiving the binary outcome.
+Settlement is guaranteed. The worst case is holding to expiry and receiving the binary outcome. Solana prediction markets require manual redemption via the DFlow contract.
 {% endhint %}

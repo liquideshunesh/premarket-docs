@@ -5,7 +5,7 @@ coverY: 95.26530152981027
 
 # Understanding Markets
 
-Premarket is an orderbook-based platform. Before you trade, it helps to understand how the orderbook works, what liquidity means in practice, and what happens when your order hits the chain.
+Premarket is an orderbook-based platform. Before you trade, it helps to understand how the orderbook works, what liquidity means in practice, and what happens at settlement.
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>All Markets</p></figcaption></figure>
 
@@ -31,7 +31,7 @@ When you place a market order, it matches against the best available orders in t
 
 ## What Onchain Settlement Means for You
 
-Trades on Premarket are matched offchain for speed but settled on-chain for finality. After a trade executes you will see a short confirmation period while the transaction is recorded on the blockchain. During this time your position may appear as pending. Once confirmed it will appear in your portfolio with full position details. Settlement at expiry follows the same process and is handled automatically.
+Trades on Premarket are matched off-chain for speed. Settlement is handled automatically at expiry and proceeds are sent directly to your smart account. You do not need to interact with the blockchain directly. During the confirmation period your position may appear as pending in your portfolio. Once confirmed it will show full position details.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Portfolio management</p></figcaption></figure>
 
