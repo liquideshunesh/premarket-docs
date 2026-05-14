@@ -14,7 +14,7 @@ A quick reference for all error messages you may encounter on Premarket and how 
 | No price available for market order | The orderbook is empty on the side you are trying to trade | Place a limit order at your target price or wait for liquidity |
 | Approval required                   | You have not approved USDM for spending                    | Click Approve USDM in the trade panel and retry                |
 | Insufficient balance                | Your smart account does not have enough USDM               | Deposit more USDM via the Wallet page                          |
-| Transaction failed                  | On-chain transaction was rejected                          | Check your network connection and try again                    |
+| Transaction failed                  | Onchain transaction was rejected                           | Check your network connection and try again                    |
 
 ## Wallet Errors
 
@@ -36,7 +36,7 @@ A quick reference for all error messages you may encounter on Premarket and how 
 | Error                             | Cause                                         | Fix                                                    |
 | --------------------------------- | --------------------------------------------- | ------------------------------------------------------ |
 | Sell button not visible           | You do not hold a position in this market     | Buy first before attempting to sell                    |
-| Position still showing after sell | UI sync delay                                 | Refresh the page and wait for on-chain confirmation    |
+| Position still showing after sell | UI sync delay                                 | Refresh the page and wait for onchain confirmation     |
 | Cannot unwind                     | You do not hold equal amounts of PRM and oPRM | Buy back the missing token before attempting to unwind |
 
 {% hint style="info" %}

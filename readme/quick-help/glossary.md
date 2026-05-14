@@ -29,7 +29,7 @@ A quick reference for terms used across the Premarket platform. This glossary wi
 
 ## Wallet and Settlement
 
-<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>USDM</strong></td><td>The stable unit used for trading and settlement on Premarket.</td></tr><tr><td><strong>Smart Account</strong></td><td>A delegated trading wallet for gas abstraction and seamless execution.</td></tr><tr><td><strong>Subkey</strong></td><td>A delegated key that operates the smart account. Managed by the system.</td></tr><tr><td><strong>On-Chain Settlement</strong></td><td>Final execution of a trade or settlement recorded on the blockchain.</td></tr></tbody></table>
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>USDM</strong></td><td>The stable unit used for trading and settlement on Premarket.</td></tr><tr><td><strong>Smart Account</strong></td><td>A delegated trading wallet for gas abstraction and seamless execution.</td></tr><tr><td><strong>Subkey</strong></td><td>A delegated key that operates the smart account. Managed by the system.</td></tr><tr><td><strong>Onchain Settlement</strong></td><td>Final execution of a trade or settlement recorded on the blockchain.</td></tr></tbody></table>
 
 ## Errors
 

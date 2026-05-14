@@ -33,22 +33,6 @@ Your available balance is either zero or your KYC has not been completed.
 
 <summary><strong>What networks are supported for deposits?</strong></summary>
 
-Premarket currently supports deposits on MegaETH.
-
-</details>
-
-<details>
-
-<summary><strong>Is there a minimum deposit or withdrawal amount?</strong></summary>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</details>
-
-<details>
-
-<summary><strong>Are my funds safe?</strong></summary>
-
-Premarket uses smart account infrastructure with onchain settlement. Your funds are controlled by the smart contracts and settlement is transparent onchain.
+Premarket currently supports Solana (for predictions & yield markets) & MegaETH (for Pre-IPO, Pre-TGE, Option & RWA markets).
 
 </details>

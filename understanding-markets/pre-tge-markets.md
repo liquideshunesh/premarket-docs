@@ -25,7 +25,7 @@ FDV = Token Price at Launch x Total Token Supply
 
 Each market offers a set of valuation bands. You pick the band that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your band at settlement.
 
-> **Example:** You believe Monad will launch at a $2B to $3B FDV. You buy the bull band. If Monad's FDV at launch is $2.4B, your position pays out partially. If it launches at $4B, above the upper strike, your position pays out at maximum.
+> **Example:** You believe Monad will launch above $2B. You buy the $2B to $3B band. If Monad lists at $2.4B, your payout is proportional to how far into the range the price landed.If it lists at $3B or above, you receive the maximum payout. If it lists below $2B, you receive nothing..
 
 ## Payout Logic
 
