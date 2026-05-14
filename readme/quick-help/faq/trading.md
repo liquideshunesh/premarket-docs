@@ -33,7 +33,7 @@ Your trade consumed liquidity from the orderbook and changed the available order
 
 <summary><strong>Can I cancel an order?</strong></summary>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Yes. You can cancel an open order directly from the UI or through the smart contracts if you prefer to interact on-chain.
 
 </details>
 
@@ -49,7 +49,7 @@ A market order executes immediately against the best available orders in the boo
 
 <summary><strong>What are maker and taker fees?</strong></summary>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Fees are currently set to zero. When fees are introduced, each market will have a maker fee (paid by the order placer) and a taker fee (paid by the order matcher). Fee rates vary by market type. Pre-TGE markets will have a 0.05% maker fee and 0.10% taker fee. Options markets will have a 0.15% maker fee and 0.40% taker fee. RWA markets will have a 0.20% maker fee and 0.30% taker fee. Custom fee rates apply to partner addresses.
 
 </details>
 
