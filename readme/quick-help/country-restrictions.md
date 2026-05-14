@@ -9,7 +9,7 @@ Premarket applies geographic restrictions to Prediction Markets only. These rest
 
 ## **What this means for you**
 
-If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets specifically. All other products — Pre-IPO, Pre-TGE, Options, and RWAs — remain fully accessible regardless of location.
+If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets specifically. All other products i.e. Pre-IPO, Pre-TGE, Options, and RWAs remain fully accessible regardless of location.
 
 ### **Restricted Countries (Prediction Markets only)**
 
@@ -21,7 +21,7 @@ Access is also restricted from any jurisdiction subject to comprehensive U.S. co
 
 ### **Why these restrictions exist**
 
-Prediction markets are classified as gambling, restricted financial products, or regulated derivatives in many jurisdictions. The restriction list is set by Kalshi via DFlow and Premarket enforces it at the product level to remain compliant.
+Prediction markets are classified as gambling, restricted financial products, or regulated derivatives in many jurisdictions. The restriction list is set by our liquidity partner and Premarket enforces it at the product level to remain compliant.
 
 ### **How your location is detected**
 

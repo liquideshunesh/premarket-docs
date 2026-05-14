@@ -15,9 +15,20 @@ Regardless of which market you trade on Premarket, the same core mechanics apply
 
 * All trades require a counterparty. No counterparty means no execution.
 * Makers place orders and add liquidity. Takers match existing orders and remove it.
-* Order matching happens off-chain. Final settlement is always recorded on-chain.
+* Order matching happens offchain. Final settlement is always recorded onchain.
 * Liquidity is never guaranteed. You may not always be able to enter or exit when you want to.
 * Treating all markets the same is the most common mistake. Prediction markets and FDV band markets look similar in the UI but behave very differently at settlement.
+
+Here's how prediction markets and FDV bands differ at settlement:
+
+| Feature           | Prediction Markets       | FDV Bands                                       |
+| ----------------- | ------------------------ | ----------------------------------------------- |
+| Outcome type      | Binary YES/NO            | Directional spread                              |
+| Payout            | Fixed $1 or $0 per share | Linearly scaled within range, capped at max     |
+| Resolution        | Real-world event outcome | Token FDV at launch                             |
+| Settlement source | Verified event source    | Oracle (Bybit, Binance, Hyperliquid, Chainlink) |
+| Network           | Solana                   | MegaETH                                         |
+| KYC required      | Yes                      | No                                              |
 
 ## How to Read the Orderbook
 

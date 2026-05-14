@@ -5,8 +5,6 @@ coverY: 0
 
 # Receiving Your Payout
 
-## Receiving Your Payout
-
 After a market settles, your position has a fixed value. How you receive your payout depends on which product you traded.
 
 ### Prediction Markets

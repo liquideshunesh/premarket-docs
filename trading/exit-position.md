@@ -29,11 +29,11 @@ For options markets: if you hold equal amounts of PRM and oPRM tokens, you can u
 ## Example
 
 ```
-Buy YES at $0.25 for $5
+Buy 20 YES shares at $0.25 for $5
 Market moves against you
-Position value drops to $4.41
+Position value drops to $4.41 (price now ~$0.22 per share)
 Click Sell, receive $4.41
-Realized loss = $0.59
+Realized loss = $0.59 total, or ~$0.03 per share
 No further exposure to the outcome.
 ```
 

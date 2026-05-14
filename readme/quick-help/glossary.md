@@ -5,7 +5,7 @@ coverY: 0
 
 # Glossary
 
-A quick reference for terms used across the Premarket platform. This glossary will expand as new features and market types are added, in the near future.
+A quick reference for terms used across the Premarket platform. The glossary expands as new features and market types are added.
 
 ## General
 

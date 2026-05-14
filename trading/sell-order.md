@@ -19,15 +19,15 @@ You can only sell a position you already hold. There is no short selling on Prem
 2. Click **Sell** next to the position.
 3. Confirm the transaction.
 4. Your shares are sold at the current bid price and you receive USDM in return.
-5. Once confirmed on-chain, the position disappears from active positions.
+5. Once confirmed onchain, the position disappears from active positions.
 
 ## Example
 
 ```
-Buy YES at $0.25 for $5
+Buy 20 YES shares at $0.25 for $5
 Price moves to $0.30
-Click Sell, shares sold at $0.30
-Profit = $0.05 per share
+Click Sell, receive $6
+Profit = $1 total, or $0.05 per share
 Position closed. Realized P&L is final.
 ```
 

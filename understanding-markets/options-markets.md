@@ -39,7 +39,7 @@ Once minted, you can sell your oPRM tokens on the orderbook via a limit order. O
 * **Mint:** Deposit USDM as collateral. Receive PRM and oPRM tokens.
 * **Sell:** List your oPRM tokens on the orderbook at your chosen price.
 * **Buy:** Purchase oPRM tokens from the orderbook using USDM.
-* **Unwind:** Return equal amounts of PRM and oPRM to recover your full collateral before expiry.
+* **Unwind:** Return equal amounts of PRM and oPRM to recover your full collateral before expiry. Any profit or loss from trading oPRM along the way is separate.
 
 ## Settlement
 

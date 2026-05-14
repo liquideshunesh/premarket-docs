@@ -9,27 +9,27 @@ Setting up on Premarket takes a few steps before you can place your first trade.
 
 ## Step 1: Access the App
 
-Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets section. You can browse active markets without any setup, but placing a trade requires completing the steps below.
-
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Premarket application homepage</p></figcaption></figure>
+
+Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets section. You can browse active markets without any setup, but placing a trade requires completing the steps below.
 
 ## Step 2: Complete KYC Verification
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="341"><figcaption><p>DFlow and Stripe verification</p></figcaption></figure>
 
-To trade on prediction markets you must verify your identity. Click **Buy Yes** or **Buy No** on any prediction market and you will be redirected to verification via Stripe Identity. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading. If you need help with KYC click [here](kyc.md).
+Prediction markets on Premarket route through a liquidity partner that requires identity verification. To trade them, click Buy Yes or Buy No on any prediction market and you will be redirected to verification via Stripe Identity. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading. If you need help with KYC click [here](https://stryke.gitbook.io/premarket.xyz/readme/getting-started/kyc).
 
 ## Step 3: Create Your Smart Account
 
-Premarket uses a smart account as your trading wallet. Go to the Wallet page, click **Create Smart Account**, and wait for confirmation. All your funds, trades, and positions are managed through this account.
-
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Wallet page</p></figcaption></figure>
+
+Premarket uses a smart account as your trading wallet. Go to the Wallet page, click **Create Smart Account**, and wait for confirmation. All your funds, trades, and positions are managed through this account.
 
 ## Step 4: Deposit Funds
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Deposit section on wallet page</p></figcaption></figure>
 
-Once your smart account is created, click **Deposit** and send supported assets to your smart account. Wait for your balance to update before placing a trade. Make sure you are depositing on the correct network.
+Once your smart account is created, click Deposit and send supported assets to your smart account. Wait for your balance to update before placing a trade. Premarket supports MegaETH for Pre-IPO, Pre-TGE, Options, and RWA markets, and Solana for prediction markets. Make sure you are depositing on the correct network for the product you want to trade.
 
 ## Step 5: Place Your First Trade
 

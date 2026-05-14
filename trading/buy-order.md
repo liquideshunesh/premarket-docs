@@ -25,7 +25,7 @@ Make sure the following are in place before placing a buy order:
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Active markets</p></figcaption></figure>
 
-&#x20;2\. Select the outcome you want to buy&#x20;
+2\. Select the outcome you want to buy
 
 * Prediction markets: **Buy Yes** or **Buy No**
 
@@ -37,17 +37,18 @@ Make sure the following are in place before placing a buy order:
 
 * Options markets: select the band and mint your position
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Option market range selection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Option market range selection</p></figcaption></figure>
 
 3. Enter the amount of USDM you want to spend.
-4. Click **Buy** to confirm.
+4. Click the buy button to confirm. (The label depends on the market type: "Buy Yes" or "Buy No" for prediction markets, "Buy Outcome" for Pre-TGE and options markets.)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Placing order</p></figcaption></figure>
 
 ## What Happens After You Buy
 
-**Liquidity Available:** Your order executes immediately. You receive shares at the current ask price. Your position appears in Portfolio showing shares held, cost, current value, maximum win, and unrealized P\&L.
+1. **If liquidity is available:** Your order executes immediately. You receive shares at the current ask price. Your position appears in Portfolio showing shares held, cost, current value, maximum win, and unrealized P\&L.
+2. **If liquidity is not available:** You will see "No price available for market order." Place a limit order at your target price and wait for a counterparty.
 
-**No Liquidity:** You will see "No price available for market order." Place a limit order at your target price and wait for a counterparty.
+**Common Errors:**
 
 <table><thead><tr><th width="166.0234375">Error</th><th width="203.32421875">Cause</th><th>Fix</th></tr></thead><tbody><tr><td>No price available</td><td>Orderbook is empty</td><td>Try a limit order or wait for liquidity</td></tr><tr><td>Approval required</td><td>USDM not approved</td><td>Click Approve USDM and retry</td></tr></tbody></table>

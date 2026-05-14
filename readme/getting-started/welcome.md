@@ -41,7 +41,7 @@ Trade binary outcomes on real world events. Back the correct outcome and each sh
 
 Trade structured upside or downside exposure using predefined strike ranges. These markets use option-style mechanics with collateral, outcome tokens, and write positions.
 
-> Example: You believe ETH will expire between $2,400 and $2,600. You buy the CALL spread. If it does, the position pays according to the market payout structure.
+> **Example:** You believe ETH will settle between $2,400 and $2,600 at expiry. You buy the CALL spread. If ETH settles in that range, the position pays according to the market payout structure.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Option chain with buy and sell option</strong></p></figcaption></figure>
 
@@ -49,11 +49,11 @@ Trade structured upside or downside exposure using predefined strike ranges. The
 
 Trade token pairs directly using live market pricing. These markets behave similarly to traditional spot exchanges where traders exchange one asset for another.
 
-> Example: You buy 1g fullerene c60 99.5% using USDM at the current market price.
+> **Example**: You buy 1g fullerene c60 99.5% using USDM at the current market price.
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>RWA market example with buy and sell options</p></figcaption></figure>
 
-All markets types run on a live orderbook. Prices are not set by the platform, they emerge from real buy and sell orders. A higher price means the market collectively believes something is more likely. You can enter and exit positions freely before settlement, as long as someone is willing to take the other side.
+All market types run on a live orderbook. Prices are not set by the platform, they emerge from real buy and sell orders. A higher price means the market collectively believes something is more likely. You can enter and exit positions freely before settlement, as long as someone is willing to take the other side.
 
 {% hint style="warning" %}
 **Before you start:**

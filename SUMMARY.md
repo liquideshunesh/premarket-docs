@@ -19,6 +19,7 @@
   * [Walkthroughs and Demos](walkthroughs/README.md)
     * [How to Trade a Prediction Market](walkthroughs/prediction-market.md)
     * [How to Trade a Pre-TGE Band](walkthroughs/pre-tge-band.md)
+    * [How to Trade a Spot Market](readme/walkthroughs/how-to-trade-a-spot-market.md)
     * [How to Mint and Sell an Options Position](walkthroughs/mint-sell-options.md)
     * [How to Unwind an Options Position](walkthroughs/unwind-options.md)
     * [How to Deposit and Withdraw Funds](walkthroughs/deposit-withdraw.md)

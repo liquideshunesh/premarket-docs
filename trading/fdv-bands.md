@@ -49,18 +49,12 @@ FDV bands are directional spreads, not binary markets. Payout increases linearly
 ## Example Trade
 
 ```
-You buy: Bull $200M to $250M band
+You buy: Bull $2B to $3B band
 Price: $0.40 USDM per share
 Amount: $10 USDM
 Shares received: 25
-
-Final FDV $180M: $0. Below lower strike, full loss.
-Final FDV $205M: Partial payout. Linearly increasing from lower strike.
-Final FDV $230M: Larger partial payout. Further into range.
-Final FDV $270M: Maximum payout. Above upper strike, capped at max win.
+Final FDV $1.8B: $0. Below lower strike, full loss.
+Final FDV $2.1B: Partial payout. Linearly increasing from lower strike.
+Final FDV $2.6B: Larger partial payout. Further into range.
+Final FDV $3.2B: Maximum payout. Above upper strike, capped at max win.
 ```
-
-| Feature      | Prediction Markets | FDV Bands                      |
-| ------------ | ------------------ | ------------------------------ |
-| Outcome type | Binary YES/NO      | Directional spread             |
-| Payout       | Fixed $1 or $0     | Linearly scaled, capped at max |

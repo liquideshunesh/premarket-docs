@@ -24,9 +24,9 @@ Every market on Premarket eventually reaches a point where trading ends, outcome
 | Options Markets    | Expiry time reached     | Based on underlying price vs band |
 
 {% hint style="success" %}
-All positions on Premarket are auto-redeemed at settlement. Proceeds are sent directly to your smart account. No manual action is needed.
+Pre-IPO, Pre-TGE, Options, and RWA markets on MegaETH are auto-redeemed at settlement. Proceeds are sent directly to your smart account and no manual action is needed.
 {% endhint %}
 
 {% hint style="info" %}
-Note: Only Solana prediction markets require manual redemption. You will need to interact with the DFlow contract to burn your shares and bridge your USDC back.
+Prediction markets currently route through a liquidity partner on Solana and require manual redemption. Once your position expires, you interact with the DFlow contract to burn your shares and bridge your USDC back to your wallet.
 {% endhint %}

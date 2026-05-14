@@ -23,6 +23,8 @@ If a market is cancelled it settles at 50/50. The collateral pool is split equal
 
 ## Options Markets in Detail
 
+If you hold both PRM and oPRM tokens before expiry, you can unwind your position and recover your full collateral without waiting for settlement. Otherwise, settlement plays out as follows:
+
 | Scenario                           | PRM Holder                                | oPRM Holder     |
 | ---------------------------------- | ----------------------------------------- | --------------- |
 | Expires OTM, oPRM not sold         | Withdraws full collateral                 | oPRM worthless  |
@@ -30,7 +32,5 @@ If a market is cancelled it settles at 50/50. The collateral pool is split equal
 | Expires ITM                        | Collateral partially/fully consumed       | Receives payout |
 
 {% hint style="info" %}
-If you hold both PRM and oPRM tokens before expiry, you can unwind your position and recover your full collateral without waiting for settlement.
+Oracle sources for price based markets (options and pre-TGE): Bybit, Binance, Hyperliquid, Chainlink.
 {% endhint %}
-
-Oracle Sources for price based markets: Bybit, Binance, Hyperliquid, Chainlink.

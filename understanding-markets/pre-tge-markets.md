@@ -25,7 +25,7 @@ FDV = Token Price at Launch x Total Token Supply
 
 Each market offers a set of valuation bands. You pick the band that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your band at settlement.
 
-> **Example:** You believe Monad will launch above $2B. You buy the $2B to $3B band. If Monad lists at $2.4B, your payout is proportional to how far into the range the price landed.If it lists at $3B or above, you receive the maximum payout. If it lists below $2B, you receive nothing..
+> **Example:** You believe Monad will launch above $2B. You buy the $2B to $3B band. If Monad lists at $2.4B, your payout is proportional to how far into the range the price landed. If it lists at $3B or above, you receive the maximum payout. If it lists below $2B, you receive nothing.
 
 ## Payout Logic
 
@@ -43,4 +43,4 @@ FDV bands are directional spreads. Payout increases linearly as the FDV moves in
 
 Select the band you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed on-chain.
 
-Continue exploring this section to understand how [options markets](options-markets.md) and [spot markets](spot-markets.md) work next, or head to [how to trade a Pre-TGE Band](../walkthroughs/pre-tge-band.md), to trade a Pre-TGE market. If you need assistance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz_xyz).
+Continue exploring this section to understand how options and spot markets work next, or head to How to Trade a Pre-TGE Band for a full walkthrough. If you need assistance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz).

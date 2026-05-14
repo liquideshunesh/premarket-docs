@@ -36,13 +36,15 @@ To open a position, select an outcome and click **Buy Yes** or **Buy No**. Enter
 
 You can exit your position before settlement by selling your shares back into the orderbook. Navigate to your portfolio, find the position, and click **Sell**. Your shares are sold at the current bid price and you receive USDM in return.
 
-* **Example:** Buy YES at $0.25, sell YES at $0.30. Profit is $0.05 per share regardless of final outcome.
+* **Example**: Buy 20 YES shares at $0.25 for $5. Sell at $0.30 and receive $6. Profit is $1 total, or $0.05 per share, regardless of final outcome.
 
 ## Settlement
 
 > Screenshot: Settled position in portfolio history
 
-If you hold your position to expiry, settlement is automatic. The winning outcome pays $1 per share and the losing outcome pays $0. You do not need to take any action.
+If you hold your position to expiry, the winning outcome pays $1 per share and the losing outcome pays $0. Prediction markets currently route through a liquidity partner on Solana, so once your position expires you need to redeem it manually via the DFlow contract. This burns your shares, redeems the USDC, and bridges it back to your wallet.
+
+Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.and the losing outcome pays $0. You do not need to take any action.
 
 {% hint style="success" %}
 Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.
