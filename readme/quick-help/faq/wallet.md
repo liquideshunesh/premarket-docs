@@ -33,7 +33,7 @@ Your available balance is either zero or your KYC has not been completed.
 
 <summary><strong>What networks are supported for deposits?</strong></summary>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Premarket currently supports deposits on MegaETH.
 
 </details>
 
