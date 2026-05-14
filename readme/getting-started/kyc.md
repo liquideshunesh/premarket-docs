@@ -31,4 +31,4 @@ No manual action is needed after completing verification. Trading is enabled aut
 
 Trading is enabled as soon as verification is confirmed. If your account is not enabled after completing the process, wait a few minutes and refresh the page.
 
-If the issue persists, join the Premarket community on [_Telegram_](https://t.me/premarket_xyz_xyz) to talk to our team and find a resolution. Else, checkout [Understanding Markets](../../understanding-markets/) for a breakdown of the different market types available on Premarket and how each one works before you place your next trade.
+If the issue persists, join the Premarket community on [_Telegram_](https://t.me/premarket_xyz) to talk to our team and find a resolution. Else, checkout [Understanding Markets](../../understanding-markets/) for a breakdown of the different market types available on Premarket and how each one works before you place your next trade.

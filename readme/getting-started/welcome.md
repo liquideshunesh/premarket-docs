@@ -25,7 +25,7 @@ Trade valuation ranges on pre-TGE tokens and pre-IPO assets. You pick a band and
 
 > **Example:** You believe Monad will launch at a $2B to $3B valuation. You buy that band. If Monad's FDV lands anywhere between $2B and $3B at launch, your position pays out.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p><strong>FDV Market bands with buy and sell options</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p><strong>FDV Band Markets with buy and sell options</strong></p></figcaption></figure>
 
 **2. Prediction Markets**
 
@@ -41,7 +41,7 @@ Trade structured upside or downside exposure using predefined strike ranges. The
 
 > **Example:** You believe ETH will settle between $2,400 and $2,600 at expiry. You buy the CALL spread. If ETH settles in that range, the position pays according to the market payout structure.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Option chain with buy and sell option</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Options chain with buy and sell choices</strong></p></figcaption></figure>
 
 **4. Spot Markets (RWAs)**
 

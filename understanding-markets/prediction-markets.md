@@ -45,7 +45,7 @@ You can exit your position before settlement by selling your shares back into th
 
 If you hold your position to expiry, the winning outcome pays $1 per share and the losing outcome pays $0. Prediction markets currently route through a liquidity partner on Solana, so once your position expires you need to redeem it manually via the DFlow contract. This burns your shares, redeems the USDC, and bridges it back to your wallet.
 
-Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.and the losing outcome pays $0. You do not need to take any action.
+Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.
 
 {% hint style="success" %}
 Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.

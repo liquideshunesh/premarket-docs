@@ -41,6 +41,8 @@ Example: $5 at $0.25 = 20 shares
 Each correct share pays $1 at settlement.
 ```
 
-<table><thead><tr><th width="366.4609375">Misunderstanding</th><th>Reality</th></tr></thead><tbody><tr><td>The displayed price is what you'll pay</td><td>Execution depends on available liquidity</td></tr><tr><td>Yes price + No price always equals 100%</td><td>They often don't, due to spread and orderbook structure</td></tr><tr><td>Small trades always get the exact displayed price</td><td>Not guaranteed in low liquidity conditions</td></tr></tbody></table>
+## Common Issues:
+
+<table><thead><tr><th width="366.4609375">Issue</th><th>Reality</th></tr></thead><tbody><tr><td>The displayed price is what you'll pay</td><td>Execution depends on available liquidity</td></tr><tr><td>Yes price + No price always equals 100%</td><td>They often don't, due to spread and orderbook structure</td></tr><tr><td>Small trades always get the exact displayed price</td><td>Not guaranteed in low liquidity conditions</td></tr></tbody></table>
 
 Head to [How FDV Bands](fdv-bands.md) Work for a breakdown of how pricing applies to pre-TGE band markets.
