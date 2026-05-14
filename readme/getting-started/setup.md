@@ -43,7 +43,7 @@ Go to any active market and select an outcome. For prediction markets choose "Bu
 
 After placing a trade, track it in your Portfolio. You can monitor price changes and exit early by selling your position before settlement, provided there is liquidity available on the other side.
 
-If you've completed these steps and are want to learn more, check out these pages:
+If you've completed these steps and want to learn more, check out these pages:
 
 [Understanding Markets](../../understanding-markets/): For walkthroughs on market types and mechanics.
 
