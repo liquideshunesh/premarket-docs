@@ -23,7 +23,7 @@ Prediction markets on Premarket route through a liquidity partner that requires 
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Wallet page</p></figcaption></figure>
 
-Premarket uses a smart account as your trading wallet. Go to the Wallet page, click **Create Smart Account**, and wait for confirmation. All your funds, trades, and positions are managed through this account.
+Premarket uses a smart account as your trading wallet. Go to the Wallet page, click "Create Smart Account", and wait for confirmation. All your funds, trades, and positions are managed through this account.
 
 ## Step 4: Deposit Funds
 
@@ -35,7 +35,7 @@ Once your smart account is created, click Deposit and send supported assets to y
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Example of trade page page</p></figcaption></figure>
 
-Go to any active market and select an outcome. For prediction markets choose **Buy Yes** or **Buy No**. For FDV band markets select the band you want to trade and mint your position. Enter an amount, review the price, shares, and potential payout, then click **Buy** to execute.
+Go to any active market and select an outcome. For prediction markets choose "Buy Yes" or "Buy No". For FDV band markets select the band you want to trade and mint your position. Enter an amount, review the price, shares, and potential payout, then click "Buy" to execute.
 
 ## Step 6: Manage Your Position
 

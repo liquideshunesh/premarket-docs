@@ -27,16 +27,17 @@ Prices in prediction markets reflect implied probability. A share trading at $0.
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying 'Yes' or 'No'</p></figcaption></figure>
 
-To open a position, select an outcome and click **Buy Yes** or **Buy No**. Enter the amount of USDM you want to spend and confirm the trade. You will receive outcome shares at the current ask price. Check the orderbook before placing a market order to confirm there are active sellers at your target price.
+To open a position, select an outcome and click "Buy Yes" or "Buy No". Enter the amount of USDM you want to spend and confirm the trade. You will receive outcome shares at the current ask price. Check the orderbook before placing a market order to confirm there are active sellers at your target price.
 
 * You pay USDM and receive outcome shares.
-* **Example:** Buy YES at $0.25. If YES resolves correctly, each share pays $1. Your profit is $0.75 per share.
+
+> **Example:** Buy YES at $0.25. If YES resolves correctly, each share pays $1. Your profit is $0.75 per share.
 
 ## How to Sell
 
 You can exit your position before settlement by selling your shares back into the orderbook. Navigate to your portfolio, find the position, and click **Sell**. Your shares are sold at the current bid price and you receive USDM in return.
 
-* **Example**: Buy 20 YES shares at $0.25 for $5. Sell at $0.30 and receive $6. Profit is $1 total, or $0.05 per share, regardless of final outcome.
+> **Example**: Buy 20 YES shares at $0.25 for $5. Sell at $0.30 and receive $6. Profit is $1 total, or $0.05 per share, regardless of final outcome.
 
 ## Settlement
 

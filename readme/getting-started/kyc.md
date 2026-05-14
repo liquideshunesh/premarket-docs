@@ -11,18 +11,14 @@ coverY: 0
 
 Prediction markets on Premarket route through a liquidity partner that requires identity verification. To trade them, click Buy Yes or Buy No on any prediction market and you will be redirected to verification via Stripe Identity. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading. If you need help with KYC click here.
 
-{% hint style="info" %}
-
-{% endhint %}
-
 ## What to Expect
 
-When you click **Buy Yes** or **Buy No** on any prediction market, you will be redirected to a Stripe Identity verification page in a new tab. This is expected behavior. Complete the process there and you will be brought back to Premarket automatically once done.
+When you click "Buy Yes" or "Buy No" on any prediction market, you will be redirected to a Stripe Identity verification page in a new tab. This is expected behavior. Complete the process there and you will be brought back to Premarket automatically once done.
 
 ## How to Verify
 
-1. Click **Buy Yes** or **Buy No** on any active prediction market to trigger the verification flow.
-2. On the verification page click **Start Verification**.
+1. Click "Buy Yes" or "Buy No" on any active prediction market to trigger the verification flow.
+2. On the verification page click "Start Verification".
 3. Submit a government issued ID.
 4. Complete face verification if prompted.
 5. Once submitted, return to Premarket. Your account will be enabled for trading automatically.

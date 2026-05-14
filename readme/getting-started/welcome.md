@@ -7,9 +7,7 @@ coverY: 0
 
 ## Context
 
-Most assets only become tradable after they already exist. By the time a token lists, an IPO prices, or an event resolves, the earliest and most profitable window has already closed. The people who got in early made their conviction known when it mattered most and got paid for it. Everyone else arrived too late.
-
-Premarket exists to move trading earlier.
+Most assets only become tradable after they already exist. By the time a token lists, an IPO prices, or an event resolves, the earliest and most profitable window has already closed. The people who got in early made their conviction known when it mattered most and got paid for it. Everyone else arrived too late. Premarket exists to move trading earlier.
 
 ## Introduction
 
@@ -39,7 +37,7 @@ Trade binary outcomes on real world events. Back the correct outcome and each sh
 
 **3. Option Markets**
 
-Trade structured upside or downside exposure using predefined strike ranges. These markets use option-style mechanics with collateral, outcome tokens, and write positions.
+Trade structured upside or downside exposure using predefined strike ranges. These markets use option style mechanics with collateral, outcome tokens, and write positions.
 
 > **Example:** You believe ETH will settle between $2,400 and $2,600 at expiry. You buy the CALL spread. If ETH settles in that range, the position pays according to the market payout structure.
 
