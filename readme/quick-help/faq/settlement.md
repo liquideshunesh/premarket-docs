@@ -9,7 +9,9 @@ coverY: 0
 
 <summary><strong>Do I need to do anything at settlement?</strong></summary>
 
-No. All positions on Premarket are auto-expired and auto-exercised at expiry. Your portfolio balance updates automatically once settlement confirms on-chain.
+For most markets, no. Pre-IPO, Pre-TGE, Options, and RWA markets run on MegaETH and are auto-expired and auto-exercised at expiry. Proceeds are sent directly to your smart account and your portfolio updates automatically once settlement confirms onchain.
+
+Solana prediction markets and yield markets are the exception. Once your position expires, you need to interact with the DFlow contract to burn your shares and bridge USDC back to your wallet. This step must be initiated manually.
 
 </details>
 

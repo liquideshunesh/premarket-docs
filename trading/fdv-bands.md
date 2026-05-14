@@ -64,4 +64,3 @@ Final FDV $270M: Maximum payout. Above upper strike, capped at max win.
 | ------------ | ------------------ | ------------------------------ |
 | Outcome type | Binary YES/NO      | Directional spread             |
 | Payout       | Fixed $1 or $0     | Linearly scaled, capped at max |
-| Complexity   | Low                | Higher                         |

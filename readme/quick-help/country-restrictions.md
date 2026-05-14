@@ -5,78 +5,24 @@ coverY: 0
 
 # Country Restrictions
 
-Premarket restricts access based on your geographic location. These restrictions are applied automatically based on your detected IP address and exist for regulatory compliance.
+Premarket applies geographic restrictions to Prediction Markets only. These restrictions are required for regulatory compliance and apply at the product level.
 
-## Restricted Countries
+## **What this means for you**
 
-| Country                          |
-| -------------------------------- |
-| Afghanistan                      |
-| Algeria                          |
-| Angola                           |
-| Australia                        |
-| Belarus                          |
-| Belgium                          |
-| Bolivia                          |
-| Bulgaria                         |
-| Burkina Faso                     |
-| Cameroon                         |
-| Canada                           |
-| Central African Republic         |
-| China                            |
-| Côte d'Ivoire                    |
-| Cuba                             |
-| Democratic Republic of the Congo |
-| Ethiopia                         |
-| France                           |
-| Haiti                            |
-| Iran                             |
-| Iraq                             |
-| Italy                            |
-| Kenya                            |
-| Laos                             |
-| Lebanon                          |
-| Libya                            |
-| Mali                             |
-| Monaco                           |
-| Mozambique                       |
-| Myanmar                          |
-| Namibia                          |
-| Nicaragua                        |
-| Niger                            |
-| North Korea                      |
-| Poland                           |
-| Russia                           |
-| Singapore                        |
-| Somalia                          |
-| South Sudan                      |
-| Sudan                            |
-| Switzerland                      |
-| Syria                            |
-| Taiwan                           |
-| Thailand                         |
-| Ukraine                          |
-| United Arab Emirates             |
-| United Kingdom                   |
-| United States                    |
-| Venezuela                        |
-| Yemen                            |
-| Zimbabwe                         |
+If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets specifically. All other products — Pre-IPO, Pre-TGE, Options, and RWAs — remain fully accessible regardless of location.
 
-Access is also restricted from any jurisdiction subject to comprehensive U.S. country-wide, territory-wide, or regional economic sanctions.
+### **Restricted Countries (Prediction Markets only)**
 
-## Why Restrictions Exist
+Access to Prediction Markets is blocked from the United States and the following jurisdictions:
 
-Certain jurisdictions classify prediction markets, derivatives, and options instruments as gambling, restricted financial products, or regulated derivatives trading. To remain compliant, Premarket limits access in these regions. Restrictions are driven by regulation, not platform preference.
+Afghanistan, Algeria, Angola, Australia, Belarus, Belgium, Bolivia, Bulgaria, Burkina Faso, Cameroon, Canada, Central African Republic, Côte d'Ivoire, Cuba, Democratic Republic of the Congo, Ethiopia, France, Haiti, Iran, Iraq, Italy, Kenya, Laos, Lebanon, Libya, Mali, Monaco, Mozambique, Myanmar (Burma), Namibia, Nicaragua, Niger, North Korea, People's Republic of China, Poland, Russia, Singapore, Somalia, South Sudan, Sudan, Switzerland, Syria, Taiwan, Thailand, Ukraine, United Arab Emirates, United Kingdom, Venezuela, Yemen, Zimbabwe.
 
-## What Happens If You Are Restricted
+Access is also restricted from any jurisdiction subject to comprehensive U.S. country wide, territory wide, or regional economic sanctions.
 
-If your region is restricted you may not see certain markets, be unable to place trades, or be blocked from interacting with specific instruments. The restriction is applied automatically based on your detected location.
+### **Why these restrictions exist**
 
-## How Your Location is Detected
+Prediction markets are classified as gambling, restricted financial products, or regulated derivatives in many jurisdictions. The restriction list is set by Kalshi via DFlow and Premarket enforces it at the product level to remain compliant.
 
-Access is determined using IP based geolocation, wallet metadata, and compliance checks.
+### **How your location is detected**
 
-{% hint style="warning" %}
-Using a VPN or other workaround to bypass geographic restrictions may violate the Premarket terms of service.
-{% endhint %}
+Location is detected using IP-based geolocation and compliance checks. Using a VPN or other workaround to bypass these restrictions may violate the Premarket terms of service.

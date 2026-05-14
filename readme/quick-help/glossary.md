@@ -29,8 +29,4 @@ A quick reference for terms used across the Premarket platform. This glossary wi
 
 ## Wallet and Settlement
 
-<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>USDM</strong></td><td>The stable unit used for trading and settlement on Premarket.</td></tr><tr><td><strong>Smart Account</strong></td><td>A delegated trading wallet for gas abstraction and seamless execution.</td></tr><tr><td><strong>Subkey</strong></td><td>A delegated key that operates the smart account. Managed by the system.</td></tr><tr><td><strong>Onchain Settlement</strong></td><td>Final execution of a trade or settlement recorded on the blockchain.</td></tr></tbody></table>
-
-## Errors
-
-<table><thead><tr><th width="260">Error</th><th>What it means and what to do</th></tr></thead><tbody><tr><td><strong>No price available for market order</strong></td><td>No matching orders on the other side of the orderbook. Place a limit order or wait for liquidity.</td></tr><tr><td><strong>Insufficient Balance</strong></td><td>Not enough funds to complete the trade. Check your smart account balance and deposit if needed.</td></tr></tbody></table>
+<table><thead><tr><th width="186.80078125">Term</th><th>Definition</th></tr></thead><tbody><tr><td><strong>USDM</strong></td><td>The stable unit used for trading and settlement on Premarket.</td></tr><tr><td><strong>Smart Account</strong></td><td>A delegated trading wallet for gas abstraction and seamless execution.</td></tr><tr><td><strong>Subkey</strong></td><td>A delegated key that operates the smart account. Managed by the system.</td></tr><tr><td><strong>Onchain Settlement</strong></td><td>Final execution of a trade or settlement recorded on the blockchain.</td></tr><tr><td></td><td></td></tr></tbody></table>

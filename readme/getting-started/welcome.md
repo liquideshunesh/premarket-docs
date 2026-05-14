@@ -45,7 +45,7 @@ Trade structured upside or downside exposure using predefined strike ranges. The
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Option chain with buy and sell option</strong></p></figcaption></figure>
 
-**3. Spot Markets (RWAs)**
+**4. Spot Markets (RWAs)**
 
 Trade token pairs directly using live market pricing. These markets behave similarly to traditional spot exchanges where traders exchange one asset for another.
 
