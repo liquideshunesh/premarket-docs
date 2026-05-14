@@ -44,11 +44,3 @@ Premarket uses a hybrid model. Order matching happens off-chain for speed. Settl
 USDM is the primary settlement and trading currency on Premarket.
 
 </details>
-
-<details>
-
-<summary><strong>How do I get USDM?</strong></summary>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-</details>
