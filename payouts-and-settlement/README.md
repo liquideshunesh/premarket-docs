@@ -25,6 +25,8 @@ Every market on Premarket eventually reaches a point where trading ends, outcome
 
 {% hint style="success" %}
 All positions on Premarket are auto-redeemed at settlement. Proceeds are sent directly to your smart account. No manual action is needed.
+{% endhint %}
 
-Note: Solana prediction markets require manual redemption. You will need to interact with the DFlow contract to burn your shares and bridge your USDC back.
+{% hint style="info" %}
+Note: Only Solana prediction markets require manual redemption. You will need to interact with the DFlow contract to burn your shares and bridge your USDC back.
 {% endhint %}

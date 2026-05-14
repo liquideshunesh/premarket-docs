@@ -34,6 +34,6 @@ If it does not launch in time:
 18 shares x $0 = $0.
 ```
 
-{% hint style="success" %}
+{% hint style="info" %}
 Settlement is guaranteed. The worst case is holding to expiry and receiving the binary outcome. Solana prediction markets require manual redemption via the DFlow contract.
 {% endhint %}
