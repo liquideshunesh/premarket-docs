@@ -31,7 +31,7 @@ When you place a market order, it matches against the best available orders in t
 
 ## What Onchain Settlement Means for You
 
-Trades on Premarket are matched off-chain for speed. Settlement is handled automatically at expiry and proceeds are sent directly to your smart account. You do not need to interact with the blockchain directly. During the confirmation period your position may appear as pending in your portfolio. Once confirmed it will show full position details.
+Trades on Premarket are matched offchain for speed. Settlement varies by product. MegaETH markets (Pre-TGE, Pre-IPO, Options, RWA) settle automatically at expiry and proceeds are sent directly to your smart account. Solana markets (Prediction Markets) require manual redemption via the DFlow contract. During the confirmation period your position may appear as pending in your portfolio. Once confirmed it will show full position details.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Portfolio management</p></figcaption></figure>
 

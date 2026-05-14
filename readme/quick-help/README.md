@@ -15,8 +15,8 @@ Find answers to common questions, resolve errors, and look up terms. Use the lin
 [error-reference.md](error-reference.md)
 {% endcontent-ref %}
 
-{% content-ref url="error-reference.md" %}
-[error-reference.md](error-reference.md)
+{% content-ref url="country-restrictions.md" %}
+[country-restrictions.md](country-restrictions.md)
 {% endcontent-ref %}
 
 {% content-ref url="glossary.md" %}

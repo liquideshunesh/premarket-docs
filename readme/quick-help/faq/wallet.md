@@ -25,7 +25,7 @@ You can withdraw funds that are not locked in open positions. Any collateral tie
 
 <summary><strong>Why is my withdraw button disabled?</strong></summary>
 
-Your available balance is either zero or your KYC has not been completed.
+Your available balance is either zero or your funds are locked in open positions.
 
 </details>
 

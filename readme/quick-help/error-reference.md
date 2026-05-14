@@ -31,6 +31,10 @@ A quick reference for all error messages you may encounter on Premarket and how 
 | Verification failed                     | Document not accepted or face verification unsuccessful | Retry with a different document or better lighting |
 | Trading still locked after verification | Smart account not created or no funds deposited         | Complete remaining setup steps in Getting Started  |
 
+{% hint style="info" %}
+KYC is only required to trade prediction markets. If you are trading Pre-TGE, Options, Pre-IPO, or RWA markets, KYC is not required.
+{% endhint %}
+
 ## Position Errors
 
 | Error                             | Cause                                         | Fix                                                    |
@@ -38,7 +42,3 @@ A quick reference for all error messages you may encounter on Premarket and how 
 | Sell button not visible           | You do not hold a position in this market     | Buy first before attempting to sell                    |
 | Position still showing after sell | UI sync delay                                 | Refresh the page and wait for onchain confirmation     |
 | Cannot unwind                     | You do not hold equal amounts of PRM and oPRM | Buy back the missing token before attempting to unwind |
-
-{% hint style="info" %}
-If you encounter an error not listed here, reach out on [Telegram](https://t.me/premarket_xyz_xyz) with a screenshot and description of the issue.
-{% endhint %}
