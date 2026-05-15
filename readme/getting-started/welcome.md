@@ -43,9 +43,9 @@ Trade structured upside or downside exposure using predefined strike ranges. The
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p><strong>Options chain with buy and sell choices</strong></p></figcaption></figure>
 
-**4. Spot Markets (RWAs)**
+**4. RWAs**
 
-Trade token pairs directly using live market pricing. These markets behave similarly to traditional spot exchanges where traders exchange one asset for another.
+Trade Real World Assets(RWAs) pairs directly using live market pricing. These markets behave similarly to traditional exchanges where traders exchange one asset for another.
 
 > **Example**: You buy 1g fullerene c60 99.5% using USDM at the current market price.
 

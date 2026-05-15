@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/cover-main (3).png
-coverY: 114.55031779661017
+cover: ../.gitbook/assets/walkthroughs-and-demos-new.png
+coverY: 83.05176132278936
 ---
 
 # Walkthroughs and Demos
@@ -26,4 +26,3 @@ Step by step guides for every key user flow on Premarket. The flows covered in t
 {% content-ref url="deposit-withdraw.md" %}
 [deposit-withdraw.md](deposit-withdraw.md)
 {% endcontent-ref %}
-

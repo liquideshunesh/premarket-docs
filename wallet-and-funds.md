@@ -1,6 +1,6 @@
 ---
-cover: .gitbook/assets/cover-main (5).png
-coverY: 118.65783898305085
+cover: .gitbook/assets/wallets-and-funds-new.png
+coverY: 83.05176132278936
 ---
 
 # Wallet and Funds

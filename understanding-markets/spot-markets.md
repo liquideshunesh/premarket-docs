@@ -3,11 +3,11 @@ cover: ../.gitbook/assets/banner-generic.png
 coverY: 0
 ---
 
-# Spot Markets
+# RWAs
 
-Spot markets allow you to trade real tokens directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are simply buying and selling assets at market prices.
+Real World Assets(RWAs) market allow you to trade real world itema directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are simply buying and selling assets at market prices.
 
-> **Example:** WETH/USDM = buying or selling WETH using USDM.
+> **Example:** 1g fullerene c60/USDM buying or selling 1g fullerene c60 using USDM
 
 ## **Key Characteristics**
 
@@ -18,8 +18,8 @@ Spot markets allow you to trade real tokens directly against USDM. Unlike predic
 
 ### **How Trading Works**
 
-1. **Buying:** You spend USDM, receive WETH, and match with someone selling WETH.
-2. **Selling:** You give WETH, receive USDM, and match with someone buying WETH.
+1. **Buying:** You spend USDM, receive fullerene c60 99.5%, and match with someone selling fullerene c60 99.5%.
+2. **Selling:** You give fullerene c60 99.5%, receive USDM, and match with someone buying fullerene c60 99.5%.
 
 Trades only execute if there is liquidity. "No price available for market order" is a liquidity issue, not a balance issue.
 
@@ -34,7 +34,7 @@ You can hold the asset indefinitely. Profit or loss is realised only when you se
 
 ## **Settlement**
 
-Spot markets have no expiry and no settlement event. Your position stays open until you sell it back into the orderbook. There is no automatic payout, no oracle resolution, and no expiry-based closure. The only way to close a spot position is to place a sell order and match with a buyer.
+RWA markets have no expiry and no settlement event. Your position stays open until you sell it back into the orderbook. There is no automatic payout, no oracle resolution, and no expiry-based closure. The only way to close a spot position is to place a sell order and match with a buyer.
 
 ### **What this means in practice**
 

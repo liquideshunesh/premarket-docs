@@ -1,13 +1,11 @@
 ---
-cover: ../.gitbook/assets/cover-main (2).png
-coverY: 114.88824152542372
+cover: ../.gitbook/assets/trading-mechanics-new.png
+coverY: 83.05176132278936
 ---
 
 # Trading Mechanics
 
-A guide to placing orders, understanding pricing, and managing positions on Premarket.&#x20;
-
-
+A guide to placing orders, understanding pricing, and managing positions on Premarket.
 
 {% content-ref url="pricing.md" %}
 [pricing.md](pricing.md)

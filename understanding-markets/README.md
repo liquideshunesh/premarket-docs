@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/cover-main (8).png
-coverY: 95.26530152981027
+cover: ../.gitbook/assets/understanding-markets-new.png
+coverY: 83.05176132278936
 ---
 
 # Understanding Markets
@@ -51,4 +51,5 @@ Each market type has its own payout structure, liquidity profile, and settlement
 1. [Prediction Markets](prediction-markets.md#what-are-prediction-markets)
 2. [Pre-TGE Markets](pre-tge-markets.md#what-are-pre-tge-markets)
 3. [Options Markets](options-markets.md#what-are-options-markets)
-4. [Spot Markets](spot-markets.md#what-are-spot-markets)
+4. [RWA Markets](spot-markets.md#what-are-spot-markets)
+

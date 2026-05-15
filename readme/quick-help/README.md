@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/banner-generic.png
-coverY: 0
+cover: ../../.gitbook/assets/quick-help-new.png
+coverY: 83.05176132278936
 ---
 
 # Quick Help

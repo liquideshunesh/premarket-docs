@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/cover-main (4).png
-coverY: 118.48887711864407
+cover: ../.gitbook/assets/payouts-and-settlements-new.png
+coverY: 83.05176132278936
 ---
 
 # Payouts and Settlement
