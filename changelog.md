@@ -5,8 +5,6 @@ coverY: 83.05176132278936
 
 # Change Log
 
-A record of significant updates to Premarket. The most recent changes are listed first.
-
 ## May 2026
 
 ### Premarket Launch

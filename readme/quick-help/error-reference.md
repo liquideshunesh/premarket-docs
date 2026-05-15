@@ -5,8 +5,6 @@ coverY: 0
 
 # Error Reference
 
-A quick reference for all error messages you may encounter on Premarket and how to resolve them.
-
 ## Trading Errors
 
 | Error                               | Cause                                                      | Fix                                                            |

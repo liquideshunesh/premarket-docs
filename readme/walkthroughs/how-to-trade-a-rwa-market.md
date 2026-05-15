@@ -22,7 +22,7 @@ Examples:
 * 1g Fullerene C60 99.5%
 * 1g Fullerene C70 99.9%
 
-Selecting a token updates the buy/sell panel and orderbook.
+These are tokenized real world assets or commodities. Selecting a token updates the buy/sell panel and orderbook.
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Token selection inside a RWA market</p></figcaption></figure>
 
@@ -50,9 +50,7 @@ If matching sell orders exist, the order executes immediately.
 
 ### Step 5: Sell or Hold
 
-Track your position inside Portfolio and Wallet.
-
-If you want to exit early:
+Track your position inside Portfolio. If you want to Sell:
 
 * select Sell
 * enter the amount to sell
@@ -60,8 +58,10 @@ If you want to exit early:
 
 If no buyers exist, the order cannot execute until liquidity becomes available.
 
+## Fees and Chain
 
+RWA markets run on MegaETH. Maker fee is 0.20% and taker fee is 0.30%.
 
 {% hint style="info" %}
-Always review the Rules section before trading.
+Always review the Rules section before trading to confirm the specific market parameters for the asset you are trading.
 {% endhint %}

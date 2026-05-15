@@ -5,8 +5,6 @@ coverY: 0
 
 # How to Deposit and Withdraw Funds
 
-This walkthrough covers moving funds into and out of your Premarket smart account.
-
 ## Depositing Funds
 
 > Screenshot: Wallet page showing deposit section
