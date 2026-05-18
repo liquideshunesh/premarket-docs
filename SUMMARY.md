@@ -9,7 +9,7 @@
     * [Prediction Markets](understanding-markets/prediction-markets.md)
     * [Pre-TGE Markets](understanding-markets/pre-tge-markets.md)
     * [Options Markets](understanding-markets/options-markets.md)
-    * [RWAs](understanding-markets/spot-markets.md)
+    * [RWA Markets](understanding-markets/spot-markets.md)
   * [Trading Mechanics](trading/README.md)
     * [How Pricing Works](trading/pricing.md)
     * [How FDV Bands Work](trading/fdv-bands.md)
