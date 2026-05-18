@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/payouts-and-settlements-new.png
+cover: /broken/files/rjWRAVQNjdbqLi4OZ6Rs
 coverY: 83.05176132278936
 ---
 

@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/change-log-new.png
+cover: /broken/files/gAORCQrsL9nVibqzHdhc
 coverY: 83.05176132278936
 ---
 

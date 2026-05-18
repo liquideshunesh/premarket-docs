@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/wallets-and-funds-new.png
+cover: /broken/files/WaypIaeeyAQ66Ms7VWh0
 coverY: 83.05176132278936
 ---
 

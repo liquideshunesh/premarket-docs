@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/walkthroughs-and-demos-new.png
+cover: /broken/files/sdxgQlk90SJcgBNG53sg
 coverY: 83.05176132278936
 ---
 

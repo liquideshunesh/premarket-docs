@@ -1,6 +1,25 @@
 ---
-cover: ../../.gitbook/assets/cover-main (9).png
-coverY: 115.83209745762713
+cover: ../../.gitbook/assets/Platform Introduction.png
+coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Platform Introduction

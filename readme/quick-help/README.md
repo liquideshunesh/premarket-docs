@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/quick-help-new.png
+cover: /broken/files/ygRTYo5dQvWklBTcNnoF
 coverY: 83.05176132278936
 ---
 

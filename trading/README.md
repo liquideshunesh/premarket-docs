@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/trading-mechanics-new.png
+cover: /broken/files/4ExhrYJdxx4W5y5O8E3z
 coverY: 83.05176132278936
 ---
 
