@@ -5,8 +5,6 @@ coverY: 0
 
 # Options Markets
 
-## What are Options Markets?
-
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Option Market Example</p></figcaption></figure>
 
 Options markets on Premarket let you trade price ranges of an underlying asset over a defined time period. Rather than predicting a single direction, you are trading whether an asset will land within a specific price band at expiry.

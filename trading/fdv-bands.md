@@ -15,9 +15,9 @@ FDV = Token Price at Launch x Total Token Supply
 
 ## What is a Band?
 
-A band is a valuation range. Each band represents a separate tradable outcome with its own orderbook and price.
-
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>FDV ranges with prices</p></figcaption></figure>
+
+A band is a valuation range. Each band represents a separate tradable outcome with its own orderbook and price. The FDV ranges with prices screenshot further illustrates this feature.
 
 ## Bull and Bear Directions
 

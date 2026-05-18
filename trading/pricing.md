@@ -5,9 +5,9 @@ coverY: 0
 
 # How Pricing Works
 
-Premarket uses an orderbook-based pricing system. There are no fixed odds or platform-set prices. Every price you see is the result of real buy and sell orders placed by other users.
-
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Orderbook</p></figcaption></figure>
+
+Premarket uses an orderbook-based pricing system. There are no fixed odds or platform-set prices. Every price you see is the result of real buy and sell orders placed by other users.
 
 ## Price is Market Consensus
 
@@ -15,9 +15,9 @@ Each outcome has a price that reflects what the market collectively believes. A 
 
 ## How the Orderbook Sets the Price
 
-Buyers place bids at the price they are willing to pay. Sellers place asks at the price they are willing to accept. A trade executes when a bid and ask match. The price you see in the UI is typically the last traded price or a derived market price based on recent activity.
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Orderbook</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Order-book</p></figcaption></figure>
+Buyers place bids at the price they are willing to pay. Sellers place asks at the price they are willing to accept. A trade executes when a bid and ask match. The price you see in the UI is typically the last traded price or a derived market price based on recent activity.
 
 ## The Bid and Ask Spread
 

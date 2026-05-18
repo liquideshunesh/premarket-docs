@@ -7,7 +7,7 @@ coverY: 0
 
 ## Depositing Funds
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Deposit section in wallet</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt="" width="563"><figcaption><p>Deposit section in wallet</p></figcaption></figure>
 
 1. Click **Wallet** in the main navigation.
 2. Choose the token you want to deposit, for example USDM.
@@ -18,7 +18,7 @@ coverY: 0
 
 ## Withdrawing Funds
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Withdraw sectopn in wallet</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt="" width="563"><figcaption><p>Withdraw sectopn in wallet</p></figcaption></figure>
 
 1. Click **Wallet** in the main navigation and find the **Withdraw** section.
 2. Select the token you want to withdraw and enter the amount.

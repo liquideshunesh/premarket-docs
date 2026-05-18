@@ -5,9 +5,9 @@ coverY: -31.113363414767747
 
 # Wallet and Funds
 
-All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Smart Account</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Samrt Account</p></figcaption></figure>
+All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
 
 ## How the Wallet Structure Works
 

@@ -13,6 +13,8 @@ You can only unwind if you hold both PRM and oPRM tokens in equal amounts. If yo
 
 ## When to Unwind
 
+<figure><img src="../.gitbook/assets/image (35).png" alt="" width="563"><figcaption><p>Unwind to collateral</p></figcaption></figure>
+
 * You want to exit before expiry without relying on a buyer in the orderbook.
 * You hold both PRM and oPRM tokens and want your collateral back immediately.
 * The market has moved and you want to redeploy capital elsewhere.
@@ -36,8 +38,6 @@ Now hold 1 PRM and 1 oPRM.
 Unwind: receive $2,400 collateral back.
 Net result: -$10 on the premium trade, full collateral recovered.
 ```
-
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Unwind to collateral</p></figcaption></figure>
 
 {% hint style="success" %}
 Unwinding always returns your full original collateral regardless of market price, as long as you hold both tokens.

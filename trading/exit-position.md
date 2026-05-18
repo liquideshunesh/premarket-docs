@@ -5,13 +5,15 @@ coverY: 0
 
 # Exiting a Position
 
-Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
-
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Active position</p></figcaption></figure>
+
+Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
 
 ## When You Can Exit
 
-You can exit any time before market resolution as long as the market is still active and there are buyers available on the other side of the orderbook.
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Position History</p></figcaption></figure>
+
+You can exit any time before market resolution as long as the market is still active and there are buyers available on the other side of the orderbook. The position history tab provides a summary view of positions exited in a single area, as illustrated in the screenshot above.
 
 {% hint style="info" %}
 For options markets: if you hold equal amounts of PRM and oPRM tokens, you can unwind your position to recover your full collateral directly without needing a buyer.
@@ -36,5 +38,3 @@ Click Sell, receive $4.41
 Realized loss = $0.59 total, or ~$0.03 per share
 No further exposure to the outcome.
 ```
-
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Position History</p></figcaption></figure>

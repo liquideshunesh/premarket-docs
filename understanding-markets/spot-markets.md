@@ -5,9 +5,9 @@ coverY: 0
 
 # RWAs
 
-Real World Assets(RWAs) market allow you to trade real world items directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are simply buying and selling assets at market prices.
-
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>RWAs Example</p></figcaption></figure>
+
+Real World Assets(RWAs) market allow you to trade real world items directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are simply buying and selling assets at market prices.
 
 ## **Key Characteristics**
 

@@ -5,9 +5,9 @@ coverY: 0
 
 # Placing a Buy Order
 
-A buy order lets you open a position on an outcome or band. When you buy, you spend USDM and receive shares or position tokens representing your exposure.
-
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying from market</p></figcaption></figure>
+
+A buy order lets you open a position on an outcome or band. When you buy, you spend USDM and receive shares or position tokens representing your exposure.
 
 ## Before You Buy
 
@@ -21,28 +21,28 @@ Make sure the following are in place before placing a buy order:
 
 ## How to Place a Buy Order
 
-1. Go to **Markets** and open any active market
-
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Active markets</p></figcaption></figure>
 
-2\. Select the outcome you want to buy
-
-* Prediction markets: **Buy Yes** or **Buy No**
+1. Go to Markets and open any active market
+2. Select the outcome you want to buy
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Buying yes or no</p></figcaption></figure>
 
-* Pre-TGE band markets: select your target band
+* Prediction markets: Buy Yes or Buy No
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Pre-TGE band selection</p></figcaption></figure>
 
-* Options markets: select the band and mint your position
+* Pre-TGE band markets: select your target band
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Option market range selection</p></figcaption></figure>
 
-3. Enter the amount of USDM you want to spend.
-4. Click the buy button to confirm. (The label depends on the market type: "Buy Yes" or "Buy No" for prediction markets, "Buy Outcome" for Pre-TGE and options markets.)
+* Options markets: select the band and mint your position
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Placing order</p></figcaption></figure>
+3. Enter the amount of USDM you want to spend.
+4.
+
+    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Placing order</p></figcaption></figure>
+5. Click the buy button to confirm. (The label depends on the market type: "Buy Yes" or "Buy No" for prediction markets, "Buy Outcome" for Pre-TGE and options markets.)
 
 ## What Happens After You Buy
 

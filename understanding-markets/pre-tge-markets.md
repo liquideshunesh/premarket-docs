@@ -39,7 +39,7 @@ FDV bands are directional spreads. Payout increases linearly as the FDV moves in
 
 ## How to Trade
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>FDV band market buy</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>FDV band market buy</p></figcaption></figure>
 
 Select the band you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed on-chain.
 

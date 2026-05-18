@@ -7,7 +7,7 @@ coverY: 0
 
 This walkthrough covers buying and selling positions on a RWA market from entry to settlement.
 
-### Step 1: Find a RWA Market
+## Step 1: Find a RWA Market
 
 Go to Markets and filter for RWA markets. Select the asset or market you want to trade.
 
@@ -18,7 +18,9 @@ Each market shows:
 * recent trades
 * orderbook liquidity
 
-### Step 2: Select an Asset
+## Step 2: Select an Asset
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Token selection inside a RWA market</p></figcaption></figure>
 
 Choose the token or asset you want to trade from the market list.
 
@@ -29,9 +31,9 @@ Examples:
 
 These are tokenized real world assets or commodities. Selecting a token updates the buy/sell panel and orderbook.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Token selection inside a RWA market</p></figcaption></figure>
+## Step 3: Check the Orderbook
 
-### Step 3: Check the Orderbook
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Order Book</p></figcaption></figure>
 
 Open the orderbook and confirm there is active liquidity.
 
@@ -40,18 +42,11 @@ Open the orderbook and confirm there is active liquidity.
 
 If no matching orders exist, market orders cannot execute.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Order Book</p></figcaption></figure>
-
-### Step 4: Buy the Market
-
-Select Buy.\
-Enter the amount of USDM you want to spend.\
-Review estimated shares and execution price.\
-Confirm the trade.
-
-If matching sell orders exist, the order executes immediately.
+## Step 4: Buy the Market
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption><p>Recent Trades</p></figcaption></figure>
+
+Select Buy. Then, enter the amount of USDM you want to spend. Finally, review estimated shares and execution price and proceed to confirm the trade. If matching sell orders exist, the order executes immediately.
 
 ### Step 5: Sell or Hold
 

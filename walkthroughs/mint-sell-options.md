@@ -13,12 +13,12 @@ Go to Markets and open an active options market. Select the price band that matc
 
 ## Step 2: Mint Your Position
 
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint Position pair with band</p></figcaption></figure>
+
 1. Click **Mint** on your chosen band.
 2. Enter the amount of USDM you want to deposit as collateral.
 3. Confirm the transaction.
 4. You receive two tokens: **PRM** (write position) and **oPRM** (outcome token).
-
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint Position pair with band</p></figcaption></figure>
 
 ## Step 3: View Your Tokens in Portfolio
 
