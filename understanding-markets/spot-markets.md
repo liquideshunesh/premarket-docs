@@ -7,7 +7,7 @@ coverY: 0
 
 Real World Assets(RWAs) market allow you to trade real world items directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are simply buying and selling assets at market prices.
 
-> **Example:** 1g fullerene c60/USDM buying or selling 1g fullerene c60 using USDM
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>RWAs Example</p></figcaption></figure>
 
 ## **Key Characteristics**
 

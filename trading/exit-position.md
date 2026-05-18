@@ -37,4 +37,4 @@ Realized loss = $0.59 total, or ~$0.03 per share
 No further exposure to the outcome.
 ```
 
-> Screenshot: Position history showing closed trade
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Position History</p></figcaption></figure>

@@ -17,7 +17,7 @@ Each outcome has a price that reflects what the market collectively believes. A 
 
 Buyers place bids at the price they are willing to pay. Sellers place asks at the price they are willing to accept. A trade executes when a bid and ask match. The price you see in the UI is typically the last traded price or a derived market price based on recent activity.
 
-> Screenshot: Orderbook showing bids and asks with spread highlighted
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Order-book</p></figcaption></figure>
 
 ## The Bid and Ask Spread
 

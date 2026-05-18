@@ -15,7 +15,7 @@ Go to Markets and filter for pre-TGE markets. Select the token you want to trade
 
 Each band represents a valuation range. Review all available bands and their prices before selecting one.
 
-> Screenshot: FDV band selection for a pre-TGE market
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>FDV band</p></figcaption></figure>
 
 ## Step 3: Check the Orderbook
 

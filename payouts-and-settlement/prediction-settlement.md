@@ -7,7 +7,7 @@ coverY: 0
 
 Prediction markets resolve to a binary outcome. Every position settles to either $1 or $0 per share depending on which outcome wins. Settlement is determined by the rules defined for that specific market, not by the last traded price.
 
-> Screenshot: Resolved prediction market showing winning outcome
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Prediction Market outcome</p></figcaption></figure>
 
 ## How the Outcome is Determined
 

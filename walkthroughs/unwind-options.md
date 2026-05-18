@@ -5,8 +5,6 @@ coverY: 0
 
 # How to Unwind an Options Position
 
-> \<Add Screenshot for this concept across page where needed>
-
 Unwinding lets you exit an options position before expiry and recover your full collateral, provided you hold equal amounts of both PRM and oPRM tokens.
 
 {% hint style="warning" %}
@@ -38,6 +36,8 @@ Now hold 1 PRM and 1 oPRM.
 Unwind: receive $2,400 collateral back.
 Net result: -$10 on the premium trade, full collateral recovered.
 ```
+
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Unwind to collateral</p></figcaption></figure>
 
 {% hint style="success" %}
 Unwinding always returns your full original collateral regardless of market price, as long as you hold both tokens.

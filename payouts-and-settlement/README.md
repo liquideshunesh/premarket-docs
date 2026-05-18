@@ -7,7 +7,7 @@ coverY: -102.81055543382998
 
 Every market on Premarket eventually reaches a point where trading ends, outcomes are determined, and positions are finalized. This is settlement. Your actual financial result is locked in here if you have not already exited your position early.
 
-> Screenshot: Settled market in portfolio history
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Settled market in portfolio history</p></figcaption></figure>
 
 ## Two Ways to Realize Value
 

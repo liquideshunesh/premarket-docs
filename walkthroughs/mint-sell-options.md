@@ -18,7 +18,7 @@ Go to Markets and open an active options market. Select the price band that matc
 3. Confirm the transaction.
 4. You receive two tokens: **PRM** (write position) and **oPRM** (outcome token).
 
-> Screenshot: Mint screen showing collateral input and token output
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint Position pair with band</p></figcaption></figure>
 
 ## Step 3: View Your Tokens in Portfolio
 

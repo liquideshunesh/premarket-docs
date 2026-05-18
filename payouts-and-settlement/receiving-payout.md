@@ -9,7 +9,7 @@ After a market settles, your position has a fixed value. How you receive your pa
 
 ### Prediction Markets
 
-> Screenshot: Relevant market settled position
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Settled Position</p></figcaption></figure>
 
 Prediction markets run on Solana. Settlement is not automatic. Once your position expires, you need to interact with the DFlow contract to burn your shares. USDC is then bridged back to your wallet. You must initiate this manually.
 
@@ -19,19 +19,19 @@ Yield farms run on Solana. Settlement works the same way as prediction markets. 
 
 ### Pre-IPO and Pre-TGE Markets
 
-> Screenshot: Relevant market settled position
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Settled positions</p></figcaption></figure>
 
 Pre-IPO and pre-TGE markets run on MegaETH. All positions are automatically redeemed at expiry and proceeds are sent directly to your smart account. Payout depends on where the asset's valuation lands at launch relative to your band. No action is needed.
 
 ### Options Markets
 
-> Screenshot: Relevant market settled position
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Setteled Positions</p></figcaption></figure>
 
 Options markets run on MegaETH. All positions are automatically redeemed at expiry. If your band was in the money, the oPRM token holder receives the payout automatically. If out of the money, the oPRM expires worthless and the PRM holder recovers their collateral automatically. If you hold both tokens before expiry, you can unwind at any time to recover your full collateral without waiting for settlement.
 
 ### RWA Markets
 
-> Screenshot: Relevant market settled position
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Setteled Positions</p></figcaption></figure>
 
 RWA markets run on MegaETH. All positions are automatically redeemed at expiry and proceeds are sent directly to your smart account. Payout is based on where the underlying asset price settles relative to your position at expiry.
 

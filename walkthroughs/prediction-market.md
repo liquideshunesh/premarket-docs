@@ -15,7 +15,7 @@ Go to [app.premarket.xyz](https://app.premarket.xyz) and open the Markets sectio
 
 Before trading, click the Rules tab on the market page. This defines exactly what outcome must occur for YES to resolve at $1. Read this carefully before placing any trade.
 
-> Screenshot: Market rules tab
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Market Rule example from Options Market</p></figcaption></figure>
 
 ## Step 3: Check the Orderbook
 

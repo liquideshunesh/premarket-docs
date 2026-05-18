@@ -7,7 +7,7 @@ coverY: 0
 
 ## What are Pre-TGE Markets?
 
-> Screenshot: Active pre-TGE market showing available FDV bands
+<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Pre-TGE Market Example</p></figcaption></figure>
 
 Pre-TGE markets let you trade on the valuation of a token before it launches. Instead of a binary yes or no outcome, you are taking a position on whether a token's fully diluted valuation will land within a specific range at the time of its token generation event.
 
@@ -21,7 +21,7 @@ FDV = Token Price at Launch x Total Token Supply
 
 ## How Bands Work
 
-> Screenshot: FDV band selection showing multiple bands with prices
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>FDV Bands</p></figcaption></figure>
 
 Each market offers a set of valuation bands. You pick the band that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your band at settlement.
 
@@ -39,7 +39,7 @@ FDV bands are directional spreads. Payout increases linearly as the FDV moves in
 
 ## How to Trade
 
-> Screenshot: Trade panel for FDV band market
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>FDV band market buy</p></figcaption></figure>
 
 Select the band you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed on-chain.
 
