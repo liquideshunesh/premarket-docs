@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/Default.png
+coverY: 0
+---
+
 # How to Trade a RWA Market
 
 This walkthrough covers buying and selling positions on a RWA market from entry to settlement.

@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/sdxgQlk90SJcgBNG53sg
-coverY: 83.05176132278936
+cover: ../.gitbook/assets/walkthroughs and demos.png
+coverY: 74.08687212423314
 ---
 
 # Walkthroughs and Demos

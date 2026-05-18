@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/WaypIaeeyAQ66Ms7VWh0
-coverY: 83.05176132278936
+cover: .gitbook/assets/Wallets and Funds.png
+coverY: -31.113363414767747
 ---
 
 # Wallet and Funds

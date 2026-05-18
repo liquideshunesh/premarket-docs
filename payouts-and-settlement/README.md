@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/rjWRAVQNjdbqLi4OZ6Rs
-coverY: 83.05176132278936
+cover: ../.gitbook/assets/Payouts and Settlements.png
+coverY: -102.81055543382998
 ---
 
 # Payouts and Settlement

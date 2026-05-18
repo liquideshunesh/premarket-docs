@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/ygRTYo5dQvWklBTcNnoF
-coverY: 83.05176132278936
+cover: ../../.gitbook/assets/Quick Help.png
+coverY: -32.16563732471516
 ---
 
 # Quick Help

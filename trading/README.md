@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/4ExhrYJdxx4W5y5O8E3z
-coverY: 83.05176132278936
+cover: ../.gitbook/assets/Trading Mechanics.png
+coverY: 0
 ---
 
 # Trading Mechanics

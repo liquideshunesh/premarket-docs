@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/gAORCQrsL9nVibqzHdhc
-coverY: 83.05176132278936
+cover: .gitbook/assets/Change Log.png
+coverY: -7.847926709027169
 ---
 
 # Change Log
