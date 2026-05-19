@@ -15,8 +15,8 @@ You can only sell a position you already hold. There is no short selling on Prem
 
 ## How to Place a Sell Order
 
-1. Go to your **Portfolio** and find the position you want to exit.
-2. Click **Sell** next to the position.
+1. Go to your Portfolio and find the position you want to exit.
+2. Click Sell next to the position.
 3. Confirm the transaction.
 4. Your shares are sold at the current bid price and you receive the settlement currency in return.
 5. Once confirmed onchain, the position disappears from active positions.
