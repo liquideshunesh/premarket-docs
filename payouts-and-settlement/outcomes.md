@@ -9,11 +9,11 @@ Settlement does not always result in a full win or a full loss. Depending on the
 
 ## Outcome Types
 
-**Full Win:** You receive the maximum payout. Prediction markets pay $1 per winning share. Options and pre-TGE pay the full amount if the condition is clearly satisfied at expiry.
+**Full Win:** you receive the maximum payout. Prediction Markets and Yield Farm pay $1 per winning share. Options, Pre IPO, and Pre TGE markets pay the full amount if the condition is clearly satisfied at expiry.
 
-**Partial Payout:** Applies to structured markets such as options and pre-TGE. If the outcome lands within the range but not at the optimal point, the payout is adjusted proportionally.
+**Partial Payout:** applies to structured markets such as Options, Pre IPO, and Pre TGE. If the outcome lands within the range but not at the optimal point, the payout is adjusted proportionally.
 
-**Loss:** Your position settles to zero value. In prediction markets this means you backed the incorrect outcome. In options markets this means the asset settled outside your band at expiry.
+**Loss:** your position settles to zero value. In Prediction Markets and Yield Farm this means you backed the incorrect outcome. In Options markets this means the asset settled outside your band at expiry.
 
 {% hint style="info" %}
 **Cancelled Markets**
@@ -25,12 +25,16 @@ If a market is cancelled it settles at 50/50. The collateral pool is split equal
 
 If you hold both PRM and oPRM tokens before expiry, you can unwind your position and recover your full collateral without waiting for settlement. Otherwise, settlement plays out as follows:
 
-| Scenario                           | PRM Holder                                | oPRM Holder     |
-| ---------------------------------- | ----------------------------------------- | --------------- |
-| Expires OTM, oPRM not sold         | Withdraws full collateral                 | oPRM worthless  |
-| Expires OTM, oPRM sold for premium | Withdraws full collateral + keeps premium | oPRM worthless  |
-| Expires ITM                        | Collateral partially/fully consumed       | Receives payout |
+| Scenario | PRM Holder | oPRM Holder |
+| --- | --- | --- |
+| Expires OTM, oPRM not sold | Withdraws full collateral | oPRM worthless |
+| Expires OTM, oPRM sold for premium | Withdraws full collateral and keeps premium | oPRM worthless |
+| Expires ITM | Collateral partially or fully consumed | Receives payout |
 
 {% hint style="info" %}
-Oracle sources for price based markets (options and pre-TGE): Bybit, Binance, Hyperliquid, Chainlink.
+Oracle sources for price based markets (Options, Pre TGE, Pre IPO): Bybit, Binance, Hyperliquid, Chainlink.
 {% endhint %}
+
+## RWA Markets
+
+RWA markets do not settle. There is no payout structure, no oracle resolution, and no expiry based closure. Your profit or loss is the difference between buy price and sell price, minus fees. The only way to realise value is to sell back into the orderbook.

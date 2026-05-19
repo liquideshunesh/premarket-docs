@@ -9,9 +9,11 @@ coverY: 0
 
 <summary><strong>Do I need to do anything at settlement?</strong></summary>
 
-For most markets, no. Pre-IPO, Pre-TGE, Options, and RWA markets run on MegaETH and are auto-expired and auto-exercised at expiry. Proceeds are sent directly to your smart account and your portfolio updates automatically once settlement confirms onchain.
+It depends on the market. Pre IPO, Pre TGE, Options, and RWA markets run on MegaETH and are auto expired and auto exercised at expiry. Proceeds are sent directly to your smart account and your portfolio updates automatically once settlement confirms onchain.
 
-Solana prediction markets and yield markets are the exception. Once your position expires, you need to interact with the DFlow contract to burn your shares and bridge USDC back to your wallet. This step must be initiated manually.
+Prediction Markets and Yield Farm are the exception. They run on Solana through a liquidity partner. Once your position expires, you need to interact with the DFlow contract to burn your shares and bridge USDC back to your wallet. This step must be initiated manually.
+
+RWA markets do not settle. There is no expiry. You exit by selling back into the orderbook.
 
 </details>
 
@@ -19,7 +21,7 @@ Solana prediction markets and yield markets are the exception. Once your positio
 
 <summary><strong>How long does settlement take?</strong></summary>
 
-Settlement typically completes within minutes of the expiry time, depending on on-chain confirmation times.
+Settlement typically completes within minutes of the expiry time, depending on onchain confirmation times.
 
 </details>
 
@@ -43,7 +45,7 @@ Yes. Markets can be cancelled if fair resolution is not possible. In this case y
 
 <summary><strong>What oracle sources does Premarket use?</strong></summary>
 
-For price-based markets, Premarket uses Bybit, Binance, Hyperliquid, and Chainlink as oracle sources.
+For price based markets (Options, Pre TGE, Pre IPO), Premarket uses Bybit, Binance, Hyperliquid, and Chainlink as oracle sources.
 
 </details>
 
@@ -51,7 +53,7 @@ For price-based markets, Premarket uses Bybit, Binance, Hyperliquid, and Chainli
 
 <summary><strong>Why is my settlement payout less than I expected?</strong></summary>
 
-For options and pre-TGE markets, payout depends on where the final value lands relative to your band. If the settlement is near the edge of your band, the payout is reduced accordingly.
+For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your band. If the settlement is near the edge of your band, the payout is reduced accordingly.
 
 </details>
 
@@ -59,6 +61,6 @@ For options and pre-TGE markets, payout depends on where the final value lands r
 
 <summary><strong>Can I claim a payout manually?</strong></summary>
 
-All payouts are distributed automatically. You do not need to claim anything manually.
+For MegaETH markets (Pre IPO, Pre TGE, Options), payouts are distributed automatically and you do not need to claim anything. For Solana markets (Prediction Markets, Yield Farm), you must redeem manually via the DFlow contract once your position expires.
 
 </details>

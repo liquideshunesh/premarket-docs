@@ -9,7 +9,7 @@ coverY: 0
 
 <summary><strong>What is Premarket?</strong></summary>
 
-Premarket is a trading platform for assets and outcomes that do not exist yet. You can take positions on token launches, pre-IPO valuations, and real world events before they are listed or resolved anywhere else.
+Premarket is a trading platform for assets and outcomes before they exist or resolve anywhere else. You can take positions on token launches, pre IPO valuations, real world events, options on existing assets, and tokenised real world assets.
 
 </details>
 
@@ -17,7 +17,7 @@ Premarket is a trading platform for assets and outcomes that do not exist yet. Y
 
 <summary><strong>What markets are available?</strong></summary>
 
-At launch, Premarket offers FDV band markets for pre-TGE tokens and prediction markets for real world events. Options markets are also available for price range trading on underlying assets.
+Premarket supports six market categories: Prediction Markets and Yield Farm on Solana, plus Pre IPO, Pre TGE, Options, and RWA markets on MegaETH. Some categories may not have live markets at a given time.
 
 </details>
 
@@ -25,7 +25,7 @@ At launch, Premarket offers FDV band markets for pre-TGE tokens and prediction m
 
 <summary><strong>Who can use Premarket?</strong></summary>
 
-Premarket is available to users in supported regions. Prediction markets require KYC verification via Stripe Identity. Check the Country Restrictions page to confirm your region is supported before trading.
+Premarket is available globally. Prediction Markets and Yield Farm require identity verification and are restricted in certain jurisdictions due to compliance requirements set by the liquidity partner. All other markets do not require verification and have no geographic restrictions.
 
 </details>
 
@@ -33,7 +33,7 @@ Premarket is available to users in supported regions. Prediction markets require
 
 <summary><strong>Is Premarket decentralized?</strong></summary>
 
-Premarket uses a hybrid model. Order matching happens off-chain for speed. Settlement is always recorded on-chain for finality and transparency.
+Premarket uses a hybrid model. Order matching happens offchain for speed. Settlement is always recorded onchain for finality and transparency.
 
 </details>
 
@@ -41,6 +41,6 @@ Premarket uses a hybrid model. Order matching happens off-chain for speed. Settl
 
 <summary><strong>What currency do I use to trade?</strong></summary>
 
-USDM is the primary settlement and trading currency on Premarket.
+USDM is the settlement and trading currency on MegaETH markets (Pre IPO, Pre TGE, Options, RWA). USDC is the settlement currency on Solana markets (Prediction Markets, Yield Farm).
 
 </details>

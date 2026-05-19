@@ -7,8 +7,16 @@ coverY: -7.847926709027169
 
 ## May 2026
 
-### Premarket Launch
+### Initial Launch
 
-<table><thead><tr><th width="156.84375">Item</th><th>Detail</th></tr></thead><tbody><tr><td>Platform</td><td>Premarket goes live on MegaETH</td></tr><tr><td>Markets</td><td>FDV band markets and prediction markets available at launch</td></tr><tr><td>Wallet</td><td>Smart account wallet infrastructure live</td></tr><tr><td>KYC</td><td>Stripe Identity verification enabled for prediction markets</td></tr><tr><td>Compliance</td><td>Geo blocking active for restricted regions per DFlow compliance</td></tr><tr><td>Liquidity</td><td>MM and arb bots live for initial liquidity</td></tr><tr><td>Docs</td><td>Published at stryke.gitbook.io/premarket.xyz</td></tr></tbody></table>
+| Item | Detail |
+| --- | --- |
+| Platform | Premarket goes live across MegaETH and Solana |
+| Markets | Predictions, Yield Farm, Pre IPO, Pre TGE, Options, RWAs |
+| Wallet | Smart account wallet infrastructure live |
+| Identity verification | Required for Prediction Markets and Yield Farm only, handled by the liquidity partner |
+| Compliance | Geographic restrictions active on Prediction Markets only |
+| Liquidity | Market maker and arbitrage bots live for initial liquidity |
+| Docs | Published at docs.premarket.xyz |
 
-_This changelog will be updated with each significant product release._
+_This changelog is updated with each significant product release._

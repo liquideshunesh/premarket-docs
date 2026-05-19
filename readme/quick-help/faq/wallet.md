@@ -9,7 +9,7 @@ coverY: 0
 
 <summary><strong>Why is my balance not showing?</strong></summary>
 
-Check that you have deposited on the correct network. Allow time for on-chain confirmations. If your position is still open, those funds will not appear as available balance until the position is closed or settled.
+Check that you have deposited on the correct network. Allow time for onchain confirmations. If your position is still open, those funds will not appear as available balance until the position is closed or settled.
 
 </details>
 
@@ -33,6 +33,6 @@ Your available balance is either zero or your funds are locked in open positions
 
 <summary><strong>What networks are supported for deposits?</strong></summary>
 
-Premarket currently supports Solana (for predictions & yield markets) & MegaETH (for Pre-IPO, Pre-TGE, Option & RWA markets).
+Premarket supports Solana (for Prediction Markets and Yield Farm, USDC) and MegaETH (for Pre IPO, Pre TGE, Options, and RWA markets, USDM).
 
 </details>

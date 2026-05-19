@@ -21,9 +21,9 @@ You can only unwind if you hold both PRM and oPRM tokens in equal amounts. If yo
 
 ## How to Unwind
 
-1. Go to your **Portfolio** and locate the options position you want to exit.
+1. Go to your Portfolio and locate the options position you want to exit.
 2. Confirm you hold equal amounts of PRM and oPRM for that position.
-3. Click **Unwind** or **Withdraw** on the position.
+3. Click Unwind or Withdraw on the position.
 4. Confirm the transaction.
 5. Your full collateral is returned to your smart account in USDM.
 
@@ -33,10 +33,10 @@ You can only unwind if you hold both PRM and oPRM tokens in equal amounts. If yo
 You minted a position depositing $2,400 USDM collateral.
 Received 1 PRM and 1 oPRM token.
 Sold the oPRM for $50 premium.
-Bought back the oPRM for $60 (net -$10).
+Bought back the oPRM for $60 (net loss of $10).
 Now hold 1 PRM and 1 oPRM.
 Unwind: receive $2,400 collateral back.
-Net result: -$10 on the premium trade, full collateral recovered.
+Net result: $10 loss on the premium trade, full collateral recovered.
 ```
 
 {% hint style="success" %}

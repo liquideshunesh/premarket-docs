@@ -5,7 +5,9 @@ coverY: 0
 
 # How FDV Bands Work
 
-FDV bands are the pricing instrument used in pre-TGE markets. Instead of a simple yes or no outcome, you are trading whether a token's fully diluted valuation falls within a specific range at launch.
+FDV bands are the pricing instrument used in Pre TGE and Pre IPO markets. Instead of a simple yes or no outcome, you are trading whether an asset's valuation falls within a specific range at launch.
+
+For Pre TGE markets, the valuation is the token's fully diluted valuation at TGE. For Pre IPO markets, the valuation is the company's market capitalisation at listing. The mechanic is identical.
 
 ## What is FDV?
 
@@ -13,18 +15,20 @@ FDV bands are the pricing instrument used in pre-TGE markets. Instead of a simpl
 FDV = Token Price at Launch x Total Token Supply
 ```
 
+For Pre IPO markets, substitute share price at listing multiplied by total shares outstanding.
+
 ## What is a Band?
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>FDV ranges with prices</p></figcaption></figure>
 
-A band is a valuation range. Each band represents a separate tradable outcome with its own orderbook and price. The FDV ranges with prices screenshot further illustrates this feature.
+A band is a valuation range. Each band represents a separate tradable outcome with its own orderbook and price.
 
 ## Bull and Bear Directions
 
-| Direction | Meaning                                             |
-| --------- | --------------------------------------------------- |
-| Bull      | You believe FDV will land within or above the range |
-| Bear      | You believe FDV will land within or below the range |
+| Direction | Meaning |
+| --- | --- |
+| Bull | You believe FDV will land within or above the range |
+| Bear | You believe FDV will land within or below the range |
 
 ## Payout Logic
 
@@ -32,18 +36,18 @@ FDV bands are directional spreads, not binary markets. Payout increases linearly
 
 **Bull position:**
 
-| Scenario               | Result                                            |
-| ---------------------- | ------------------------------------------------- |
-| FDV below lower strike | $0. Full loss.                                    |
-| FDV within the range   | Payout increases linearly toward the upper strike |
+| Scenario | Result |
+| --- | --- |
+| FDV below lower strike | $0. Full loss. |
+| FDV within the range | Payout increases linearly toward the upper strike |
 | FDV above upper strike | Maximum payout. Capped at the upper strike value. |
 
 **Bear position:**
 
-| Scenario               | Result                                            |
-| ---------------------- | ------------------------------------------------- |
-| FDV above upper strike | $0. Full loss.                                    |
-| FDV within the range   | Payout increases linearly toward the lower strike |
+| Scenario | Result |
+| --- | --- |
+| FDV above upper strike | $0. Full loss. |
+| FDV within the range | Payout increases linearly toward the lower strike |
 | FDV below lower strike | Maximum payout. Capped at the lower strike value. |
 
 ## Example Trade

@@ -11,8 +11,16 @@ Step by step guides for every key user flow on Premarket. The flows covered in t
 [prediction-market.md](prediction-market.md)
 {% endcontent-ref %}
 
+{% content-ref url="yield-farm.md" %}
+[yield-farm.md](yield-farm.md)
+{% endcontent-ref %}
+
 {% content-ref url="pre-tge-band.md" %}
 [pre-tge-band.md](pre-tge-band.md)
+{% endcontent-ref %}
+
+{% content-ref url="rwa-market.md" %}
+[rwa-market.md](rwa-market.md)
 {% endcontent-ref %}
 
 {% content-ref url="mint-sell-options.md" %}
