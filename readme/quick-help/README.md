@@ -1,6 +1,6 @@
 ---
 cover: ../../.gitbook/assets/Quick Help.png
-coverY: -32.16563732471516
+coverY: 0
 ---
 
 # Quick Help

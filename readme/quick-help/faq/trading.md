@@ -1,5 +1,5 @@
 ---
-cover: ../../../.gitbook/assets/banner-generic.png
+cover: ../../../.gitbook/assets/Default.png
 coverY: 0
 ---
 
@@ -51,11 +51,11 @@ A market order executes immediately against the best available orders in the boo
 
 Each market has a maker fee paid by the order placer and a taker fee paid by the order matcher. Fee rates vary by market type.
 
-| Market Type | Maker | Taker |
-| --- | --- | --- |
-| Pre TGE / Pre IPO | 0.05% | 0.10% |
-| Options | 0.15% | 0.40% |
-| RWA | 0.20% | 0.30% |
+| Market Type                     | Maker           | Taker           |
+| ------------------------------- | --------------- | --------------- |
+| Pre TGE / Pre IPO               | 0.05%           | 0.10%           |
+| Options                         | 0.15%           | 0.40%           |
+| RWA                             | 0.20%           | 0.30%           |
 | Prediction Markets / Yield Farm | To be confirmed | To be confirmed |
 
 </details>

@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/walkthroughs and demos.png
-coverY: 74.08687212423314
+coverY: 0
 ---
 
 # Walkthroughs and Demos

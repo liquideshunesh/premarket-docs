@@ -1,6 +1,6 @@
 ---
 cover: .gitbook/assets/Wallets and Funds.png
-coverY: -31.113363414767747
+coverY: 0
 ---
 
 # Wallet and Funds
@@ -11,11 +11,11 @@ All trading on Premarket happens through a smart account. Your funds flow from y
 
 ## How the Wallet Structure Works
 
-| Layer | Role |
-| --- | --- |
+| Layer          | Role                                                                                                                                          |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | Primary Wallet | Your personal wallet (e.g. MetaMask for MegaETH, Phantom for Solana). Fully controlled by you. Used to deposit funds and receive withdrawals. |
-| Smart Account | Your trading wallet on Premarket. All trades, positions, and settlements happen here. |
-| Subkey | A delegated key used by the system to enable gas abstraction and transaction batching. You do not interact with this directly. |
+| Smart Account  | Your trading wallet on Premarket. All trades, positions, and settlements happen here.                                                         |
+| Subkey         | A delegated key used by the system to enable gas abstraction and transaction batching. You do not interact with this directly.                |
 
 ## How Funds Flow
 
@@ -27,10 +27,10 @@ Withdrawal: Smart Account > Primary Wallet
 
 ## Networks and Currencies
 
-| Network | Currency | Markets |
-| --- | --- | --- |
-| MegaETH | USDM | Pre IPO, Pre TGE, Options, RWA |
-| Solana | USDC | Prediction Markets, Yield Farm |
+| Network | Currency | Markets                        |
+| ------- | -------- | ------------------------------ |
+| MegaETH | USDM     | Pre IPO, Pre TGE, Options, RWA |
+| Solana  | USDC     | Prediction Markets, Yield Farm |
 
 You hold balances on both chains in the same smart account. Make sure you are depositing on the chain that matches the market you intend to trade.
 

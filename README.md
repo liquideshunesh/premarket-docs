@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/cover-main (6).png
+cover: /broken/files/DrujWTiUCeiBwxU6qb75
 coverY: -0.3399935883140017
 ---
 

@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/Understanding Markets.png
-coverY: 2.158858731375986
+coverY: 0
 ---
 
 # Understanding Markets
@@ -22,14 +22,14 @@ Regardless of which market you trade on Premarket, the same core mechanics apply
 
 Although the core mechanics are shared, each market type behaves differently at settlement. Treating all markets the same is the most common mistake. Here is how they compare.
 
-| Market | Chain | Currency | Settlement | Identity verification | Currently live |
-| --- | --- | --- | --- | --- | --- |
-| Prediction Markets | Solana | USDC | Manual via DFlow | Required | Yes |
-| Yield Farm | Solana | USDC | Manual via DFlow | Required | Yes |
-| Pre IPO Markets | MegaETH | USDM | Automatic to smart account | Not required | No live markets |
-| Pre TGE Markets | MegaETH | USDM | Automatic to smart account | Not required | No live markets |
-| Options Markets | MegaETH | USDM | Automatic to smart account | Not required | Yes |
-| RWA Markets | MegaETH | USDM | Perpetual, no settlement | Not required | Yes |
+| Market             | Chain   | Currency | Settlement                 | Identity verification | Currently live  |
+| ------------------ | ------- | -------- | -------------------------- | --------------------- | --------------- |
+| Prediction Markets | Solana  | USDC     | Manual via DFlow           | Required              | Yes             |
+| Yield Farm         | Solana  | USDC     | Manual via DFlow           | Required              | Yes             |
+| Pre IPO Markets    | MegaETH | USDM     | Automatic to smart account | Not required          | No live markets |
+| Pre TGE Markets    | MegaETH | USDM     | Automatic to smart account | Not required          | No live markets |
+| Options Markets    | MegaETH | USDM     | Automatic to smart account | Not required          | Yes             |
+| RWA Markets        | MegaETH | USDM     | Perpetual, no settlement   | Not required          | Yes             |
 
 ## How to Read the Orderbook
 
