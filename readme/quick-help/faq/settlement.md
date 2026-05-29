@@ -19,6 +19,25 @@ RWA markets do not settle. There is no expiry. You exit by selling back into the
 
 <details>
 
+<summary><strong>What is the resolution mechanism?</strong></summary>
+
+The final settlement price is determined using a **Time-Weighted Average Price (TWAP)** calculated over a **1-hour period** around market expiry.
+
+To reduce the impact of short-term price spikes, manipulation, or exchange-specific outages, Premarket uses pricing data from multiple sources, including:
+
+* Centralized exchanges (CEXs)
+* Decentralized exchanges (DEXs)
+* On-chain oracle providers
+
+The TWAP from these sources is aggregated to determine the final settlement price used for market resolution.
+
+**Example:**\
+If a market expires at 12:00 UTC, Premarket calculates a 1-hour TWAP using approved exchange and oracle data around expiry. The resulting price is used as the official settlement price for the market.
+
+</details>
+
+<details>
+
 <summary><strong>How long does settlement take?</strong></summary>
 
 Settlement typically completes within minutes of the expiry time, depending on onchain confirmation times.
