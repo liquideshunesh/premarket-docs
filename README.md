@@ -1,6 +1,6 @@
 ---
-cover: /broken/files/DrujWTiUCeiBwxU6qb75
-coverY: -0.3399935883140017
+cover: .gitbook/assets/photo_2026-06-01_17-46-52 (2).jpg
+coverY: 0
 ---
 
 # Premarket Docs
