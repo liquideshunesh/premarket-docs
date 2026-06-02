@@ -43,3 +43,5 @@
     * [Country Restrictions](readme/quick-help/country-restrictions.md)
     * [Glossary](readme/quick-help/glossary.md)
   * [Change Log](changelog.md)
+  * [Developer Docs](readme/developer-docs/README.md)
+    * [Page 1](readme/developer-docs/page-1.md)
