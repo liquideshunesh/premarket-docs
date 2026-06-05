@@ -44,4 +44,4 @@
     * [Glossary](readme/quick-help/glossary.md)
   * [Change Log](changelog.md)
   * [Developer Docs](readme/developer-docs/README.md)
-    * [Page 1](readme/developer-docs/page-1.md)
+    * [Developer Docs Sub Section](readme/developer-docs/developer-docs-sub-section.md)
