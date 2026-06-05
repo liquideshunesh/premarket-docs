@@ -43,5 +43,4 @@
     * [Country Restrictions](readme/quick-help/country-restrictions.md)
     * [Glossary](readme/quick-help/glossary.md)
   * [Change Log](changelog.md)
-  * [Developer Docs](readme/developer-docs/README.md)
-    * [Developer Docs Sub Section](readme/developer-docs/developer-docs-sub-section.md)
+  * [Developer Docs](readme/developer-docs.md)
