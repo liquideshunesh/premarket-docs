@@ -33,15 +33,15 @@ A curated view on top of Prediction Markets. Yield Farm surfaces high probabilit
 
 ### 3. Pre IPO Markets
 
-Trade valuation bands on private companies before they go public. You pick a band and if the company lists within that range, your position pays out. Runs on MegaETH with USDM. No Pre IPO markets are currently live.
+Trade valuation spreads on private companies before they go public. You pick a spread and if the company lists within that range, your position pays out. Runs on MegaETH with USDM. No Pre IPO markets are currently live.
 
 ### 4. Pre TGE Markets
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>FDV Band Markets with buy and sell options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>FDV Spread Markets with buy and sell options</p></figcaption></figure>
 
-Trade valuation bands on tokens before launch. Same mechanic as Pre IPO. You pick a band and if the token launches within that range, your position pays out. Runs on MegaETH with USDM. No Pre TGE markets are currently live.
+Trade valuation spreads on tokens before launch. Same mechanic as Pre IPO. You pick a spread and if the token launches within that range, your position pays out. Runs on MegaETH with USDM. No Pre TGE markets are currently live.
 
-> **Example:** You believe a token will launch above $2B. You buy the $2B to $3B band. If it lists at $2.4B, you receive a partial payout that scales with how far into the range it lands. If it lists at $3B or above, you receive the maximum payout. If it lists below $2B, you receive nothing.
+> **Example:** You believe a token will launch above $2B. You buy the $2B to $3B spread. If it lists at $2.4B, you receive a partial payout that scales with how far into the range it lands. If it lists at $3B or above, you receive the maximum payout. If it lists below $2B, you receive nothing.
 
 ### 5. Options Markets
 
@@ -49,7 +49,7 @@ Trade structured upside or downside on existing assets using predefined strike r
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Options chain with buy and sell choices</p></figcaption></figure>
 
-> **Example:** ETH is trading around $2,290. You believe it will settle between $2,400 and $2,500 at expiry. You buy the $2,400 to $2,500 CALL band. If ETH settles within the range, payout scales linearly toward the upper strike. If it settles at $2,500 or above, you receive the maximum payout. If it settles below $2,400, the position expires worthless.
+> **Example:** ETH is trading around $2,290. You believe it will settle between $2,400 and $2,500 at expiry. You buy the $2,400 to $2,500 CALL spread. If ETH settles within the range, payout scales linearly toward the upper strike. If it settles at $2,500 or above, you receive the maximum payout. If it settles below $2,400, the position expires worthless.
 
 ### 6. RWA Markets
 

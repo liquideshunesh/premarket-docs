@@ -7,7 +7,7 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying from market</p></figcaption></figure>
 
-A buy order lets you open a position on an outcome, band, or asset. When you buy, you spend USDM (on MegaETH) or USDC (on Solana) and receive shares, position tokens, or asset tokens representing your exposure.
+A buy order lets you open a position on an outcome, spread, or asset. When you buy, you spend USDM (on MegaETH) or USDC (on Solana) and receive shares, position tokens, or asset tokens representing your exposure.
 
 ## Before You Buy
 
@@ -24,19 +24,19 @@ Make sure the following are in place before placing a buy order:
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Active markets</p></figcaption></figure>
 
 1. Go to Markets and open any active market
-2. Select the outcome, band, or asset you want to buy
+2. Select the outcome, spread, or asset you want to buy
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Buying Yes or No</p></figcaption></figure>
 
 * Prediction Markets and Yield Farm: Buy Yes or Buy No
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Pre TGE band selection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Pre TGE spread selection</p></figcaption></figure>
 
-* Pre TGE and Pre IPO band markets: select your target band
+* Pre TGE and Pre IPO spread markets: select your target spread
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Option market range selection</p></figcaption></figure>
 
-* Options markets: select the band and either buy the oPRM from the orderbook or mint a new position
+* Options markets: select the spread and either buy the oPRM from the orderbook or mint a new position
 * RWA markets: select the asset and buy at the current ask
 
 3. Enter the amount you want to spend
@@ -48,12 +48,12 @@ Make sure the following are in place before placing a buy order:
 
 ## What Happens After You Buy
 
-1. **If liquidity is available:** your order executes immediately. You receive shares at the current ask price. Your position appears in Portfolio showing shares held, cost, current value, maximum win, and unrealised P&L.
+1. **If liquidity is available:** your order executes immediately. You receive shares at the current ask price. Your position appears in Portfolio showing shares held, cost, current value, maximum win, and unrealised P\&L.
 2. **If liquidity is not available:** you will see "No price available for market order." Place a limit order at your target price and wait for a counterparty.
 
 **Common Errors:**
 
-| Error | Cause | Fix |
-| --- | --- | --- |
-| No price available | Orderbook is empty | Try a limit order or wait for liquidity |
-| Approval required | Settlement currency not approved | Click Approve and retry |
+| Error              | Cause                            | Fix                                     |
+| ------------------ | -------------------------------- | --------------------------------------- |
+| No price available | Orderbook is empty               | Try a limit order or wait for liquidity |
+| Approval required  | Settlement currency not approved | Click Approve and retry                 |

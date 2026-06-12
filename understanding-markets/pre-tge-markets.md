@@ -17,35 +17,35 @@ Pre TGE markets let you trade on the valuation of a token before it launches. In
 
 ## What is FDV?
 
-FDV stands for Fully Diluted Valuation. It is calculated as the token price at launch multiplied by the total token supply. This is the number used to determine which band your position falls into at settlement.
+FDV stands for Fully Diluted Valuation. It is calculated as the token price at launch multiplied by the total token supply. This is the number used to determine which spread your position falls into at settlement.
 
 ```
 FDV = Token Price at Launch x Total Token Supply
 ```
 
-## How Bands Work
+## How Spreads Work
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>FDV Bands</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>FDV Spreads</p></figcaption></figure>
 
-Each market offers a set of valuation bands. You pick the band that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your band at settlement.
+Each market offers a set of valuation spreads. You pick the spread that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your spread at settlement.
 
-> **Example:** A pre TGE market on a new token offers bands of $500M to $1B, $1B to $2B, and $2B to $5B. You believe the token will launch above $1B. You buy the $1B to $2B band. If it lists at $1.4B, your payout is proportional to how far into the range it lands. If it lists at $2B or above, you receive the maximum payout. If it lists below $1B, you receive nothing.
+> **Example:** A pre TGE market on a new token offers spreads of $500M to $1B, $1B to $2B, and $2B to $5B. You believe the token will launch above $1B. You buy the $1B to $2B spread. If it lists at $1.4B, your payout is proportional to how far into the range it lands. If it lists at $2B or above, you receive the maximum payout. If it lists below $1B, you receive nothing.
 
 ## Payout Logic
 
-FDV bands are directional spreads. Payout increases linearly as the FDV moves in your favour, and is capped at the maximum once it crosses the far strike in your direction.
+FDV spreads are directional instruments. Payout increases linearly as the FDV moves in your favour, and is capped at the maximum once it crosses the far strike in your direction.
 
-| Scenario | Result |
-| --- | --- |
-| FDV on wrong side of near strike | $0. Full loss. |
-| FDV within the band | Payout increases linearly toward the far strike |
-| FDV past the far strike in your direction | Maximum payout, capped at far strike value |
+| Scenario                                  | Result                                          |
+| ----------------------------------------- | ----------------------------------------------- |
+| FDV on wrong side of near strike          | $0. Full loss.                                  |
+| FDV within the spread                     | Payout increases linearly toward the far strike |
+| FDV past the far strike in your direction | Maximum payout, capped at far strike value      |
 
 ## How to Trade
 
-<figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>FDV band market buy</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>FDV spread market buy</p></figcaption></figure>
 
-Select the band you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed onchain.
+Select the spread you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed onchain.
 
 ## Chain and Currency
 
@@ -55,4 +55,4 @@ Pre TGE markets run on MegaETH and settle in USDM. Positions settle automaticall
 
 Pre TGE market fees: 0.05% maker, 0.10% taker.
 
-Continue to [Options Markets](options-markets.md) or [RWA Markets](rwa-markets.md) for other market types, or head to [How to Trade a Pre TGE Band](../walkthroughs/pre-tge-band.md) for a full walkthrough. If you need assistance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz).
+Continue to [Options Markets](options-markets.md) or [RWA Markets](rwa-markets.md) for other market types, or head to [How to Trade a Pre TGE Spread](../walkthroughs/pre-tge-band.md) for a full walkthrough. If you need assistance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz).

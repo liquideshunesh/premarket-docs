@@ -72,7 +72,7 @@ For price based markets (Options, Pre TGE, Pre IPO), Premarket uses Bybit, Binan
 
 <summary><strong>Why is my settlement payout less than I expected?</strong></summary>
 
-For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your band. If the settlement is near the edge of your band, the payout is reduced accordingly.
+For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your spread. If the settlement is near the edge of your spread, the payout is reduced accordingly.
 
 </details>
 

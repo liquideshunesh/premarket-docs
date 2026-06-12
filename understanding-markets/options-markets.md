@@ -7,7 +7,7 @@ coverY: 0
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Option Market Example</p></figcaption></figure>
 
-Options markets on Premarket let you trade price ranges of an underlying asset over a defined time period. Rather than predicting a single direction, you are trading whether an asset will land within a specific price band at expiry.
+Options markets on Premarket let you trade price ranges of an underlying asset over a defined time period. Rather than predicting a single direction, you are trading whether an asset will land within a specific price spread at expiry.
 
 > **Example:** ETH between $2,400 and $2,500 by expiry.
 
@@ -15,31 +15,31 @@ Options markets on Premarket let you trade price ranges of an underlying asset o
 
 The following options markets are currently live, all on MegaETH and paired against USDM:
 
-| Market | Underlying | Type |
-| --- | --- | --- |
-| BTC/USD Spreads | Bitcoin | Call and put bands |
-| ETH/USD Spreads | Ether | Call and put bands |
-| MEGA/USD Spreads | MEGA token | Call and put bands |
-| XAU/USD | Gold (per ounce) | Call and put bands |
-| XAG/USD | Silver (per ounce) | Call and put bands |
-| CL/USD | Crude oil | Call and put bands |
+| Market           | Underlying         | Type                 |
+| ---------------- | ------------------ | -------------------- |
+| BTC/USD Spreads  | Bitcoin            | Call and put spreads |
+| ETH/USD Spreads  | Ether              | Call and put spreads |
+| MEGA/USD Spreads | MEGA token         | Call and put spreads |
+| XAU/USD          | Gold (per ounce)   | Call and put spreads |
+| XAG/USD          | Silver (per ounce) | Call and put spreads |
+| CL/USD           | Crude oil          | Call and put spreads |
 
-Each market lists weekly expiries with multiple strike bands on both the call and put side.
+Each market lists weekly expiries with multiple strike spreads on both the call and put side.
 
 ## How Options Are Structured
 
-Each option represents a price band. You are not buying the asset itself. You are buying a conditional payout token that pays out if the asset settles within your chosen range at expiry. Each band is an independent tradable instrument with its own orderbook and price.
+Each option represents a price spread. You are not buying the asset itself. You are buying a conditional payout token that pays out if the asset settles within your chosen range at expiry. Each spread is an independent tradable instrument with its own orderbook and price.
 
 ## Minting a Position
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint showing band selection and collateral input</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint showing spread selection and collateral input</p></figcaption></figure>
 
-To open a position in an options market you first mint PRM and oPRM tokens. Select the band you want to trade and click Mint. You deposit USDM as collateral and receive two tokens in return.
+To open a position in an options market you first mint PRM and oPRM tokens. Select the spread you want to trade and click Mint. You deposit USDM as collateral and receive two tokens in return.
 
-| Token | Role |
-| --- | --- |
-| PRM | Write position token. Represents your collateral claim. |
-| oPRM | Outcome token. Represents your directional position. Tradable on the orderbook. |
+| Token | Role                                                                            |
+| ----- | ------------------------------------------------------------------------------- |
+| PRM   | Write position token. Represents your collateral claim.                         |
+| oPRM  | Outcome token. Represents your directional position. Tradable on the orderbook. |
 
 Most users buy oPRM directly from the orderbook without minting. Minting is the path for users who want to write a position (provide the option and collect the premium).
 
@@ -61,7 +61,7 @@ Once minted, you can sell your oPRM tokens on the orderbook via a limit order. O
 Positions are auto expired and auto exercised at expiry. You do not need to take any manual action.
 
 {% hint style="success" %}
-If your band is in the money at expiry, the oPRM token holder receives the payout automatically. If it is out of the money, the oPRM expires worthless and the PRM token holder recovers their collateral.
+If your spread is in the money at expiry, the oPRM token holder receives the payout automatically. If it is out of the money, the oPRM expires worthless and the PRM token holder recovers their collateral.
 {% endhint %}
 
 ## Fees
