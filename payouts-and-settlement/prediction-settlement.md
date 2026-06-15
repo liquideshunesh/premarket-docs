@@ -5,8 +5,6 @@ coverY: 0
 
 # Prediction Market Settlement
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Prediction Market outcome</p></figcaption></figure>
-
 Prediction markets resolve to a binary outcome. Every position settles to either $1 or $0 per share depending on which outcome wins. Settlement is determined by the rules defined for that specific market, not by the last traded price.
 
 The same logic applies to Yield Farm positions. Yield Farm uses the same prediction market contracts. The only difference is how the leg was sourced.

@@ -3,34 +3,42 @@ cover: ../.gitbook/assets/Default.png
 coverY: 0
 ---
 
-# How to Mint and Sell an Options Position
+# How to Trade an Options Spread
 
-This walkthrough covers the full lifecycle of an options position from minting through selling on the orderbook. Most users buy oPRM directly from the orderbook without minting. Minting is the path for users who want to write a position (provide the option and collect the premium).
+This walkthrough covers trading an options spread from entry to exit. The default flow is to place an order on the orderbook, the platform mints or unwinds the underlying tokens for you automatically. A separate advanced flow for writers who want to mint manually is covered at the end.
 
 ## Step 1: Select a Spread
 
-Go to Markets, filter for Options, and open an active market (BTC/USD Spreads, ETH/USD Spreads, MEGA/USD Spreads, XAU/USD, XAG/USD, or CL/USD). Select the price spread that matches your view on where the underlying will settle at expiry.
+Go to Markets, filter for Options, and open an active market (BTC/USD, ETH/USD, HYPE/USD, or ZEC/USD Spreads). Select the price spread that matches your view on where the underlying will settle at expiry.
 
-## Step 2: Mint Your Position
+## Step 2: Choose Up or Down
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Mint position pair with spread</p></figcaption></figure>
+Pick a side. Up profits as the asset settles within or above the range. Down profits as it settles within or below the range.
 
-1. Click Mint on your chosen spread.
-2. Enter the amount of USDM you want to deposit as collateral.
-3. Confirm the transaction.
-4. You receive two tokens: PRM (write position) and oPRM (outcome token).
+## Step 3: Place Your Order
 
-## Step 3: View Your Tokens in Portfolio
+1. Enter the amount you want to trade.
+2. Choose market or limit. With limit you can select your price directly from the orderbook.
+3. Place the order.
+4. When it matches, your position is created automatically, no separate mint step.
 
-Go to Portfolio. You will see both your PRM and oPRM tokens listed with their current values.
+## Step 4: View and Manage in Portfolio
 
-## Step 4: Sell Your oPRM Tokens
+Go to Portfolio. Your position shows with current value, size, and unrealised P\&L. You can also view your open positions and orders directly from the market page.
 
-1. Go to the market orderbook for your spread.
-2. Place a limit sell order for your oPRM tokens at your target price.
-3. Wait for a buyer to match your order.
-4. Once filled, you receive USDM as the premium.
+## Step 5: Exit
+
+To exit, place a sell order on the same spread. When your sell matches an opposite sell, the positions merge and your collateral is released back to you automatically, no separate unwind step. Alternatively, hold to expiry and the position settles automatically.
+
+## Advanced: Writing a Position
+
+If you want to provide liquidity and collect premium rather than take a directional view, you can mint a position pair directly:
+
+1. Open the spread and choose to mint.
+2. Enter the USDM amount to deposit as collateral.
+3. Confirm. You receive both sides of the spread (the Down/write side and the Up side).
+4. Sell the side you do not want to hold on the orderbook to collect premium.
 
 {% hint style="info" %}
-After selling your oPRM tokens, you hold only PRM tokens. At expiry, if the spread is out of the money, you receive your full collateral back automatically via the PRM token. If in the money, the PRM holder's collateral covers the payout to the oPRM holder.
+Writing is optional. Most users never mint manually, placing an order on the book mints and unwinds for you.
 {% endhint %}

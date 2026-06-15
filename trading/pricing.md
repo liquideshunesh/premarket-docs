@@ -5,8 +5,6 @@ coverY: 0
 
 # How Pricing Works
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Orderbook</p></figcaption></figure>
-
 Premarket uses an orderbook based pricing system. There are no fixed odds or platform set prices. Every price you see is the result of real buy and sell orders placed by other users.
 
 ## Price is Market Consensus
@@ -14,8 +12,6 @@ Premarket uses an orderbook based pricing system. There are no fixed odds or pla
 Each outcome has a price that reflects what the market collectively believes. A share trading at $0.25 implies a roughly 25% chance of that outcome occurring. A share at $0.80 implies 80%. This is not a guarantee. It is a live consensus estimate that updates as orders are placed and filled.
 
 ## How the Orderbook Sets the Price
-
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Orderbook</p></figcaption></figure>
 
 Buyers place bids at the price they are willing to pay. Sellers place asks at the price they are willing to accept. A trade executes when a bid and ask match. The price you see in the UI is typically the last traded price or a derived market price based on recent activity.
 

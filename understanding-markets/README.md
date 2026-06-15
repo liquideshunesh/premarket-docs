@@ -7,8 +7,6 @@ coverY: 0
 
 Premarket is an orderbook based platform. Before you trade, it helps to understand how the orderbook works, what liquidity means in practice, and how each market type settles.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>All Markets</p></figcaption></figure>
-
 ## What All Markets Have in Common
 
 Regardless of which market you trade on Premarket, the same core mechanics apply across all of them. Each market type has its own payout structure and settlement logic but the underlying infrastructure is shared.
@@ -33,9 +31,7 @@ Although the core mechanics are shared, each market type behaves differently at 
 
 ## How to Read the Orderbook
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Orderbook</p></figcaption></figure>
-
-The orderbook shows all active buy and sell orders for a market. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
+The orderbook shows all active buy and sell orders for a market in a single unified book. On spread markets the Up and Down sides share one book. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
 
 ## How Your Execution Price Is Determined
 
@@ -52,13 +48,11 @@ Settlement at expiry varies by product:
 
 After placing a trade, your position may briefly appear as pending in your portfolio while the fill is confirmed onchain. Once confirmed, it will show full position details.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Portfolio after fill</p></figcaption></figure>
-
 Each market type has its own payout structure, liquidity profile, and settlement logic. Read the guide for the market type you plan to trade:
 
 1. [Prediction Markets](prediction-markets.md): binary YES/NO outcomes on real world events. Solana, USDC, identity verification required.
 2. [Yield Farm](yield-farm.md): curated view of high probability prediction market legs. Solana, USDC, identity verification required.
 3. [Pre IPO Markets](pre-ipo-markets.md): valuation bands on private companies before listing. MegaETH, USDM.
 4. [Pre TGE Markets](pre-tge-markets.md): valuation bands on tokens before launch. MegaETH, USDM.
-5. [Options Markets](options-markets.md): price range bands on existing assets with PRM/oPRM token mechanics. MegaETH, USDM.
+5. [Options Markets](options-markets.md): price range spreads on existing assets with Up and Down sides. MegaETH, USDM.
 6. [RWA Markets](rwa-markets.md): perpetual spot trading of tokenised real world assets. MegaETH, USDM.

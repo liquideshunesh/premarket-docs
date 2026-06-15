@@ -23,7 +23,7 @@
     * [How to Trade a Yield Farm Position](walkthroughs/yield-farm.md)
     * [How to Trade a Pre TGE Spread](walkthroughs/pre-tge-band.md)
     * [How to Trade an RWA Market](walkthroughs/rwa-market.md)
-    * [How to Mint and Sell an Options Position](walkthroughs/mint-sell-options.md)
+    * [How to Trade an Options Spread](walkthroughs/mint-sell-options.md)
     * [How to Unwind an Options Position](walkthroughs/unwind-options.md)
     * [How to Deposit and Withdraw Funds](walkthroughs/deposit-withdraw.md)
   * [Payouts and Settlement](payouts-and-settlement/README.md)

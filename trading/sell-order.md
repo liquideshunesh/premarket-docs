@@ -5,8 +5,6 @@ coverY: 0
 
 # Placing a Sell Order
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Selling position</p></figcaption></figure>
-
 A sell order lets you exit an existing position before settlement. You sell your shares back into the orderbook and receive USDM (on MegaETH markets) or USDC (on Solana markets) in return. Your profit or loss is locked in at the point of sale.
 
 {% hint style="info" %}

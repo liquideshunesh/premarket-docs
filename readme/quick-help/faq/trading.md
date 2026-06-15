@@ -58,6 +58,8 @@ Each market has a maker fee paid by the order placer and a taker fee paid by the
 | RWA                             | 0.20%           | 0.30%           |
 | Prediction Markets / Yield Farm | To be confirmed | To be confirmed |
 
+**Fees are 0% at launch** and waived across all markets for the launch period. The rates above are the standard schedule that applies once fees are switched on.
+
 </details>
 
 <details>

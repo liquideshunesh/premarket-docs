@@ -42,3 +42,7 @@ Pre IPO markets run on MegaETH and settle in USDM. Positions settle automaticall
 ## Fees
 
 Pre IPO market fees follow the same schedule as Pre TGE markets: 0.05% maker, 0.10% taker.
+
+{% hint style="info" %}
+**Fees are 0% at launch.** Trading fees are waived across all markets for the launch period. The schedule above is the standard rate that applies once fees are switched on.
+{% endhint %}

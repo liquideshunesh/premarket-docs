@@ -5,8 +5,6 @@ coverY: 0
 
 # RWA Markets
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>RWA Markets Example</p></figcaption></figure>
-
 Real World Asset markets let you trade tokenised real world items directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are buying and selling assets at market prices on a perpetual orderbook.
 
 ## Live Markets
@@ -56,3 +54,7 @@ Exit depends on liquidity. You can only sell if there is a buyer on the orderboo
 ## Fees
 
 RWA market fees: 0.20% maker, 0.30% taker.
+
+{% hint style="info" %}
+**Fees are 0% at launch.** Trading fees are waived across all markets for the launch period. The schedule above is the standard rate that applies once fees are switched on.
+{% endhint %}

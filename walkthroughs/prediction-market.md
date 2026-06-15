@@ -13,8 +13,6 @@ Go to [app.premarket.xyz](https://app.premarket.xyz) and open the Markets sectio
 
 ## Step 2: Read the Market Rules
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Market Rules example</p></figcaption></figure>
-
 Before trading, click the Rules tab on the market page. This defines exactly what outcome must occur for YES to resolve at $1. Read this carefully before placing any trade.
 
 ## Step 3: Check the Orderbook

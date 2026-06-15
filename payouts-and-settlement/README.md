@@ -5,8 +5,6 @@ coverY: 0
 
 # Payouts and Settlement
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Settled market in portfolio history</p></figcaption></figure>
-
 Most markets on Premarket eventually reach a point where trading ends, outcomes are determined, and positions are finalised. This is settlement. Your actual financial result is locked in here if you have not already exited your position early.
 
 RWA markets are the exception. They are perpetual with no expiry and no settlement event. Your only exit is to sell back into the orderbook.
