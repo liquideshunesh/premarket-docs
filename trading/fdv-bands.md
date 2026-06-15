@@ -19,22 +19,20 @@ For Pre IPO markets, substitute share price at listing multiplied by total share
 
 ## What is a Spread?
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>FDV ranges with prices</p></figcaption></figure>
-
 A spread is a valuation range. Each spread represents a separate tradable outcome with its own orderbook and price.
 
-## Bull and Bear Directions
+## Up and Down Directions
 
 | Direction | Meaning                                             |
 | --------- | --------------------------------------------------- |
-| Bull      | You believe FDV will land within or above the range |
-| Bear      | You believe FDV will land within or below the range |
+| Up        | You believe FDV will land within or above the range |
+| Down      | You believe FDV will land within or below the range |
 
 ## Payout Logic
 
 FDV spreads are directional instruments, not binary markets. Payout increases linearly as the FDV moves in your favour within the range, and is capped at maximum once it crosses the far strike.
 
-**Bull position:**
+**Up position:**
 
 | Scenario               | Result                                            |
 | ---------------------- | ------------------------------------------------- |
@@ -42,7 +40,7 @@ FDV spreads are directional instruments, not binary markets. Payout increases li
 | FDV within the range   | Payout increases linearly toward the upper strike |
 | FDV above upper strike | Maximum payout. Capped at the upper strike value. |
 
-**Bear position:**
+**Down position:**
 
 | Scenario               | Result                                            |
 | ---------------------- | ------------------------------------------------- |
@@ -53,7 +51,7 @@ FDV spreads are directional instruments, not binary markets. Payout increases li
 ## Example Trade
 
 ```
-You buy: Bull $2B to $3B spread
+You buy: Up $2B to $3B spread
 Price: $0.40 USDM per share
 Amount: $10 USDM
 Shares received: 25

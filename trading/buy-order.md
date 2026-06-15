@@ -5,8 +5,6 @@ coverY: 0
 
 # Placing a Buy Order
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying from market</p></figcaption></figure>
-
 A buy order lets you open a position on an outcome, spread, or asset. When you buy, you spend USDM (on MegaETH) or USDC (on Solana) and receive shares, position tokens, or asset tokens representing your exposure.
 
 ## Before You Buy
@@ -21,30 +19,20 @@ Make sure the following are in place before placing a buy order:
 
 ## How to Place a Buy Order
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Active markets</p></figcaption></figure>
-
 1. Go to Markets and open any active market
 2. Select the outcome, spread, or asset you want to buy
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Buying Yes or No</p></figcaption></figure>
-
 * Prediction Markets and Yield Farm: Buy Yes or Buy No
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Pre TGE spread selection</p></figcaption></figure>
 
 * Pre TGE and Pre IPO spread markets: select your target spread
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Option market range selection</p></figcaption></figure>
-
-* Options markets: select the spread and either buy the oPRM from the orderbook or mint a new position
+* Options spread markets: select the spread and choose Up or Down
 * RWA markets: select the asset and buy at the current ask
 
 3. Enter the amount you want to spend
 4. Review the trade details
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Placing order</p></figcaption></figure>
-
-5. Click the buy button to confirm. The label depends on the market type: Buy Yes or Buy No for Prediction Markets and Yield Farm, Buy Outcome for Pre TGE, Pre IPO, and Options markets, Buy for RWA markets.
+5. Click the buy button to confirm. The label depends on the market type: Buy Yes or Buy No for Prediction Markets and Yield Farm, Up or Down for Pre TGE, Pre IPO, and Options spread markets, Buy for RWA markets.
 
 ## What Happens After You Buy
 

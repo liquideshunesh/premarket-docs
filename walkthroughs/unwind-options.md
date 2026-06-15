@@ -5,15 +5,13 @@ coverY: 0
 
 # How to Unwind an Options Position
 
-Unwinding lets you exit an options position before expiry and recover your full collateral, provided you hold equal amounts of both PRM and oPRM tokens.
+Unwinding lets you exit an options position before expiry and recover your collateral. In most cases this happens automatically: when you sell on the orderbook and match an opposite sell, the positions merge and your collateral is released (merge match). You only need the manual unwind below if you hold both sides of a spread and want to recover collateral directly without a counterparty.
 
 {% hint style="warning" %}
 You can only unwind if you hold both PRM and oPRM tokens in equal amounts. If you have already sold your oPRM tokens, you must buy them back first.
 {% endhint %}
 
 ## When to Unwind
-
-<figure><img src="../.gitbook/assets/image (35).png" alt="" width="563"><figcaption><p>Unwind to collateral</p></figcaption></figure>
 
 * You want to exit before expiry without relying on a buyer in the orderbook.
 * You hold both PRM and oPRM tokens and want your collateral back immediately.

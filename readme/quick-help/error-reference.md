@@ -11,7 +11,7 @@ coverY: 0
 | --- | --- | --- |
 | No price available for market order | The orderbook is empty on the side you are trying to trade | Place a limit order at your target price or wait for liquidity |
 | Approval required | You have not approved the settlement currency for spending | Click Approve in the trade panel and retry |
-| Insufficient balance | Your smart account does not have enough USDM (MegaETH) or USDC (Solana) | Deposit more via the Wallet page |
+| Insufficient balance | Your smart account does not have enough USDM (MegaETH) or USDC (Solana) | Deposit more via your Portfolio |
 | Transaction failed | Onchain transaction was rejected | Check your network connection and try again |
 
 ## Wallet Errors

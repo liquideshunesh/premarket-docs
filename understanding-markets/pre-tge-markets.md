@@ -11,8 +11,6 @@ No Pre TGE markets are currently live. This page describes how Pre TGE markets w
 
 ## What are Pre TGE Markets?
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>Pre TGE Market Example</p></figcaption></figure>
-
 Pre TGE markets let you trade on the valuation of a token before it launches. Instead of a binary yes or no outcome, you are taking a position on whether a token's fully diluted valuation will land within a specific range at the time of its token generation event.
 
 ## What is FDV?
@@ -24,8 +22,6 @@ FDV = Token Price at Launch x Total Token Supply
 ```
 
 ## How Spreads Work
-
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>FDV Spreads</p></figcaption></figure>
 
 Each market offers a set of valuation spreads. You pick the spread that matches your view on where the token will launch. Your payout depends on where the FDV lands relative to your spread at settlement.
 
@@ -43,8 +39,6 @@ FDV spreads are directional instruments. Payout increases linearly as the FDV mo
 
 ## How to Trade
 
-<figure><img src="../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>FDV spread market buy</p></figcaption></figure>
-
 Select the spread you want to trade and click to open the trade panel. Enter the amount of USDM you want to spend and confirm. Before placing a market order, check the orderbook to confirm there are active orders on both sides. Your position tokens will appear in your portfolio once confirmed onchain.
 
 ## Chain and Currency
@@ -54,5 +48,9 @@ Pre TGE markets run on MegaETH and settle in USDM. Positions settle automaticall
 ## Fees
 
 Pre TGE market fees: 0.05% maker, 0.10% taker.
+
+{% hint style="info" %}
+**Fees are 0% at launch.** Trading fees are waived across all markets for the launch period. The schedule above is the standard rate that applies once fees are switched on.
+{% endhint %}
 
 Continue to [Options Markets](options-markets.md) or [RWA Markets](rwa-markets.md) for other market types, or head to [How to Trade a Pre TGE Spread](../walkthroughs/pre-tge-band.md) for a full walkthrough. If you need assistance, check out [Quick Help](../readme/quick-help/) or join the community on [Telegram](https://t.me/premarket_xyz).

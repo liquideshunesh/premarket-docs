@@ -7,8 +7,6 @@ coverY: 0
 
 ## What are Prediction Markets?
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Prediction market example</p></figcaption></figure>
-
 Prediction markets let you trade on the outcome of real world events. Each market poses a question and you take a position on whether it will resolve yes or no. If you back the correct outcome and hold to settlement, each share pays $1. If you are wrong, your shares expire at $0.
 
 Prediction markets run on Solana and settle in USDC. They require identity verification and are restricted in certain jurisdictions.
@@ -28,8 +26,6 @@ In prediction markets, the price of a share reflects the market's implied probab
 For details on how the orderbook sets prices, spread, and slippage, see [How Pricing Works](../trading/pricing.md) in [Trading Mechanics](../trading/).
 
 ## How to Buy
-
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Buying Yes or No</p></figcaption></figure>
 
 Before placing a trade, click the Rules tab on the market page. This defines exactly what outcome must occur for YES to resolve at $1. Read it carefully, since the resolution criteria may be stricter or narrower than the market headline suggests.
 

@@ -17,8 +17,6 @@ Go to Markets and filter for Pre TGE markets. Select the token you want to trade
 
 ## Step 2: Understand the Spreads
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>FDV spread</p></figcaption></figure>
-
 Each spread represents a valuation range. Review all available spreads and their prices before selecting one.
 
 ## Step 3: Check the Orderbook

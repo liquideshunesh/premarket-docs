@@ -47,19 +47,22 @@ coverY: 0
 | **IPO** | Initial Public Offering. The official listing of a private company's shares |
 | **FDV** | Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation |
 | **Band** | A valuation range used as a tradable outcome in pre TGE and pre IPO markets |
-| **Bull** | A directional position betting the valuation will land within or above the selected range |
-| **Bear** | A directional position betting the valuation will land within or below the selected range |
+| **Up** | A directional position betting the valuation will land within or above the selected range |
+| **Down** | A directional position betting the valuation will land within or below the selected range |
 
 ## Options Markets
 
 | Term | Definition |
 | --- | --- |
 | **Option** | A conditional payout instrument tied to whether an underlying asset lands within a defined price range at expiry |
-| **PRM Token** | The write position token received when minting an options position. Represents the collateral claim |
-| **oPRM Token** | The outcome token received when minting an options position. Tradable on the orderbook |
-| **Minting** | The process of depositing USDM as collateral to receive PRM and oPRM tokens |
-| **Unwind** | Returning equal amounts of PRM and oPRM tokens before expiry to recover full collateral |
-| **Writer** | A user who mints a position by depositing collateral and receives both PRM and oPRM tokens |
+| **Up / Down** | The two sides of a spread market. Up profits as the asset settles within or above the range, Down within or below |
+| **PRM Token** | The Down (write) side of a spread. Represents the collateral claim. Handled automatically when you trade on the book |
+| **oPRM Token** | The Up side of a spread. Represents the directional position. Handled automatically when you trade on the book |
+| **Mint match** | When an Up buy matches a Down buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
+| **Merge match** | When an Up sell matches a Down sell, the positions merge and collateral is released to each side automatically |
+| **Minting** | Depositing USDM as collateral to receive both sides of a spread directly. The optional writer path |
+| **Unwind** | Recovering collateral by returning both sides before expiry. Happens automatically via merge match when you trade on the book |
+| **Writer** | A user who mints a position pair directly to provide liquidity and collect premium |
 | **Expiry** | The time at which an options market resolves and positions are settled |
 | **ITM (In the Money)** | When the underlying asset settles within the option's strike range at expiry |
 | **OTM (Out of the Money)** | When the underlying asset settles outside the option's strike range at expiry |

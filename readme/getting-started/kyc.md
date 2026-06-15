@@ -9,12 +9,10 @@ coverY: 0
 
 Identity verification is required only for Prediction Markets and Yield Farm. These products route through a liquidity partner on Solana that requires verified identity. Pre IPO, Pre TGE, Options, and RWA markets do not require verification.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption><p>Identity verification flow</p></figcaption></figure>
-
 There are two ways to start verification:
 
 1. From a market. Click Buy Yes or Buy No on any Prediction Market or Yield Farm leg and you will be redirected to the verification flow automatically.
-2. From your wallet. Go to the Wallet page and click Verify Identity.
+2. From your wallet. Go to your Portfolio and click Verify Identity.
 
 Submit a government issued ID and complete face verification if prompted. Once confirmed, your account is enabled for Prediction Market and Yield Farm trading automatically.
 

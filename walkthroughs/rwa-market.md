@@ -20,8 +20,6 @@ Each market shows:
 
 ## Step 2: Select an Asset
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Token selection inside an RWA market</p></figcaption></figure>
-
 Choose the token you want to trade from the market list.
 
 Examples:
@@ -35,8 +33,6 @@ Selecting a token updates the buy and sell panel and the orderbook.
 
 ## Step 3: Check the Orderbook
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Order Book</p></figcaption></figure>
-
 Open the orderbook and confirm there is active liquidity.
 
 * Bids are buyers
@@ -45,8 +41,6 @@ Open the orderbook and confirm there is active liquidity.
 If no matching orders exist, market orders cannot execute.
 
 ## Step 4: Buy the Market
-
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Recent Trades</p></figcaption></figure>
 
 Select Buy. Enter the amount of USDM you want to spend. Review estimated shares and execution price and proceed to confirm the trade. If matching sell orders exist, the order executes immediately.
 

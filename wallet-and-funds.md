@@ -5,8 +5,6 @@ coverY: 0
 
 # Wallet and Funds
 
-<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Smart Account</p></figcaption></figure>
-
 All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
 
 ## How the Wallet Structure Works
@@ -36,7 +34,7 @@ You hold balances on both chains in the same smart account. Make sure you are de
 
 ## How to Deposit
 
-1. Go to the Wallet page.
+1. Go to your Portfolio.
 2. Select the token you want to deposit.
 3. Enter the amount.
 4. Click Approve if this is your first deposit of that token.
@@ -44,7 +42,7 @@ You hold balances on both chains in the same smart account. Make sure you are de
 
 ## How to Withdraw
 
-1. Go to the Wallet page and find the Withdraw section.
+1. Go to your Portfolio and find the Withdraw section.
 2. Select the token and enter the amount. You can only withdraw funds not locked in active positions.
 3. Click Withdraw and confirm the transaction.
 
