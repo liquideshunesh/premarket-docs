@@ -9,6 +9,8 @@ Most assets only become tradable after they already exist. By the time a token l
 
 ## Introduction
 
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption><p>Premarket application homepage</p></figcaption></figure>
+
 Premarket is a trading platform for assets and outcomes before they exist or resolve anywhere else. Before a token launches, before a company goes public, before an event resolves, you can already take a position on what you think will happen. The platform also supports trading on existing assets through options and tokenised real world assets.
 
 ## Market Types
@@ -41,9 +43,13 @@ Trade valuation spreads on tokens before launch. Same mechanic as Pre IPO. You p
 
 Trade structured upside or downside on existing assets using predefined strike ranges. Each spread has two sides, Up and Down. Runs on MegaETH with USDM. Live markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
 
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Options chain with buy and sell choices</p></figcaption></figure>
+
 > **Example:** ETH is trading around $2,290. You believe it will settle between $2,400 and $2,500 at expiry. You buy Up on the $2,400 to $2,500 spread. If ETH settles within the range, payout scales linearly toward the upper strike. If it settles at $2,500 or above, you receive the maximum payout. If it settles below $2,400, the position expires worthless.
 
 ### 6. RWA Markets
+
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>RWA market example with buy and sell options</p></figcaption></figure>
 
 Trade tokenised real world assets directly against USDM. These are perpetual spot markets with no expiry. Profit or loss is realised only when you sell. Runs on MegaETH. Live markets are Fullerene C60 99.5%, Fullerene C60 99.9%, Fullerene C70 98%, and Fullerene C70 99.9%, all per gram.
 

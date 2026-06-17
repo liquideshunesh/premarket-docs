@@ -9,6 +9,8 @@ Setting up on Premarket takes a few steps before you can place your first trade.
 
 ## Step 1: Access the App
 
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Premarket application homepage</p></figcaption></figure>
+
 Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets section. You can browse active markets without any setup, but placing a trade requires completing the steps below.
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Premarket app entry</p></figcaption></figure>
