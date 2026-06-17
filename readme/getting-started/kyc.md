@@ -23,6 +23,8 @@ Submit a government issued ID and complete face verification if prompted. Once c
 3. Submit a government issued ID.
 4. Complete face verification if prompted.
 
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Identity verification screen where users begin the KYC flow.</p></figcaption></figure>
+
 Once submitted, return to Premarket. Your account will be enabled for trading automatically once the verification provider confirms your identity, which usually takes a few seconds. If your account is not enabled within a few minutes, refresh the page. If it is still locked after refreshing, reach out on [Telegram](https://t.me/premarket_xyz).
 
 ### If Verification Fails
@@ -34,6 +36,8 @@ The verification provider may reject your submission if your document is unclear
 * Make sure the document is current and not expired.
 
 If verification keeps failing after retrying, reach out on Telegram for support.
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Verified account state showing that Prediction Market and Yield Farm trading is enabled.</p></figcaption></figure>
 
 ## Next Steps
 

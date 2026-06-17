@@ -33,3 +33,9 @@ Pre IPO, Pre TGE, Options, and RWA markets on MegaETH are auto redeemed at settl
 {% hint style="info" %}
 Prediction Markets and Yield Farm route through a liquidity partner on Solana and require manual redemption. Once your position expires, you interact with the DFlow contract to burn your shares and bridge your USDC back to your wallet.
 {% endhint %}
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of a settled MegaETH position and a settled Solana position.
+
+_Caption:_ Settlement examples showing the difference between automatic payout and manual redemption.

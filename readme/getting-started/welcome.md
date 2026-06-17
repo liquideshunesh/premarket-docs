@@ -49,6 +49,8 @@ Trade tokenised real world assets directly against USDM. These are perpetual spo
 
 > **Example:** You buy 1g Fullerene C60 99.5% using USDM at the current market price. The market is perpetual with no expiry, so you hold the position as long as you want and sell back to USDM when you choose to exit. Your profit or loss is the difference between your buy and sell price.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Premarket app overview</p></figcaption></figure>
+
 ## How All Markets Work
 
 All market types run on a live orderbook. Prices are not set by the platform, they emerge from real buy and sell orders. A higher price means the market collectively believes something is more likely. You can enter and exit positions freely before settlement, as long as someone is willing to take the other side.
@@ -61,5 +63,7 @@ All market types run on a live orderbook. Prices are not set by the platform, th
 * Settlement at expiry is always guaranteed. Pre IPO, Pre TGE, Options, and RWA markets settle automatically to your smart account on MegaETH. Prediction Markets and Yield Farm run on Solana and require a manual redemption step via the DFlow contract.
 * Prediction Markets and Yield Farm require identity verification and are not available in all regions. All other markets do not require verification.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Example market page</p></figcaption></figure>
 
 Head to [Getting Started](setup.md) next, for steps on account setup and your first trade.

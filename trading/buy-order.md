@@ -23,16 +23,15 @@ Make sure the following are in place before placing a buy order:
 2. Select the outcome, spread, or asset you want to buy
 
 * Prediction Markets and Yield Farm: Buy Yes or Buy No
-
 * Pre TGE and Pre IPO spread markets: select your target spread
-
 * Options spread markets: select the spread and choose Up or Down
 * RWA markets: select the asset and buy at the current ask
 
 3. Enter the amount you want to spend
 4. Review the trade details
-
 5. Click the buy button to confirm. The label depends on the market type: Buy Yes or Buy No for Prediction Markets and Yield Farm, Up or Down for Pre TGE, Pre IPO, and Options spread markets, Buy for RWA markets.
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Buy order flow</p></figcaption></figure>
 
 ## What Happens After You Buy
 
@@ -45,3 +44,5 @@ Make sure the following are in place before placing a buy order:
 | ------------------ | -------------------------------- | --------------------------------------- |
 | No price available | Orderbook is empty               | Try a limit order or wait for liquidity |
 | Approval required  | Settlement currency not approved | Click Approve and retry                 |
+
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Active position after buy order</p></figcaption></figure>

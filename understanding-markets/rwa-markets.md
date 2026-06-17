@@ -11,12 +11,14 @@ Real World Asset markets let you trade tokenised real world items directly again
 
 The following RWA markets are currently live, all on MegaETH and paired against USDM:
 
-| Market | Asset |
-| --- | --- |
+| Market                 | Asset                            |
+| ---------------------- | -------------------------------- |
 | Fullerene C60 99.5% 1g | 1 gram of 99.5% purity Carbon 60 |
 | Fullerene C60 99.9% 1g | 1 gram of 99.9% purity Carbon 60 |
-| Fullerene C70 98% 1g | 1 gram of 98% purity Carbon 70 |
+| Fullerene C70 98% 1g   | 1 gram of 98% purity Carbon 70   |
 | Fullerene C70 99.9% 1g | 1 gram of 99.9% purity Carbon 70 |
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>RWA market</p></figcaption></figure>
 
 ## Key Characteristics
 

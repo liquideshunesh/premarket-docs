@@ -17,23 +17,29 @@ Every Prediction Market has a YES side and a NO side, each priced between $0 and
 
 > **Example:** Tottenham relegation NO is trading at 91¢. The market believes there is a 91% chance Tottenham does not get relegated. You buy at 91¢, hold to settlement, and if they avoid relegation you receive $1. Yield is 9¢ per share, or about 9.9% on capital deployed over the holding period.
 
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Yield Farm table showing entry price, yield, APR, expiry, and liquidity.</p></figcaption></figure>
+
 ## How to Read the Yield Farm Table
 
 The Yield Farm page lists each leg with:
 
-| Column | Meaning |
-| --- | --- |
-| Market | The underlying prediction market |
-| Side | YES or NO leg |
-| Entry | Current ask price in cents |
-| Yield | Spread between entry price and $1 |
-| APR | Yield annualised based on time to expiry |
-| Expiry | When the underlying market resolves |
-| Liquidity | Available size at current price |
+| Column    | Meaning                                  |
+| --------- | ---------------------------------------- |
+| Market    | The underlying prediction market         |
+| Side      | YES or NO leg                            |
+| Entry     | Current ask price in cents               |
+| Yield     | Spread between entry price and $1        |
+| APR       | Yield annualised based on time to expiry |
+| Expiry    | When the underlying market resolves      |
+| Liquidity | Available size at current price          |
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Yield Farm leg detail showing the BTC price market and trade action.</p></figcaption></figure>
 
 ## How to Trade
 
 Open the Yield Farm tab, sort by APR or by expiry, and select a leg you have conviction on. Trading mechanics are identical to Prediction Markets. You spend USDC, receive outcome shares, and hold to settlement. Settlement requires a manual redemption step on Solana via the DFlow contract.
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Position on market page</p></figcaption></figure>
 
 ## Risk
 

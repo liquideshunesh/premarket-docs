@@ -29,9 +29,13 @@ Although the core mechanics are shared, each market type behaves differently at 
 | Options Markets    | MegaETH | USDM     | Automatic to smart account | Not required          | Yes             |
 | RWA Markets        | MegaETH | USDM     | Perpetual, no settlement   | Not required          | Yes             |
 
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Markets interface showing the available market types and current listings.</p></figcaption></figure>
+
 ## How to Read the Orderbook
 
 The orderbook shows all active buy and sell orders for a market in a single unified book. On spread markets the Up and Down sides share one book. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Market page showing bids, asks, spread, and trade</p></figcaption></figure>
 
 ## How Your Execution Price Is Determined
 
@@ -45,6 +49,8 @@ Settlement at expiry varies by product:
 
 * MegaETH markets (Pre IPO, Pre TGE, Options, RWA): positions settle automatically at expiry and proceeds are sent directly to your smart account. No action required.
 * Solana markets (Prediction Markets, Yield Farm): positions require manual redemption via the DFlow contract once expired. This burns your shares and bridges USDC back to your wallet.
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Representative market page</p></figcaption></figure>
 
 After placing a trade, your position may briefly appear as pending in your portfolio while the fill is confirmed onchain. Once confirmed, it will show full position details.
 

@@ -15,11 +15,17 @@ Each prediction market has a Rules section that defines exactly what constitutes
 
 ## What Happens to Your Position
 
-| Position | Result |
-| --- | --- |
+| Position                | Result                             |
+| ----------------------- | ---------------------------------- |
 | Holding winning outcome | $1 per share, redeemable via DFlow |
-| Holding losing outcome | Shares expire at $0 |
-| Sold before settlement | P&L already realised |
+| Holding losing outcome  | Shares expire at $0                |
+| Sold before settlement  | P\&L already realised              |
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of a resolved Prediction Market or Yield Farm position.
+
+_Caption:_ Binary settlement example showing the winning side and redeemable value.
 
 ## Example
 
@@ -37,3 +43,9 @@ If it does not:
 {% hint style="info" %}
 Settlement is guaranteed. The worst case is holding to expiry and receiving the binary outcome. Solana prediction markets and Yield Farm positions require manual redemption via the DFlow contract.
 {% endhint %}
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of the manual redemption action through the position UI.
+
+_Caption:_ Redemption flow showing how users claim USDC after a Solana market settles.

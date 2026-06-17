@@ -11,6 +11,8 @@ Setting up on Premarket takes a few steps before you can place your first trade.
 
 Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets section. You can browse active markets without any setup, but placing a trade requires completing the steps below.
 
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Premarket app entry</p></figcaption></figure>
+
 ## Step 2: Complete Identity Verification (Prediction Markets and Yield Farm only)
 
 Prediction Markets and Yield Farm route through a liquidity partner that requires identity verification. You can start verification in two ways: click Buy Yes or Buy No on any prediction market, or go to your Portfolio and click Verify Identity. Either path redirects you to the identity verification provider. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading.
@@ -18,6 +20,8 @@ Prediction Markets and Yield Farm route through a liquidity partner that require
 {% hint style="info" %}
 Identity verification is only required for Prediction Markets and Yield Farm. If you only trade Pre IPO, Pre TGE, Options, or RWA markets, skip this step and continue to Step 3.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Identity verification prompt shown before trading Prediction Markets or Yield Farm.</p></figcaption></figure>
 
 ## Step 3: Create Your Smart Account
 
@@ -27,18 +31,22 @@ Open your Portfolio, where your smart account is set up automatically, and wait 
 
 For more detail on how the wallet structure works, see [Wallet and Funds](../../wallet-and-funds.md).
 
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Portfolio view showing smart account setup</p></figcaption></figure>
+
 ## Step 4: Deposit Funds
 
 Once your smart account is created, click Deposit and send supported assets to your smart account. Wait for your balance to update before placing a trade.
 
 Make sure you are depositing on the correct network for the product you want to trade:
 
-| Network | Markets | Currency |
-| --- | --- | --- |
-| MegaETH | Pre IPO, Pre TGE, Options, RWA | USDM |
-| Solana | Prediction Markets, Yield Farm | USDC |
+| Network | Markets                        | Currency |
+| ------- | ------------------------------ | -------- |
+| MegaETH | Pre IPO, Pre TGE, Options, RWA | USDM     |
+| Solana  | Prediction Markets, Yield Farm | USDC     |
 
 Depositing on the wrong network means your funds will not be available for the market you want to trade.
+
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption><p>Deposit flow showing asset </p></figcaption></figure>
 
 ## Step 5: Place Your First Trade
 
@@ -49,6 +57,8 @@ Go to any active market and select an outcome. For Prediction Markets and Yield 
 After placing a trade, track it in your Portfolio. You can monitor price changes and exit early by selling your position before settlement, provided there is liquidity available on the other side.
 
 If you hold to expiry, settlement depends on the market type. Pre IPO, Pre TGE, Options, and RWA markets settle automatically to your smart account. Prediction Markets and Yield Farm run on Solana and require a manual redemption step via the DFlow contract once your position expires. See [Receiving Your Payout](../../payouts-and-settlement/receiving-payout.md) for details.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Active Portfolio</p></figcaption></figure>
 
 If you have completed these steps and want to learn more, check out these pages:
 

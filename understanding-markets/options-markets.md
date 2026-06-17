@@ -13,8 +13,8 @@ Options markets on Premarket let you trade price ranges of an underlying asset o
 
 The following options spread markets are live, all on MegaETH and paired against USDM:
 
-| Market           | Underlying | Sides    |
-| ---------------- | ---------- | -------- |
+| Market           | Underlying | Sides     |
+| ---------------- | ---------- | --------- |
 | BTC/USD Spreads  | Bitcoin    | Up / Down |
 | ETH/USD Spreads  | Ether      | Up / Down |
 | HYPE/USD Spreads | HYPE       | Up / Down |
@@ -22,14 +22,16 @@ The following options spread markets are live, all on MegaETH and paired against
 
 Each market lists weekly expiries with multiple strike spreads. You choose a spread and a side.
 
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Live option market</p></figcaption></figure>
+
 ## How Spread Markets Work
 
 Each spread represents a price range with two sides. You are not buying the asset itself. You are taking a position that pays out based on where the asset settles relative to your chosen range at expiry. Each spread is an independent tradable instrument with its own orderbook and price.
 
-| Side | Meaning                                                          |
-| ---- | --------------------------------------------------------------- |
-| Up   | You profit as the asset settles within or above the range       |
-| Down | You profit as the asset settles within or below the range       |
+| Side | Meaning                                                   |
+| ---- | --------------------------------------------------------- |
+| Up   | You profit as the asset settles within or above the range |
+| Down | You profit as the asset settles within or below the range |
 
 ## How to Trade
 
@@ -39,6 +41,8 @@ The default flow is simple: select a spread, pick Up or Down, and place an order
 2. Choose Up or Down.
 3. Enter your amount and place a market or limit order.
 4. Your position appears in Portfolio once the order fills.
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Options trade panel</p></figcaption></figure>
 
 ## How Matching Works Behind the Scenes
 
@@ -53,10 +57,10 @@ You never have to mint or unwind manually. Placing an order on the book does it 
 
 If you want to provide liquidity and collect premium, you can still mint a position pair directly. Minting deposits USDM as collateral and gives you both sides of the spread, which you can then sell on the orderbook. This is the writer path and is optional.
 
-| Token | Role                                                                              |
-| ----- | --------------------------------------------------------------------------------- |
-| PRM   | The Down side. Represents the write position and collateral claim.                |
-| oPRM  | The Up side. Represents the directional position. Tradable on the orderbook.      |
+| Token | Role                                                                         |
+| ----- | ---------------------------------------------------------------------------- |
+| PRM   | The Down side. Represents the write position and collateral claim.           |
+| oPRM  | The Up side. Represents the directional position. Tradable on the orderbook. |
 
 ## Settlement
 

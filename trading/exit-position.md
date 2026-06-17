@@ -17,14 +17,16 @@ For options spread markets: selling on the orderbook automatically unwinds your 
 
 For RWA markets, there is no expiry. The only way to exit is to sell back into the orderbook.
 
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Open position view showing current value, unrealised P&#x26;L, and the exit action</p></figcaption></figure>
+
 ## Why Exit Early?
 
-| Reason | When |
-| --- | --- |
-| Lock in profit | Price has moved in your favour |
-| Cut losses | Market has moved against you |
+| Reason             | When                           |
+| ------------------ | ------------------------------ |
+| Lock in profit     | Price has moved in your favour |
+| Cut losses         | Market has moved against you   |
 | Reallocate capital | Free up funds for other trades |
-| Avoid uncertainty | Exit before a resolution event |
+| Avoid uncertainty  | Exit before a resolution event |
 
 ## Example
 
@@ -36,3 +38,5 @@ Click Sell, receive $4.41
 Realised loss = $0.59 total, or about $0.03 per share
 No further exposure to the outcome.
 ```
+
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Closed position or position history entry showing the final realised result.</p></figcaption></figure>

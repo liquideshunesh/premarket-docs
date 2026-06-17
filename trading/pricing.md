@@ -21,6 +21,8 @@ There is usually a gap between the highest bid and the lowest ask. This is calle
 
 > **Example:** Best bid 24c, best ask 26c. The spread is 2c.
 
+<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Orderbook view showing the live spread between buyers and sellers.</p></figcaption></figure>
+
 ## Slippage
 
 For larger trades, your order may consume multiple price levels in the orderbook. This means your average execution price may differ from the price displayed when you entered. This is called slippage.

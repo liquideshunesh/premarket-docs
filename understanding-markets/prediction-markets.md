@@ -16,14 +16,16 @@ Prediction markets run on Solana and settle in USDC. They require identity verif
 In prediction markets, the price of a share reflects the market's implied probability of that outcome. A share trading at $0.25 means the market collectively believes there is roughly a 25% chance of YES. At $0.80, it implies 80%. This is a consensus estimate driven by real buy and sell orders, not a guarantee. Prices move as sentiment shifts and new information enters the market.
 
 | Price | Implied Probability |
-| --- | --- |
-| $0.10 | about 10% chance |
-| $0.25 | about 25% chance |
-| $0.50 | about 50% chance |
-| $0.75 | about 75% chance |
-| $0.90 | about 90% chance |
+| ----- | ------------------- |
+| $0.10 | about 10% chance    |
+| $0.25 | about 25% chance    |
+| $0.50 | about 50% chance    |
+| $0.75 | about 75% chance    |
+| $0.90 | about 90% chance    |
 
 For details on how the orderbook sets prices, spread, and slippage, see [How Pricing Works](../trading/pricing.md) in [Trading Mechanics](../trading/).
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Prediction Market showing the event question, outcome prices, and expiry.</p></figcaption></figure>
 
 ## How to Buy
 
@@ -33,11 +35,17 @@ To open a position, select an outcome and click Buy Yes or Buy No. Enter the amo
 
 > **Example:** Buy YES at $0.25. If YES resolves correctly, each share pays $1. Your profit is $0.75 per share.
 
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Prediction Market trade panel showing amount entry, price, and share estimate.</p></figcaption></figure>
+
 ## How to Sell
 
-You can exit your position before settlement by selling your shares back into the orderbook. Navigate to your portfolio, find the position, and click Sell. Your shares are sold at the current bid price and you receive USDC in return. Selling locks in your profit or loss based on the price difference, not the final outcome. Once you sell, you no longer have exposure to how the market resolves.
+You can exit your position before settlement by selling your shares back into the orderbook. Navigate to the market or your portfolio, find the position, and click Sell. Your shares are sold at the current bid price and you receive USDC in return. Selling locks in your profit or loss based on the price difference, not the final outcome. Once you sell, you no longer have exposure to how the market resolves.
 
 > **Example:** Buy 20 YES shares at $0.25 for $5. Sell at $0.30 and receive $6. Profit is $1 total, or $0.05 per share, regardless of final outcome.
+
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Position in market</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Position in portfolio</p></figcaption></figure>
 
 ## Settlement
 
@@ -46,6 +54,8 @@ If you hold your position to expiry, the winning outcome pays $1 per share and t
 {% hint style="success" %}
 Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Position in portfolio</p></figcaption></figure>
 
 ## Yield Farm View
 

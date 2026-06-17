@@ -9,10 +9,16 @@ Settlement price is the final value applied to your position when a market resol
 
 ## The Core Principle
 
-| Concept | Source | Meaning |
-| --- | --- | --- |
-| Market Price | Order book | What traders believe |
+| Concept          | Source           | Meaning                |
+| ---------------- | ---------------- | ---------------------- |
+| Market Price     | Order book       | What traders believe   |
 | Settlement Price | Rules and Oracle | What actually happened |
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of a market rules panel or settlement details modal.
+
+_Caption:_ Settlement details showing the reference source used for final resolution.
 
 ## For Prediction Markets and Yield Farm
 
@@ -45,3 +51,9 @@ RWA markets have no settlement price. They are perpetual. The only price that ma
 {% hint style="warning" %}
 If data sources conflict, a predefined hierarchy determines which source wins. If no reliable data is available, the market may be cancelled and positions refunded.
 {% endhint %}
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of a final reference price or oracle value shown in the app.
+
+_Caption:_ Final settlement reference shown after expiry for a price based market.

@@ -15,9 +15,13 @@ Go to [app.premarket.xyz](https://app.premarket.xyz) and open the Markets sectio
 
 Before trading, click the Rules tab on the market page. This defines exactly what outcome must occur for YES to resolve at $1. Read this carefully before placing any trade.
 
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Prediction Market page showing the event, current prices, and expiry.</p></figcaption></figure>
+
 ## Step 3: Check the Orderbook
 
 Click the Orderbook tab. Confirm there are active bids and asks on both sides. If one side is empty, you may not be able to execute at a market order.
+
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Market detail view showing the rules and live orderbook before entering a trade.</p></figcaption></figure>
 
 ## Step 4: Place Your Trade
 
@@ -25,6 +29,8 @@ Click the Orderbook tab. Confirm there are active bids and asks on both sides. I
 2. Enter the amount of USDC you want to spend.
 3. Review the shares you will receive and the maximum payout.
 4. Click Buy Yes or Buy No to confirm.
+
+<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Trade flow showing amount entry, share estimate, and the final confirmation action.</p></figcaption></figure>
 
 ## Step 5: Track Your Position
 
@@ -34,3 +40,5 @@ Go to Portfolio. Your position appears with current value, shares held, and unre
 
 1. To exit early: click Sell next to your position in Portfolio. Confirm the transaction. Your P\&L is locked in immediately.
 2. To hold to settlement: when the event resolves, winning shares pay $1 and losing shares pay $0. Prediction markets route through a liquidity partner on Solana, so once your position expires you need to redeem it manually via the DFlow contract. This burns your shares, redeems the USDC, and bridges it back to your wallet.
+
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Prediction Market position</p></figcaption></figure>

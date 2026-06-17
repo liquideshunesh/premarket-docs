@@ -14,6 +14,12 @@ coverY: 0
 5. Click Deposit and confirm the transaction in your wallet.
 6. Wait for your balance to update onchain.
 
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of the deposit panel with token and network selection.
+
+_Caption:_ Deposit flow showing supported assets and the correct network choice.
+
 ## Withdrawing Funds
 
 1. Open your Portfolio and find the Withdraw section.
@@ -27,3 +33,9 @@ coverY: 0
 * Withdraw button disabled: balance is zero or funds are locked in open positions.
 * Funds not visible: wait for open positions to settle before withdrawing.
 {% endhint %}
+
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of the withdrawal panel or a completed withdrawal state.
+
+_Caption:_ Withdrawal flow showing available balance, amount entry, and confirmation.

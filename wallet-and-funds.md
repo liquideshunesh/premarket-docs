@@ -23,6 +23,8 @@ Settlement: Position > Settled > Funds credited to Smart Account
 Withdrawal: Smart Account > Primary Wallet
 ```
 
+<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption><p>Wallet view showing balances, smart account details, and funding actions.</p></figcaption></figure>
+
 ## Networks and Currencies
 
 | Network | Currency | Markets                        |
@@ -40,6 +42,8 @@ You hold balances on both chains in the same smart account. Make sure you are de
 4. Click Approve if this is your first deposit of that token.
 5. Click Deposit and confirm in your wallet.
 
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Funding smart wallet</p></figcaption></figure>
+
 ## How to Withdraw
 
 1. Go to your Portfolio and find the Withdraw section.
@@ -53,3 +57,5 @@ You hold balances on both chains in the same smart account. Make sure you are de
 * Funds not visible: you may have an open position that has not yet settled.
 * Cannot withdraw full balance: part of your funds is locked in active positions.
 {% endhint %}
+
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption><p>Withdrawing from smart wallet</p></figcaption></figure>

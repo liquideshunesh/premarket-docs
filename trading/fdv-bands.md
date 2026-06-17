@@ -48,6 +48,12 @@ FDV spreads are directional instruments, not binary markets. Payout increases li
 | FDV within the range   | Payout increases linearly toward the lower strike |
 | FDV below lower strike | Maximum payout. Capped at the lower strike value. |
 
+### Screenshot
+
+**Screenshot placeholder:** Add a screenshot of a selected Up or Down spread with pricing details.
+
+_Caption:_ Selected spread showing direction, current price, and payout context.
+
 ## Example Trade
 
 ```
