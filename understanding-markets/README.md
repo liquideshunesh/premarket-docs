@@ -37,7 +37,7 @@ Premarket offers three main product types: Prediction Markets, Options Markets, 
   * Run on MegaETH
   * Use supported deposited assets and quote currencies
   * No expiry-based options settlement
-  * Value is realized by buying, holding, and selling
+  * Value is realised by buying, holding, and selling
 
 Market labels such as Pre-TGE, Pre-IPO, and some crypto listings describe categories within options-style markets when they use the same UP/DOWN spread mechanics. Yield Farm is a filtered view of prediction market legs, not a separate product.
 
@@ -73,11 +73,11 @@ Settlement and post-trade handling differ by product:
 
 * **Prediction Markets:** if the market resolves normally, winning shares are redeemable for $1 and losing shares expire at $0. Redemption is manual through DFlow.
 * **Options Markets:** positions are cash-settled at expiry based on the market rules and final settlement value. UP and DOWN split a combined value of $1.
-* **RWA / Spot Markets:** these markets do not use expiry-based settlement. Users realize value by buying and selling supported assets through the orderbook.
+* **RWA / Spot Markets:** these markets do not use expiry-based settlement. Users realise value by buying and selling supported assets through the orderbook.
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Representative market page</p></figcaption></figure>
 
-For MegaETH products, your smart account handles deposits, balances, open positions, and settlement proceeds. See [Smart Account and 1-Click Trading](../readme/getting-started/setup.md) for the current account setup flow.
+For MegaETH products, your smart account handles deposits, balances, open positions, and settlement proceeds. See [Smart Account and 1-Click Trading](../readme/getting-started/smart-account.md) for the current account setup flow.
 
 After placing a trade, your position may briefly appear as pending in your portfolio while the fill is confirmed onchain. Once confirmed, it will show full position details.
 
@@ -85,5 +85,5 @@ Choose the guide that matches the product you want to trade:
 
 1. [Prediction Markets](prediction-markets.md): binary YES/NO event markets on Solana, with manual redemption through DFlow.
 2. [Options Markets](options-markets.md): UP/DOWN spread markets on MegaETH, including categories such as Pre-TGE and Pre-IPO where the same mechanics apply.
-3. [RWA Markets](rwa-markets.md): spot orderbook markets for supported assets on MegaETH.
+3. [RWA / Spot Markets](rwa-markets.md): spot orderbook markets for supported assets on MegaETH.
 4. [Yield Farm](yield-farm.md): a filtered view of prediction market legs, not a separate product type.

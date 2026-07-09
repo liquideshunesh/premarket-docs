@@ -36,7 +36,7 @@ coverY: 0
 | **Outcome Token** | A token representing a position in a specific outcome. Settles to $1 if correct and $0 if incorrect |
 | **Settlement** | The final resolution of a market based on the real world result |
 | **Payout** | The amount received after settlement |
-| **Implied Probability** | The market price interpreted as a probability. A price of $0.25 implies roughly a 25% chance |
+| **Implied Probability** | The market price interpreted as roughly pricing an outcome, before fees, spreads, and liquidity conditions. A price of $0.25 can be read as roughly 25% |
 | **Yield (Yield Farm)** | The spread between the entry price and $1, representing the return if the leg resolves correctly |
 
 ## Pre TGE and Pre IPO Markets
@@ -46,28 +46,25 @@ coverY: 0
 | **TGE** | Token Generation Event. The official launch of a token |
 | **IPO** | Initial Public Offering. The official listing of a private company's shares |
 | **FDV** | Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation |
-| **Band** | A valuation range used as a tradable outcome in pre TGE and pre IPO markets |
-| **Up** | A directional position betting the valuation will land within or above the selected range |
-| **Down** | A directional position betting the valuation will land within or below the selected range |
+| **Band** | A valuation range with a lower strike and an upper strike |
+| **UP** | Call-spread-like exposure. Payout increases as settlement moves higher through the range and reaches max value above the upper strike |
+| **DOWN** | Put-spread-like exposure. Payout increases as settlement moves lower through the range and reaches max value below the lower strike |
 
 ## Options Markets
 
 | Term | Definition |
 | --- | --- |
-| **Option** | A conditional payout instrument tied to whether an underlying asset lands within a defined price range at expiry |
-| **Up / Down** | The two sides of a spread market. Up profits as the asset settles within or above the range, Down within or below |
-| **PRM Token** | The Down (write) side of a spread. Represents the collateral claim. Handled automatically when you trade on the book |
-| **oPRM Token** | The Up side of a spread. Represents the directional position. Handled automatically when you trade on the book |
-| **Mint match** | When an Up buy matches a Down buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
-| **Merge match** | When an Up sell matches a Down sell, the positions merge and collateral is released to each side automatically |
-| **Minting** | Depositing USDM as collateral to receive both sides of a spread directly. The optional writer path |
+| **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a defined price range at expiry |
+| **UP / DOWN** | The two sides of a spread market. UP and DOWN split a combined value of $1 at settlement |
+| **Mint match** | When an UP buy matches a DOWN buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
+| **Merge match** | When an UP sell matches a DOWN sell, the positions merge and collateral is released to each side automatically |
+| **Minting** | Depositing USDM as collateral to receive both sides of a spread directly. This is an optional advanced path |
 | **Unwind** | Recovering collateral by returning both sides before expiry. Happens automatically via merge match when you trade on the book |
-| **Writer** | A user who mints a position pair directly to provide liquidity and collect premium |
 | **Expiry** | The time at which an options market resolves and positions are settled |
-| **ITM (In the Money)** | When the underlying asset settles within the option's strike range at expiry |
-| **OTM (Out of the Money)** | When the underlying asset settles outside the option's strike range at expiry |
+| **Inside the Range** | When the final settlement price lands between the lower and upper strike, so UP and DOWN receive partial payouts |
+| **Outside the Range** | When the final settlement price lands above the upper strike or below the lower strike. Which side wins depends on direction |
 
-## RWA Markets
+## RWA / Spot Markets
 
 | Term | Definition |
 | --- | --- |
@@ -83,4 +80,4 @@ coverY: 0
 | **Smart Account** | A delegated trading wallet that batches transactions and abstracts gas |
 | **Subkey** | A delegated key that operates the smart account. Managed by the system |
 | **Onchain Settlement** | Final execution of a trade or settlement recorded on the blockchain |
-| **DFlow** | The liquidity partner for Prediction Markets and Yield Farm on Solana. Manual redemption is required via the DFlow contract |
+| **DFlow** | The infrastructure that tokenizes Kalshi markets on Solana for Prediction Markets. Manual redemption is required through DFlow |

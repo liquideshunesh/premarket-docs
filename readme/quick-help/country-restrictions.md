@@ -9,7 +9,7 @@ Premarket applies geographic restrictions to Prediction Markets and Yield Farm o
 
 ## What this means for you
 
-If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets or Yield Farm specifically. All other products (Pre IPO, Pre TGE, Options, and RWAs) remain fully accessible regardless of location.
+If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets or Yield Farm specifically. All other products and categories, including Pre IPO, Pre TGE, Options, and RWA/Spot Markets, remain fully accessible regardless of location.
 
 ### Restricted Countries (Prediction Markets and Yield Farm only)
 
@@ -21,7 +21,7 @@ Access is also restricted from any jurisdiction subject to comprehensive U.S. co
 
 ### Why these restrictions exist
 
-Prediction markets are classified as gambling, restricted financial products, or regulated derivatives in many jurisdictions. The restriction list is set by our liquidity partner and Premarket enforces it at the product level to remain compliant. Yield Farm uses the same prediction market contracts and inherits the same restrictions.
+Prediction markets are classified as gambling, restricted financial products, or regulated derivatives in many jurisdictions. Premarket enforces restrictions at the product level to remain compliant. Yield Farm uses the same prediction market infrastructure and inherits the same restrictions.
 
 ### How your location is detected
 

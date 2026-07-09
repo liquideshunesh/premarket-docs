@@ -47,4 +47,4 @@ Each correct share pays $1 at settlement.
 | Yes price plus No price always equals 100%        | They often do not, due to spread and orderbook structure |
 | Small trades always get the exact displayed price | Not guaranteed in low liquidity conditions               |
 
-Head to [How FDV Spreads Work](fdv-bands.md) for a breakdown of how pricing applies to pre TGE and pre IPO spread markets.
+Head to [How Valuation Spreads Work](fdv-bands.md) for a breakdown of how pricing applies to pre TGE and pre IPO spread markets.

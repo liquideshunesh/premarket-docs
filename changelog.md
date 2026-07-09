@@ -12,9 +12,9 @@ coverY: 0
 | Item                  | Detail                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------- |
 | Platform              | Premarket goes live across MegaETH and Solana                                         |
-| Markets               | Predictions, Yield Farm, Pre IPO, Pre TGE, Options, RWAs                              |
+| Markets               | Prediction Markets, Options Markets, RWA/Spot Markets, and related market categories  |
 | Wallet                | Smart account wallet infrastructure live                                              |
-| Identity verification | Required for Prediction Markets and Yield Farm only, handled by the liquidity partner |
+| Identity verification | Required for Prediction Markets and Yield Farm only, through the underlying prediction-market flow |
 | Compliance            | Geographic restrictions active on Prediction Markets only                             |
 | Liquidity             | Market maker and arbitrage bots live for initial liquidity                            |
 | Docs                  | Published at docs.premarket.xyz                                                       |

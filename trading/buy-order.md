@@ -24,12 +24,12 @@ Make sure the following are in place before placing a buy order:
 
 * Prediction Markets and Yield Farm: Buy Yes or Buy No
 * Pre TGE and Pre IPO spread markets: select your target spread
-* Options spread markets: select the spread and choose Up or Down
+* Options spread markets: select the spread and choose UP or DOWN
 * RWA markets: select the asset and buy at the current ask
 
 3. Enter the amount you want to spend
 4. Review the trade details
-5. Click the buy button to confirm. The label depends on the market type: Buy Yes or Buy No for Prediction Markets and Yield Farm, Up or Down for Pre TGE, Pre IPO, and Options spread markets, Buy for RWA markets.
+5. Click the buy button to confirm. The label depends on the market type: Buy Yes or Buy No for Prediction Markets and Yield Farm, UP or DOWN for Pre TGE, Pre IPO, and Options spread markets, Buy for RWA markets.
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Buy order flow</p></figcaption></figure>
 

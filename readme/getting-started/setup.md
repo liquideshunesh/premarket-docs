@@ -17,7 +17,7 @@ Go to [app.premarket.xyz](https://app.premarket.xyz) and navigate to the Markets
 
 ## Step 2: Complete Identity Verification (Prediction Markets and Yield Farm only)
 
-Prediction Markets and Yield Farm route through a liquidity partner that requires identity verification. You can start verification in two ways: click Buy Yes or Buy No on any prediction market, or go to your Portfolio and click Verify Identity. Either path redirects you to the identity verification provider. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading.
+Prediction Markets and Yield Farm use DFlow/Kalshi market infrastructure that requires identity verification. You can start verification in two ways: click Buy Yes or Buy No on any prediction market, or go to your Portfolio and click Verify Identity. Either path redirects you to the identity verification provider. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading.
 
 {% hint style="info" %}
 Identity verification is only required for Prediction Markets and Yield Farm. If you only trade Pre IPO, Pre TGE, Options, or RWA markets, skip this step and continue to Step 3.
@@ -31,7 +31,7 @@ Premarket uses a smart account as your trading wallet. Your funds flow from your
 
 Open your Portfolio, where your smart account is set up automatically, and wait for confirmation. All your funds, trades, and positions are managed through this account. You can export your subkey private key at any time from your Portfolio for self custody.
 
-For more detail on how the wallet structure works, see [Wallet and Funds](../../wallet-and-funds.md).
+For more detail on how the account works, see [Smart Account and 1-Click Trading](smart-account.md) and [Wallet and Funds](../../wallet-and-funds.md).
 
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Portfolio view showing smart account setup</p></figcaption></figure>
 
@@ -52,13 +52,13 @@ Depositing on the wrong network means your funds will not be available for the m
 
 ## Step 5: Place Your First Trade
 
-Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose Up or Down. For RWA markets, select the asset and place a buy order. Enter an amount, review the price and potential payout, then place your order to execute.
+Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose UP or DOWN. For RWA markets, select the asset and place a buy order. Enter an amount, review the price and potential payout, then place your order to execute.
 
 ## Step 6: Manage Your Position
 
 After placing a trade, track it in your Portfolio. You can monitor price changes and exit early by selling your position before settlement, provided there is liquidity available on the other side.
 
-If you hold to expiry, settlement depends on the market type. Pre IPO, Pre TGE, Options, and RWA markets settle automatically to your smart account. Prediction Markets and Yield Farm run on Solana and require a manual redemption step via the DFlow contract once your position expires. See [Receiving Your Payout](../../payouts-and-settlement/receiving-payout.md) for details.
+If you hold to expiry, settlement depends on the market type. Options-style MegaETH markets are cash-settled according to their market rules. Prediction Markets and Yield Farm run on Solana and require a manual redemption step through DFlow once your position expires. RWA markets do not have expiry-based settlement; you realise value by selling or holding the asset. See [Receiving Your Payout](../../payouts-and-settlement/receiving-payout.md) for details.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Active Portfolio</p></figcaption></figure>
 
@@ -66,4 +66,5 @@ If you have completed these steps and want to learn more, check out these pages:
 
 * [Understanding Markets](../../understanding-markets/) for walkthroughs on market types and mechanics.
 * [Quick Help](../quick-help/) if you need assistance or are stuck on one of the steps above.
+* [Smart Account and 1-Click Trading](smart-account.md) if you want more detail on deposits, balances, and portfolio management.
 * [Identity Verification](setup.md#step-2-complete-identity-verification-prediction-markets-and-yield-farm-only) if you want assistance with the verification step.

@@ -36,3 +36,11 @@ Your available balance is either zero or your funds are locked in open positions
 Premarket supports Solana (for Prediction Markets and Yield Farm, USDC) and MegaETH (for Pre IPO, Pre TGE, Options, and RWA markets, USDM).
 
 </details>
+
+<details>
+
+<summary><strong>What is the smart account?</strong></summary>
+
+The smart account is your Premarket trading account. It manages deposits, balances, open orders, positions, and claimable settlements. See [Smart Account and 1-Click Trading](../../getting-started/smart-account.md) for the full overview.
+
+</details>

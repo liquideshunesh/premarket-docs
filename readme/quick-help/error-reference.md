@@ -39,4 +39,4 @@ Identity verification is only required to trade Prediction Markets and Yield Far
 | --- | --- | --- |
 | Sell button not visible | You do not hold a position in this market | Buy first before attempting to sell |
 | Position still showing after sell | UI sync delay | Refresh the page and wait for onchain confirmation |
-| Cannot unwind | You do not hold equal amounts of PRM and oPRM | Buy back the missing token before attempting to unwind |
+| Cannot unwind | You do not hold equal amounts of UP and DOWN | Buy back the missing side before attempting to unwind |

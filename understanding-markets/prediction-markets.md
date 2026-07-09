@@ -7,13 +7,15 @@ coverY: 0
 
 ## What are Prediction Markets?
 
-Prediction markets let you trade on the outcome of real world events. Each market poses a question and you take a position on whether it will resolve yes or no. If you back the correct outcome and hold to settlement, each share pays $1. If you are wrong, your shares expire at $0.
+Premarket Prediction Markets are powered by DFlow, which tokenizes Kalshi markets on Solana. Premarket provides the trading interface, while market rules, resolution, and redemption follow the underlying DFlow/Kalshi market infrastructure.
+
+Prediction markets let you trade on the outcome of real world events. Each market poses a question and you take a position on whether it will resolve yes or no. If an outcome resolves correctly, each winning share is redeemable for $1. Losing shares expire at $0.
 
 Prediction markets run on Solana and settle in USDC. They require identity verification and are restricted in certain jurisdictions.
 
 ## How Pricing Works
 
-In prediction markets, the price of a share reflects the market's implied probability of that outcome. A share trading at $0.25 means the market collectively believes there is roughly a 25% chance of YES. At $0.80, it implies 80%. This is a consensus estimate driven by real buy and sell orders, not a guarantee. Prices move as sentiment shifts and new information enters the market.
+In prediction markets, the price of a share can be read as the market pricing that outcome at roughly the same percentage, before fees, spreads, and liquidity conditions. A share trading at $0.25 means the market is pricing YES at roughly 25%. At $0.80, it is pricing that outcome at roughly 80%. This is a consensus estimate driven by real buy and sell orders, not a guarantee. Prices move as sentiment shifts and new information enters the market.
 
 | Price | Implied Probability |
 | ----- | ------------------- |
@@ -29,7 +31,7 @@ For details on how the orderbook sets prices, spread, and slippage, see [How Pri
 
 ## How to Buy
 
-Before placing a trade, click the Rules tab on the market page. This defines exactly what outcome must occur for YES to resolve at $1. Read it carefully, since the resolution criteria may be stricter or narrower than the market headline suggests.
+Before placing a trade, click the Rules tab on the market page. This defines exactly what outcome must occur for YES or NO to resolve at $1. Read it carefully, since the resolution criteria may be stricter or narrower than the market headline suggests.
 
 To open a position, select an outcome and click Buy Yes or Buy No. Enter the amount of USDC you want to spend and confirm the trade. You will receive outcome shares at the current ask price. Check the orderbook before placing a market order to confirm there are active sellers at your target price.
 
@@ -49,10 +51,10 @@ You can exit your position before settlement by selling your shares back into th
 
 ## Settlement
 
-If you hold your position to expiry, the winning outcome pays $1 per share and the losing outcome pays $0. Prediction markets route through a liquidity partner on Solana, so once your position expires you need to redeem it manually via the DFlow contract. This burns your shares, redeems the USDC, and bridges it back to your wallet.
+If you hold your position to expiry and the market resolves normally, the winning outcome pays $1 per share and the losing outcome pays $0. Prediction markets route through DFlow on Solana, so once your position expires you need to redeem it manually through DFlow. This burns your shares, redeems the USDC, and bridges it back to your wallet.
 
 {% hint style="success" %}
-Settlement is always guaranteed at expiry, even if you could not exit early due to low liquidity.
+If the market resolves normally, redemption follows the market rules even if you could not exit early due to low liquidity.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Position in portfolio</p></figcaption></figure>
