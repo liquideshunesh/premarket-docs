@@ -7,6 +7,8 @@ coverY: 0
 
 All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
 
+For a product overview of the account flow, see [Smart Account and 1-Click Trading](readme/getting-started/smart-account.md).
+
 ## How the Wallet Structure Works
 
 | Layer          | Role                                                                                                                                          |
@@ -19,7 +21,7 @@ All trading on Premarket happens through a smart account. Your funds flow from y
 
 ```
 Deposit:    Primary Wallet > Smart Account > Trade
-Settlement: Position > Settled > Funds credited to Smart Account
+Settlement: Position > Settled or Redeemable > Smart Account or manual redemption flow
 Withdrawal: Smart Account > Primary Wallet
 ```
 
@@ -32,7 +34,7 @@ Withdrawal: Smart Account > Primary Wallet
 | MegaETH | USDM     | Pre IPO, Pre TGE, Options, RWA |
 | Solana  | USDC     | Prediction Markets, Yield Farm |
 
-You hold balances on both chains in the same smart account. Make sure you are depositing on the chain that matches the market you intend to trade.
+You hold balances by chain and product context in your smart account. Make sure you are depositing on the chain that matches the market you intend to trade.
 
 ## How to Deposit
 

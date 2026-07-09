@@ -9,41 +9,31 @@ After a market settles, your position has a fixed value. How you receive your pa
 
 ## Prediction Markets
 
-Prediction markets run on Solana. Settlement is not automatic. Once your position expires, you need to interact with the DFlow contract to burn your shares. USDC is then bridged back to your wallet. You must initiate this manually.
+Prediction markets run on Solana and are powered by DFlow, which tokenizes Kalshi markets on Solana. Settlement is not automatic. Once your position expires and the market resolves normally, you need to redeem manually through DFlow. Winning shares redeem for $1 and losing shares expire at $0.
 
 ## Yield Farm
 
-Yield Farm positions run on Solana and use the same prediction market contracts. Settlement works the same way. Once your position expires, you interact with the DFlow contract to burn your shares and bridge USDC back to your wallet.
-
-### Screenshots
-
-> **Screenshot placeholder:** Add a screenshot of the Solana redemption flow.
->
-> _Caption:_ Prediction Market or Yield Farm payout flow showing the manual redemption action.
+Yield Farm positions run on Solana and use the same prediction market settlement flow. Yield Farm is a view over prediction market legs, not a separate product. Once your position expires and resolves normally, redeem manually through DFlow.
 
 ## Pre IPO and Pre TGE Markets
 
-Pre IPO and Pre TGE markets run on MegaETH. All positions are automatically redeemed at expiry and proceeds are sent directly to your smart account in USDM. Payout depends on where the asset's valuation lands at listing relative to your band. No action is needed.
+Pre IPO and Pre TGE markets run on MegaETH when listed as options-style valuation spreads. Payout depends on where the market-defined valuation lands relative to your strike range. UP and DOWN split a combined value of $1 at settlement.
 
 ## Options Markets
 
-Options markets run on MegaETH. All positions are automatically redeemed at expiry. If your band was in the money, the oPRM token holder receives the payout automatically. If out of the money, the oPRM expires worthless and the PRM holder recovers their collateral automatically. If you hold both tokens before expiry, you can unwind at any time to recover your full collateral without waiting for settlement.
+Options markets run on MegaETH. UP behaves like exposure to a call spread. DOWN behaves like exposure to a put spread. If the final settlement price is above the upper strike, UP receives $1 and DOWN receives $0. If the final settlement price is below the lower strike, DOWN receives $1 and UP receives $0. Inside the range, payout transitions linearly between the two sides.
 
-## RWA Markets
+Settlement proceeds are reflected according to the market rules once settlement confirms.
+
+## RWA / Spot Markets
 
 RWA markets do not settle. There is no expiry and no automatic redemption. To realise profit or loss, sell back into the orderbook. Proceeds are credited to your smart account in USDM.
-
-### Screenshot
-
-> **Screenshot placeholder:** Add a screenshot of an automatically settled MegaETH position.
->
-> _Caption:_ MegaETH payout state showing funds returned to the smart account automatically.
 
 ## Common Issues
 
 | Issue                             | Cause                                         | Fix                                 |
 | --------------------------------- | --------------------------------------------- | ----------------------------------- |
 | Nothing happened after settlement | Blockchain confirmation delay                 | Wait a few minutes and refresh      |
-| Cannot withdraw                   | Missing required token for options withdrawal | Check you hold the correct token    |
+| Cannot withdraw                   | Funds are still locked in an active position  | Close or wait for the position      |
 | Zero payout                       | Position resolved out of the money            | Expected outcome, no action needed  |
 | Solana position not auto credited | Manual redemption required via DFlow          | Initiate redemption on the position |

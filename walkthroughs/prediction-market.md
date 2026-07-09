@@ -39,6 +39,6 @@ Go to Portfolio. Your position appears with current value, shares held, and unre
 ## Step 6: Exit Early or Hold to Settlement
 
 1. To exit early: click Sell next to your position in Portfolio. Confirm the transaction. Your P\&L is locked in immediately.
-2. To hold to settlement: when the event resolves, winning shares pay $1 and losing shares pay $0. Prediction markets route through a liquidity partner on Solana, so once your position expires you need to redeem it manually via the DFlow contract. This burns your shares, redeems the USDC, and bridges it back to your wallet.
+2. To hold to settlement: if the market resolves normally, winning shares pay $1 and losing shares pay $0. Prediction markets are powered by DFlow, which tokenizes Kalshi markets on Solana, so once your position expires you need to redeem it manually through DFlow.
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Prediction Market position</p></figcaption></figure>

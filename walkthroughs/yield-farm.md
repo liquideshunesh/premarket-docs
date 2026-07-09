@@ -29,11 +29,11 @@ Click the underlying market to open the full Prediction Market page. Read the Ru
 
 ## Step 5: Hold to Settlement
 
-Yield Farm positions are designed to be held. Profit is realised when the underlying market settles and your leg resolves at $1. You can still sell back into the orderbook before expiry if you change your view, subject to available liquidity.
+Yield Farm positions are designed to be held. Profit is realised if the underlying prediction market resolves normally and your leg resolves at $1. You can still sell back into the orderbook before expiry if you change your view, subject to available liquidity.
 
 ## Step 6: Redeem Your Payout
 
-Yield Farm runs on Solana through a liquidity partner. Once the underlying market settles, redeem manually by interacting with the DFlow contract. This burns your shares and bridges the USDC payout back to your wallet.
+Yield Farm runs on Solana through the same DFlow-powered prediction market flow. Once the underlying market resolves normally, redeem manually through DFlow.
 
 {% hint style="warning" %}
 A high implied probability is not a guarantee. A leg trading at 95¢ can still resolve at $0. Treat Yield Farm as a yield wrapper over Prediction Markets, with the same risk profile.

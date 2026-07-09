@@ -3,9 +3,9 @@ cover: ../.gitbook/assets/Default.png
 coverY: 0
 ---
 
-# RWA Markets
+# RWA / Spot Markets
 
-Real World Asset markets let you trade tokenised real world items directly against USDM. Unlike prediction markets, there are no outcomes, probabilities, or settlement events. You are buying and selling assets at market prices on a perpetual orderbook.
+RWA/Spot Markets let users trade supported assets through simple orderbooks. Unlike options markets, these markets do not have an expiry, UP/DOWN payout curve, or settlement formula. Users deposit supported assets into their smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
 
 ## Live Markets
 
@@ -24,13 +24,14 @@ The following RWA markets are currently live, all on MegaETH and paired against 
 
 1. **No expiry:** markets are perpetual.
 2. **No resolution:** positions do not settle to $0 or $1.
-3. **Real assets:** you hold tokens representing the underlying asset.
+3. **Supported assets:** you hold tokens representing the supported asset.
 4. **Orderbook driven:** trades only happen if counterparties exist.
 
 ## How Trading Works
 
-1. **Buying:** you spend USDM, receive the asset token, and match with someone selling.
-2. **Selling:** you give the asset token, receive USDM, and match with someone buying.
+1. **Depositing:** you deposit USDM or supported spot/RWA assets into your smart account.
+2. **Buying:** you spend USDM, receive the asset token, and match with someone selling.
+3. **Selling:** you give the asset token, receive USDM, and match with someone buying.
 
 Trades only execute if there is liquidity. "No price available for market order" is a liquidity issue, not a balance issue.
 

@@ -11,33 +11,33 @@ No Pre IPO markets are currently live. This page describes how Pre IPO markets w
 
 ## What are Pre IPO Markets?
 
-Pre IPO markets let you trade on the listing valuation of a private company before it goes public. Instead of waiting for the IPO to price and shares to start trading, you take a position now on where the company's market capitalisation will land at the moment of listing.
+Pre IPO markets are a market category for options-style valuation spreads unless the market rules specify different mechanics. They let you trade UP or DOWN exposure on the listing valuation of a private company before it goes public.
 
 Pre IPO markets use the same valuation spread mechanic as Pre TGE markets. The only difference is the underlying asset is a company at IPO, not a token at TGE.
 
 ## How Spreads Work
 
-Each market offers a set of valuation spreads. You pick the spread that matches your view on where the company will list. Your payout depends on where the listing market capitalisation lands relative to your spread at settlement.
+Each market offers a set of valuation spreads. You pick the spread that matches your view on where the company will list. Your payout depends on where the market-defined listing valuation lands relative to your spread at settlement.
 
-> **Example:** A pre IPO market on a private company offers spreads of $5B to $10B, $10B to $20B, and $20B to $50B. You believe the company will list above $10B. You buy the $10B to $20B spread. If the company lists at $14B, your payout is proportional to how far into the range it lands. If it lists at $20B or above, you receive the maximum payout. If it lists below $10B, you receive nothing.
+> **Example:** A pre IPO market on a private company offers spreads of $5B to $10B, $10B to $20B, and $20B to $50B. You believe the company will list above $10B. You buy UP on the $10B to $20B spread. If the company lists at $14B, UP receives a partial payout based on how far into the range it lands. If it lists at $20B or above, UP receives the maximum payout. If it lists below $10B, DOWN is the max-winning side.
 
 ## Payout Logic
 
-Pre IPO spreads are directional instruments. Payout increases linearly as the listing market capitalisation moves in your favour within the range, and is capped at the maximum once it crosses the far strike in your direction.
+Pre IPO spreads are directional instruments. UP behaves like exposure to a call spread, DOWN behaves like exposure to a put spread, and the two sides split a combined value of $1 at settlement.
 
-| Scenario                                            | Result                                          |
-| --------------------------------------------------- | ----------------------------------------------- |
-| Listing value on wrong side of near strike          | $0. Full loss.                                  |
-| Listing value within the spread                     | Payout increases linearly toward the far strike |
-| Listing value past the far strike in your direction | Maximum payout, capped at far strike value      |
+| Final settlement valuation | UP payout          | DOWN payout        |
+| -------------------------- | ------------------ | ------------------ |
+| Below lower strike         | $0                 | $1                 |
+| Inside strike range        | Linear from $0 to $1 | Linear from $1 to $0 |
+| Above upper strike         | $1                 | $0                 |
 
 ## Settlement
 
-Settlement is triggered by the listing event. The reference value is the company's market capitalisation at the moment shares begin trading on a recognised exchange. The settlement methodology for each market is published in the Rules tab on the market page.
+Settlement is triggered by the market-defined listing event. The reference value and settlement methodology for each market are published in the Rules tab on the market page.
 
 ## Chain and Currency
 
-Pre IPO markets run on MegaETH and settle in USDM. Positions settle automatically to your smart account at expiry. No manual redemption is required.
+Pre IPO markets run on MegaETH and settle in USDM according to the market rules.
 
 ## Fees
 

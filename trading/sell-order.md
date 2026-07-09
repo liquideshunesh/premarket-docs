@@ -8,7 +8,7 @@ coverY: 0
 A sell order lets you exit an existing position before settlement. You sell your shares back into the orderbook and receive USDM (on MegaETH markets) or USDC (on Solana markets) in return. Your profit or loss is locked in at the point of sale.
 
 {% hint style="info" %}
-You can only sell a position you already hold. There is no short selling on Premarket. Selling always means closing an existing position.
+In the standard trading flow, you can only sell a position you already hold. Selling closes or reduces an existing position.
 {% endhint %}
 
 ## How to Place a Sell Order
@@ -21,7 +21,7 @@ You can only sell a position you already hold. There is no short selling on Prem
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Portfolio position showing the Sell button</p></figcaption></figure>
 
-## Example
+## Prediction Market Example
 
 ```
 Buy 20 YES shares at $0.25 for $5
@@ -29,6 +29,16 @@ Price moves to $0.30
 Click Sell, receive $6
 Profit = $1 total, or $0.05 per share
 Position closed. Realised P&L is final.
+```
+
+## Options Market Example
+
+```
+Buy 20 UP tokens at $0.40 for $8
+Price moves to $0.55
+Click Sell, receive $11
+Profit = $3 total, or $0.15 per token
+Position reduced or closed. Realised P&L is final for the amount sold.
 ```
 
 | Issue                   | Cause                           | Fix                   |

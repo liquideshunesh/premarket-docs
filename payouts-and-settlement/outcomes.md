@@ -5,48 +5,42 @@ coverY: 0
 
 # Settlement Outcomes
 
-Settlement does not always result in a full win or a full loss. Depending on the market type and how your position resolves, the outcome can be a full payout, a partial payout, zero, or a 50/50 split if the market is cancelled.
+Settlement does not always result in a full win or a full loss. Depending on the product and how your position resolves, the outcome can be a full payout, a partial payout, zero, or a neutral cancellation result.
 
-## Outcome Types
+## Prediction Markets
 
-**Full Win:** you receive the maximum payout. Prediction Markets and Yield Farm pay $1 per winning share. Options, Pre IPO, and Pre TGE markets pay the full amount if the condition is clearly satisfied at expiry.
+Prediction Markets are binary YES/NO markets powered by DFlow, which tokenizes Kalshi markets on Solana. If the market resolves normally, winning shares are redeemable for $1 and losing shares expire at $0. Redemption is manual through DFlow.
 
-**Partial Payout:** applies to structured markets such as Options, Pre IPO, and Pre TGE. If the outcome lands within the range but not at the optimal point, the payout is adjusted proportionally.
+Yield Farm uses the same prediction-market settlement logic because it is a filtered view over prediction market legs, not a separate product.
 
-**Loss:** your position settles to zero value. In Prediction Markets and Yield Farm this means you backed the incorrect outcome. In Options markets this means the asset settled outside your band at expiry.
+| Position                | Result                             |
+| ----------------------- | ---------------------------------- |
+| Holding winning outcome | $1 per share, redeemable via DFlow |
+| Holding losing outcome  | Shares expire at $0                |
+| Sold before settlement  | P&L already realised               |
 
-{% hint style="info" %}
-**Cancelled Markets**
+## Options Markets
 
-If a market is cancelled it settles at 50/50. The collateral pool is split equally between deposit token holders (PRM) and outcome token holders (oPRM). You receive your share based on which tokens you still hold at the time of cancellation. If you sold your outcome tokens before cancellation, you only receive the deposit token portion.
-{% endhint %}
+Options Markets use UP and DOWN spread tokens. UP behaves like exposure to a call spread. DOWN behaves like exposure to a put spread. At settlement, UP and DOWN split a combined value of $1.
 
-### Screenshot
+| Final settlement price | UP payout          | DOWN payout        | User interpretation                  |
+| ---------------------- | ------------------ | ------------------ | ------------------------------------ |
+| Below lower strike     | $0                 | $1                 | DOWN max win, UP full loss           |
+| Inside strike range    | Linear from $0 to $1 | Linear from $1 to $0 | Payout transitions between the sides |
+| Above upper strike     | $1                 | $0                 | UP max win, DOWN full loss           |
 
-**Screenshot placeholder:** Add a screenshot of a settled position with payout details.
+Do not treat "outside the band" as automatically a loss. Above the upper strike is a max win for UP. Below the lower strike is a max win for DOWN.
 
-_Caption:_ Position outcome showing whether the trade settled as a win, loss, or partial payout.
+## Pre TGE and Pre IPO Categories
 
-## Options Markets in Detail
+Pre TGE and Pre IPO markets are market categories or underlyings for options-style valuation spreads unless the market rules specify different mechanics. They use the same UP/DOWN settlement model when listed as valuation spreads.
 
-If you hold both PRM and oPRM tokens before expiry, you can unwind your position and recover your full collateral without waiting for settlement. Otherwise, settlement plays out as follows:
+The final valuation source is market-defined. Always read the Rules tab before trading.
 
-| Scenario                           | PRM Holder                                  | oPRM Holder     |
-| ---------------------------------- | ------------------------------------------- | --------------- |
-| Expires OTM, oPRM not sold         | Withdraws full collateral                   | oPRM worthless  |
-| Expires OTM, oPRM sold for premium | Withdraws full collateral and keeps premium | oPRM worthless  |
-| Expires ITM                        | Collateral partially or fully consumed      | Receives payout |
+## RWA / Spot Markets
 
-{% hint style="info" %}
-Oracle sources for price based markets (Options, Pre TGE, Pre IPO): Bybit, Binance, Hyperliquid, Chainlink.
-{% endhint %}
+RWA/Spot Markets do not use an expiry, UP/DOWN payout curve, or settlement formula. Users deposit supported assets into the smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
 
-### Screenshot
+## Cancellation
 
-**Screenshot placeholder:** Add a screenshot of a cancelled market or neutral settlement state.
-
-_Caption:_ Cancelled market state showing how positions are handled when resolution is not possible.
-
-## RWA Markets
-
-RWA markets do not settle. There is no payout structure, no oracle resolution, and no expiry based closure. Your profit or loss is the difference between buy price and sell price, minus fees. The only way to realise value is to sell back into the orderbook.
+If a market cannot resolve normally, it may be cancelled according to the market rules. In that case, positions are handled using the cancellation rules for that product. See [Market Cancellation](cancellation.md) for details.

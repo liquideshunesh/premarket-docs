@@ -7,7 +7,7 @@ coverY: 0
 
 ## When is Verification Required?
 
-Identity verification is required only for Prediction Markets and Yield Farm. These products route through a liquidity partner on Solana that requires verified identity. Pre IPO, Pre TGE, Options, and RWA markets do not require verification.
+Identity verification is required only for Prediction Markets and Yield Farm. These products use DFlow/Kalshi market infrastructure on Solana that requires verified identity. Pre IPO, Pre TGE, Options, and RWA markets do not require verification.
 
 There are two ways to start verification:
 

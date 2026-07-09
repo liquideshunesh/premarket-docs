@@ -66,7 +66,7 @@ Each market has a maker fee paid by the order placer and a taker fee paid by the
 
 <summary><strong>Can I short a market?</strong></summary>
 
-No. You can only sell positions you already hold. There is no short selling on Premarket.
+In the standard trading flow, you can only sell positions you already hold. Selling closes or reduces an existing position.
 
 </details>
 
@@ -74,6 +74,6 @@ No. You can only sell positions you already hold. There is no short selling on P
 
 <summary><strong>What happens if there is no liquidity when I want to exit?</strong></summary>
 
-You will not be able to sell your position before expiry. For markets with settlement, hold to expiry and your position will be resolved automatically based on the final outcome. For RWA markets there is no settlement, so the only exit is to wait for a buyer.
+You will not be able to sell your position before expiry. For markets with settlement, hold to expiry and your position resolves according to the market rules if the market resolves normally. For RWA markets there is no expiry-based settlement, so the only exit is to wait for a buyer.
 
 </details>

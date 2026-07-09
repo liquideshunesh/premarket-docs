@@ -9,9 +9,9 @@ coverY: 0
 
 <summary><strong>Do I need to do anything at settlement?</strong></summary>
 
-It depends on the market. Pre IPO, Pre TGE, Options, and RWA markets run on MegaETH and are auto expired and auto exercised at expiry. Proceeds are sent directly to your smart account and your portfolio updates automatically once settlement confirms onchain.
+It depends on the product. Options-style MegaETH markets are cash-settled at expiry according to the market rules, and your portfolio updates once settlement confirms onchain.
 
-Prediction Markets and Yield Farm are the exception. They run on Solana through a liquidity partner. Once your position expires, you need to interact with the DFlow contract to burn your shares and bridge USDC back to your wallet. This step must be initiated manually.
+Prediction Markets and Yield Farm run on Solana through DFlow. Once your position expires and resolves normally, you need to redeem manually through DFlow.
 
 RWA markets do not settle. There is no expiry. You exit by selling back into the orderbook.
 
@@ -21,18 +21,18 @@ RWA markets do not settle. There is no expiry. You exit by selling back into the
 
 <summary><strong>What is the resolution mechanism?</strong></summary>
 
-The final settlement price is determined using a Time Weighted Average Price (TWAP) calculated over a 1 hour period around market expiry.
+For token price options markets, the final settlement price can use oracle + TWAP rules over a defined period around market expiry.
 
-To reduce the impact of short term price spikes, manipulation, or exchange specific outages, Premarket uses pricing data from multiple sources, including:
+To reduce the impact of short term price spikes, manipulation, or source-specific outages, market rules may use pricing data from approved sources, including:
 
 * Centralized exchanges (CEXs)
 * Decentralized exchanges (DEXs)
 * Onchain oracle providers
 
-The TWAP from these sources is aggregated to determine the final settlement price used for market resolution.
+The TWAP from approved sources is aggregated according to the market rules to determine the final settlement price used for market resolution.
 
 **Example:**\
-If a market expires at 12:00 UTC, Premarket calculates a 1 hour TWAP using approved exchange and oracle data around expiry. The resulting price is used as the official settlement price for the market.
+If a token price market expires at 12:00 UTC, the market rules may calculate a TWAP using approved exchange and oracle data around expiry. The resulting price is used as the official settlement price for that market.
 
 </details>
 
@@ -64,7 +64,7 @@ Yes. Markets can be cancelled if fair resolution is not possible. In this case y
 
 <summary><strong>What oracle sources does Premarket use?</strong></summary>
 
-For price based markets (Options, Pre TGE, Pre IPO), Premarket uses Bybit, Binance, Hyperliquid, and Chainlink as oracle sources.
+Token price markets use oracle/TWAP from approved sources defined in the market rules. Pre TGE and Pre IPO markets use market-defined valuation sources. Always check the Rules tab for the exact source and fallback hierarchy.
 
 </details>
 
@@ -72,7 +72,7 @@ For price based markets (Options, Pre TGE, Pre IPO), Premarket uses Bybit, Binan
 
 <summary><strong>Why is my settlement payout less than I expected?</strong></summary>
 
-For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your spread. If the settlement is near the edge of your spread, the payout is reduced accordingly.
+For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your spread. UP and DOWN split a combined value of $1. Inside the range, payout transitions linearly between the two sides.
 
 </details>
 
@@ -80,6 +80,6 @@ For Options, Pre TGE, and Pre IPO markets, payout depends on where the final val
 
 <summary><strong>Can I claim a payout manually?</strong></summary>
 
-For MegaETH markets (Pre IPO, Pre TGE, Options), payouts are distributed automatically and you do not need to claim anything. For Solana markets (Prediction Markets, Yield Farm), you must redeem manually via the DFlow contract once your position expires.
+For Solana markets (Prediction Markets, Yield Farm), you must redeem manually through DFlow once your position expires and resolves normally. For MegaETH options-style markets, follow the payout handling described in the market rules and Portfolio state after settlement confirms.
 
 </details>

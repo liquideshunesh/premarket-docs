@@ -9,7 +9,7 @@ Exiting a position means closing your trade before the market resolves. You sell
 
 ## When You Can Exit
 
-You can exit any time before market resolution as long as the market is still active and there are buyers available on the other side of the orderbook. The position history tab provides a summary view of positions exited in a single area, as illustrated in the screenshot above.
+You can exit any time before market resolution as long as the market is still active and there are buyers available on the other side of the orderbook. The position history tab provides a summary view of positions exited in a single area.
 
 {% hint style="info" %}
 For options spread markets: selling on the orderbook automatically unwinds your position and releases your collateral when matched (merge match). If you hold both sides of a spread, you recover your full collateral directly.
