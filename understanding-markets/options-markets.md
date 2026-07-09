@@ -11,7 +11,7 @@ Options markets on Premarket let you trade price ranges of an underlying asset o
 
 ## Live Markets
 
-The following options spread markets are live, all on MegaETH and paired against USDM:
+The following options spread markets are live on MegaETH and paired against USDM:
 
 | Market           | Underlying | Sides     |
 | ---------------- | ---------- | --------- |
