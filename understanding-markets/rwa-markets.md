@@ -5,7 +5,7 @@ coverY: 0
 
 # RWA / Spot Markets
 
-RWA/Spot Markets let users trade supported assets through simple orderbooks. Unlike options markets, these markets do not have an expiry, UP/DOWN payout curve, or settlement formula. Users deposit supported assets into their smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
+RWA/Spot Markets let users trade supported assets through simple orderbooks. Unlike options markets, these markets do not have an expiry, LONG/SHORT payout curve, or settlement formula. Users deposit supported assets into their smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
 
 ## Live Markets
 

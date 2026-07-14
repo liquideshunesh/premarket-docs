@@ -34,7 +34,7 @@ Position closed. Realised P&L is final.
 ## Options Market Example
 
 ```
-Buy 20 UP tokens at $0.40 for $8
+Buy 20 LONG tokens at $0.40 for $8
 Price moves to $0.55
 Click Sell, receive $11
 Profit = $3 total, or $0.15 per token

@@ -37,15 +37,15 @@ Trade valuation spreads on private companies before they go public. Pre IPO is a
 
 Trade valuation spreads on tokens before launch. Pre TGE is a market category for options-style valuation spreads unless the market rules specify different mechanics. Runs on MegaETH with USDM. No Pre TGE markets are currently live.
 
-> **Example:** You believe a token will launch above $2B. You buy UP on the $2B to $3B spread. If it lists at $2.4B, you receive a partial payout that scales with how far into the range it lands. If it lists at $3B or above, UP receives the maximum payout. If it lists below $2B, DOWN would be the max-winning side.
+> **Example:** You believe a token will launch above $2B. You buy LONG on the $2B to $3B spread. If it lists at $2.4B, you receive a partial payout that scales with how far into the range it lands. If it lists at $3B or above, LONG receives the maximum payout. If it lists below $2B, SHORT would be the max-winning side.
 
 ### 5. Options Markets
 
-Trade structured upside or downside on existing assets using predefined strike ranges. Each spread has two sides, UP and DOWN, which split a combined value of $1 at settlement. Runs on MegaETH with USDM. Live markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
+Trade structured upside or downside on existing assets using predefined strike ranges. Each spread has two sides, LONG and SHORT, which split a combined value of $1 at settlement. Runs on MegaETH with USDM. Live markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Options chain with buy and sell choices</p></figcaption></figure>
 
-> **Example:** ETH is trading around $2,290. You buy UP on the $2,400 to $2,500 spread because you want exposure that increases as ETH settles higher through the range. If ETH settles within the range, UP payout scales linearly toward the upper strike. If it settles at $2,500 or above, UP receives the maximum payout. If it settles below $2,400, DOWN receives the maximum payout.
+> **Example:** ETH is trading around $2,290. You buy LONG on the $2,400 to $2,500 spread because you want exposure that increases as ETH settles higher through the range. If ETH settles within the range, LONG payout scales linearly toward the upper strike. If it settles at $2,500 or above, LONG receives the maximum payout. If it settles below $2,400, SHORT receives the maximum payout.
 
 ### 6. RWA / Spot Markets
 

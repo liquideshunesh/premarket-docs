@@ -47,21 +47,21 @@ coverY: 0
 | **IPO** | Initial Public Offering. The official listing of a private company's shares |
 | **FDV** | Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation |
 | **Band** | A valuation range with a lower strike and an upper strike |
-| **UP** | Call-spread-like exposure. Payout increases as settlement moves higher through the range and reaches max value above the upper strike |
-| **DOWN** | Put-spread-like exposure. Payout increases as settlement moves lower through the range and reaches max value below the lower strike |
+| **LONG** | Call-spread-like exposure. Payout increases as settlement moves higher through the range and reaches max value above the upper strike |
+| **SHORT** | Put-spread-like exposure. Payout increases as settlement moves lower through the range and reaches max value below the lower strike |
 
 ## Options Markets
 
 | Term | Definition |
 | --- | --- |
 | **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a defined price range at expiry |
-| **UP / DOWN** | The two sides of a spread market. UP and DOWN split a combined value of $1 at settlement |
-| **Mint match** | When an UP buy matches a DOWN buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
-| **Merge match** | When an UP sell matches a DOWN sell, the positions merge and collateral is released to each side automatically |
+| **LONG / SHORT** | The two sides of a spread market. LONG and SHORT split a combined value of $1 at settlement |
+| **Mint match** | When a LONG buy matches a SHORT buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
+| **Merge match** | When a LONG sell matches a SHORT sell, the positions merge and collateral is released to each side automatically |
 | **Minting** | Depositing USDM as collateral to receive both sides of a spread directly. This is an optional advanced path |
 | **Unwind** | Recovering collateral by returning both sides before expiry. Happens automatically via merge match when you trade on the book |
 | **Expiry** | The time at which an options market resolves and positions are settled |
-| **Inside the Range** | When the final settlement price lands between the lower and upper strike, so UP and DOWN receive partial payouts |
+| **Inside the Range** | When the final settlement price lands between the lower and upper strike, so LONG and SHORT receive partial payouts |
 | **Outside the Range** | When the final settlement price lands above the upper strike or below the lower strike. Which side wins depends on direction |
 
 ## RWA / Spot Markets
