@@ -27,11 +27,11 @@ Premarket offers three main product types: Prediction Markets, Options Markets, 
   * Powered by DFlow, which tokenizes Kalshi markets on Solana
   * Winning shares are redeemed manually through DFlow after resolution
 * **Options Markets**
-  * UP/DOWN spread markets with a defined range and expiry
+  * LONG/SHORT spread markets with a defined range and expiry
   * Run on MegaETH
   * Trade in USDM
   * Cash-settled at expiry
-  * UP and DOWN split a combined value of $1 at settlement
+  * LONG and SHORT split a combined value of $1 at settlement
 * **RWA / Spot Markets**
   * Spot orderbooks for supported assets
   * Run on MegaETH
@@ -39,7 +39,7 @@ Premarket offers three main product types: Prediction Markets, Options Markets, 
   * No expiry-based options settlement
   * Value is realised by buying, holding, and selling
 
-Market labels such as Pre-TGE, Pre-IPO, and some crypto listings describe categories within options-style markets when they use the same UP/DOWN spread mechanics. Yield Farm is a filtered view of prediction market legs, not a separate product.
+Market labels such as Pre-TGE, Pre-IPO, and some crypto listings describe categories within options-style markets when they use the same LONG/SHORT spread mechanics. Yield Farm is a filtered view of prediction market legs, not a separate product.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Markets interface showing the available market types and current listings.</p></figcaption></figure>
 
@@ -50,14 +50,14 @@ Some market labels describe what the market is about, not how it works.
 * **Prediction Markets** are a product type.
 * **Options Markets** are a product type.
 * **RWA / Spot Markets** are a product type.
-* **Pre-TGE** and **Pre-IPO** usually describe categories within options-style markets when they use the same UP/DOWN spread mechanics.
+* **Pre-TGE** and **Pre-IPO** usually describe categories within options-style markets when they use the same LONG/SHORT spread mechanics.
 * **Yield Farm** is a discovery view for prediction market legs, not a separate contract type.
 
 Start by identifying the product type first. Then read the market rules for the specific category or underlying.
 
 ## How to Read the Orderbook
 
-The orderbook shows all active buy and sell orders for a market in a single unified book. On options-style spread markets, the UP and DOWN sides share one orderbook. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
+The orderbook shows all active buy and sell orders for a market in a single unified book. On options-style spread markets, the LONG and SHORT sides share one orderbook. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Market page showing bids, asks, spread, and trade</p></figcaption></figure>
 
@@ -72,7 +72,7 @@ Trades on Premarket are matched offchain for speed, but every fill and final set
 Settlement and post-trade handling differ by product:
 
 * **Prediction Markets:** if the market resolves normally, winning shares are redeemable for $1 and losing shares expire at $0. Redemption is manual through DFlow.
-* **Options Markets:** positions are cash-settled at expiry based on the market rules and final settlement value. UP and DOWN split a combined value of $1.
+* **Options Markets:** positions are cash-settled at expiry based on the market rules and final settlement value. LONG and SHORT split a combined value of $1.
 * **RWA / Spot Markets:** these markets do not use expiry-based settlement. Users realise value by buying and selling supported assets through the orderbook.
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Representative market page</p></figcaption></figure>
@@ -84,6 +84,6 @@ After placing a trade, your position may briefly appear as pending in your portf
 Choose the guide that matches the product you want to trade:
 
 1. [Prediction Markets](prediction-markets.md): binary YES/NO event markets on Solana, with manual redemption through DFlow.
-2. [Options Markets](options-markets.md): UP/DOWN spread markets on MegaETH, including categories such as Pre-TGE and Pre-IPO where the same mechanics apply.
+2. [Options Markets](options-markets.md): LONG/SHORT spread markets on MegaETH, including categories such as Pre-TGE and Pre-IPO where the same mechanics apply.
 3. [RWA / Spot Markets](rwa-markets.md): spot orderbook markets for supported assets on MegaETH.
 4. [Yield Farm](yield-farm.md): a filtered view of prediction market legs, not a separate product type.

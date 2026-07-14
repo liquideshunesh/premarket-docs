@@ -17,11 +17,11 @@ Yield Farm positions run on Solana and use the same prediction market settlement
 
 ## Pre IPO and Pre TGE Markets
 
-Pre IPO and Pre TGE markets run on MegaETH when listed as options-style valuation spreads. Payout depends on where the market-defined valuation lands relative to your strike range. UP and DOWN split a combined value of $1 at settlement.
+Pre IPO and Pre TGE markets run on MegaETH when listed as options-style valuation spreads. Payout depends on where the market-defined valuation lands relative to your strike range. LONG and SHORT split a combined value of $1 at settlement.
 
 ## Options Markets
 
-Options markets run on MegaETH. UP behaves like exposure to a call spread. DOWN behaves like exposure to a put spread. If the final settlement price is above the upper strike, UP receives $1 and DOWN receives $0. If the final settlement price is below the lower strike, DOWN receives $1 and UP receives $0. Inside the range, payout transitions linearly between the two sides.
+Options markets run on MegaETH. LONG behaves like exposure to a call spread. SHORT behaves like exposure to a put spread. If the final settlement price is above the upper strike, LONG receives $1 and SHORT receives $0. If the final settlement price is below the lower strike, SHORT receives $1 and LONG receives $0. Inside the range, payout transitions linearly between the two sides.
 
 Settlement proceeds are reflected according to the market rules once settlement confirms.
 

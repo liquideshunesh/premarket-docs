@@ -21,13 +21,13 @@ RWA markets are the exception. They are perpetual with no expiry and no settleme
 | ------------------ | ------------------------------------- | --------------------------------------- |
 | Prediction Markets | Event outcome confirmed               | $1 winning, $0 losing per share         |
 | Yield Farm         | Underlying prediction market resolves | $1 if leg resolves correctly, $0 if not |
-| Pre IPO Markets    | Market-defined listing event          | UP/DOWN valuation spread payout         |
-| Pre TGE Markets    | Market-defined token launch event     | UP/DOWN valuation spread payout         |
-| Options Markets    | Expiry time reached                   | UP/DOWN price spread payout             |
+| Pre IPO Markets    | Market-defined listing event          | LONG/SHORT valuation spread payout         |
+| Pre TGE Markets    | Market-defined token launch event     | LONG/SHORT valuation spread payout         |
+| Options Markets    | Expiry time reached                   | LONG/SHORT price spread payout             |
 | RWA / Spot Markets | None (perpetual)                      | Realised only on sell                   |
 
 {% hint style="success" %}
-Options-style MegaETH markets are cash-settled at expiry according to the market rules. UP and DOWN split a combined value of $1.
+Options-style MegaETH markets are cash-settled at expiry according to the market rules. LONG and SHORT split a combined value of $1.
 {% endhint %}
 
 {% hint style="info" %}
