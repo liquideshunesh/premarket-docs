@@ -27,6 +27,8 @@ Each market offers a set of valuation spreads. You pick the spread that matches 
 
 > **Example:** A pre TGE market on a new token offers spreads of $500M to $1B, $1B to $2B, and $2B to $5B. You believe the token will launch above $1B. You buy LONG on the $1B to $2B spread. If it lists at $1.4B, LONG receives a partial payout based on how far into the range it lands. If it lists at $2B or above, LONG receives the maximum payout. If it lists below $1B, SHORT is the max-winning side.
 
+> **Price spread comparison:** The same range-based structure can use an asset price instead of FDV. For example, an ETH price spread might run from $2,400 to $2,500, with LONG receiving more as the final price moves higher through the range and SHORT receiving more as it moves lower.
+
 ## Payout Logic
 
 Valuation spreads are directional instruments. LONG behaves like exposure to a call spread, SHORT behaves like exposure to a put spread, and the two sides split a combined value of $1 at settlement.
