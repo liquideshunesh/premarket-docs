@@ -72,7 +72,7 @@ Token price markets use oracle/TWAP from approved sources defined in the market 
 
 <summary><strong>Why is my settlement payout less than I expected?</strong></summary>
 
-For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your spread. UP and DOWN split a combined value of $1. Inside the range, payout transitions linearly between the two sides.
+For Options, Pre TGE, and Pre IPO markets, payout depends on where the final value lands relative to your spread. LONG and SHORT split a combined value of $1. Inside the range, payout transitions linearly between the two sides.
 
 </details>
 

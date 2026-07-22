@@ -11,7 +11,7 @@ No Pre TGE markets are currently live. This page describes how Pre TGE markets w
 
 ## What are Pre TGE Markets?
 
-Pre TGE markets are a market category for options-style valuation spreads unless the market rules specify different mechanics. They let you trade UP or DOWN exposure on the valuation of a token before it launches.
+Pre TGE markets are a market category for options-style valuation spreads unless the market rules specify different mechanics. They let you trade LONG or SHORT exposure on the valuation of a token before it launches.
 
 ## What is FDV?
 
@@ -25,13 +25,13 @@ FDV = Token Price at Launch x Total Token Supply
 
 Each market offers a set of valuation spreads. You pick the spread that matches your view on where the token will launch. Your payout depends on where the market-defined valuation lands relative to your spread at settlement.
 
-> **Example:** A pre TGE market on a new token offers spreads of $500M to $1B, $1B to $2B, and $2B to $5B. You believe the token will launch above $1B. You buy UP on the $1B to $2B spread. If it lists at $1.4B, UP receives a partial payout based on how far into the range it lands. If it lists at $2B or above, UP receives the maximum payout. If it lists below $1B, DOWN is the max-winning side.
+> **Example:** A pre TGE market on a new token offers spreads of $500M to $1B, $1B to $2B, and $2B to $5B. You believe the token will launch above $1B. You buy LONG on the $1B to $2B spread. If it lists at $1.4B, LONG receives a partial payout based on how far into the range it lands. If it lists at $2B or above, LONG receives the maximum payout. If it lists below $1B, SHORT is the max-winning side.
 
 ## Payout Logic
 
-Valuation spreads are directional instruments. UP behaves like exposure to a call spread, DOWN behaves like exposure to a put spread, and the two sides split a combined value of $1 at settlement.
+Valuation spreads are directional instruments. LONG behaves like exposure to a call spread, SHORT behaves like exposure to a put spread, and the two sides split a combined value of $1 at settlement.
 
-| Final settlement valuation | UP payout          | DOWN payout        |
+| Final settlement valuation | LONG payout          | SHORT payout        |
 | -------------------------- | ------------------ | ------------------ |
 | Below lower strike         | $0                 | $1                 |
 | Inside strike range        | Linear from $0 to $1 | Linear from $1 to $0 |

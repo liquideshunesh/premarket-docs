@@ -21,25 +21,25 @@ Yield Farm uses the same prediction-market settlement logic because it is a filt
 
 ## Options Markets
 
-Options Markets use UP and DOWN spread tokens. UP behaves like exposure to a call spread. DOWN behaves like exposure to a put spread. At settlement, UP and DOWN split a combined value of $1.
+Options Markets use LONG and SHORT spread tokens. LONG behaves like exposure to a call spread. SHORT behaves like exposure to a put spread. At settlement, LONG and SHORT split a combined value of $1.
 
-| Final settlement price | UP payout          | DOWN payout        | User interpretation                  |
+| Final settlement price | LONG payout          | SHORT payout        | User interpretation                  |
 | ---------------------- | ------------------ | ------------------ | ------------------------------------ |
-| Below lower strike     | $0                 | $1                 | DOWN max win, UP full loss           |
+| Below lower strike     | $0                 | $1                 | SHORT max win, LONG full loss           |
 | Inside strike range    | Linear from $0 to $1 | Linear from $1 to $0 | Payout transitions between the sides |
-| Above upper strike     | $1                 | $0                 | UP max win, DOWN full loss           |
+| Above upper strike     | $1                 | $0                 | LONG max win, SHORT full loss           |
 
-Do not treat "outside the band" as automatically a loss. Above the upper strike is a max win for UP. Below the lower strike is a max win for DOWN.
+Do not treat "outside the band" as automatically a loss. Above the upper strike is a max win for LONG. Below the lower strike is a max win for SHORT.
 
 ## Pre TGE and Pre IPO Categories
 
-Pre TGE and Pre IPO markets are market categories or underlyings for options-style valuation spreads unless the market rules specify different mechanics. They use the same UP/DOWN settlement model when listed as valuation spreads.
+Pre TGE and Pre IPO markets are market categories or underlyings for options-style valuation spreads unless the market rules specify different mechanics. They use the same LONG/SHORT settlement model when listed as valuation spreads.
 
 The final valuation source is market-defined. Always read the Rules tab before trading.
 
 ## RWA / Spot Markets
 
-RWA/Spot Markets do not use an expiry, UP/DOWN payout curve, or settlement formula. Users deposit supported assets into the smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
+RWA/Spot Markets do not use an expiry, LONG/SHORT payout curve, or settlement formula. Users deposit supported assets into the smart account, trade against the orderbook, and realise gains or losses based on the price at which they buy and sell.
 
 ## Cancellation
 

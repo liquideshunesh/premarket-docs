@@ -64,9 +64,11 @@ Each market has a maker fee paid by the order placer and a taker fee paid by the
 
 <details>
 
-<summary><strong>Can I short a market?</strong></summary>
+<summary><strong>Can I sell short or borrow against a market?</strong></summary>
 
-In the standard trading flow, you can only sell positions you already hold. Selling closes or reduces an existing position.
+No. In the standard trading flow, you can only sell positions you already hold. Selling closes or reduces an existing position.
+
+Some options-style markets have a SHORT side. Buying SHORT is a directional position in that spread; it is not the same as borrowing an asset or opening a naked short sale.
 
 </details>
 

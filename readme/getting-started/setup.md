@@ -52,7 +52,7 @@ Depositing on the wrong network means your funds will not be available for the m
 
 ## Step 5: Place Your First Trade
 
-Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose UP or DOWN. For RWA markets, select the asset and place a buy order. Enter an amount, review the price and potential payout, then place your order to execute.
+Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose LONG or SHORT. For RWA markets, select the asset and place a buy order. Enter an amount, review the price and potential payout, then place your order to execute.
 
 ## Step 6: Manage Your Position
 
