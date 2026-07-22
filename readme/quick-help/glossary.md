@@ -46,7 +46,7 @@ coverY: 0
 | **TGE** | Token Generation Event. The official launch of a token |
 | **IPO** | Initial Public Offering. The official listing of a private company's shares |
 | **FDV** | Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation |
-| **Band** | A valuation range with a lower strike and an upper strike |
+| **FDV Band** | An FDV range with a lower strike and an upper strike |
 | **LONG** | Call-spread-like exposure. Payout increases as settlement moves higher through the range and reaches max value above the upper strike |
 | **SHORT** | Put-spread-like exposure. Payout increases as settlement moves lower through the range and reaches max value below the lower strike |
 
@@ -55,6 +55,7 @@ coverY: 0
 | Term | Definition |
 | --- | --- |
 | **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a defined price range at expiry |
+| **Price Spread** | A price range with a lower strike and an upper strike. LONG and SHORT payouts depend on where the final price lands relative to the range |
 | **LONG / SHORT** | The two sides of a spread market. LONG and SHORT split a combined value of $1 at settlement |
 | **Mint match** | When a LONG buy matches a SHORT buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
 | **Merge match** | When a LONG sell matches a SHORT sell, the positions merge and collateral is released to each side automatically |
