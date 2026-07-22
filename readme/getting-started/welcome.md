@@ -41,7 +41,7 @@ Trade valuation spreads on tokens before launch. Pre TGE is a market category fo
 
 ### 5. Options Markets
 
-Trade structured upside or downside on existing assets using predefined strike ranges. Each spread has two sides, LONG and SHORT, which split a combined value of $1 at settlement. Runs on MegaETH with USDM. Live markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
+Trade structured Long or Short exposure on existing assets using predefined strike ranges. Each spread has two sides, LONG and SHORT, which split a combined value of $1 at settlement. Runs on MegaETH with USDM. Live markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Options chain with buy and sell choices</p></figcaption></figure>
 
