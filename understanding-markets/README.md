@@ -9,7 +9,7 @@ Premarket uses a similar trading interface across products, but the products wor
 
 ## What Markets Share
 
-Premarket uses a similar orderbook interface across products, but payout logic, settlement, and infrastructure differ by product. The main shared mechanics are order matching, liquidity, and portfolio tracking.
+Markets at [app.premarket.xyz](https://app.premarket.xyz/) use a similar orderbook interface, but payout logic, settlement, and infrastructure differ by product. The main shared mechanics are order matching, liquidity, and portfolio tracking. Covered Calls use a separate Robinhood Chain entry point and a different collateral lifecycle.
 
 * All trades require a counterparty. No counterparty means no execution.
 * Makers place orders and add liquidity. Takers match existing orders and remove it.
@@ -27,11 +27,9 @@ Premarket offers three main product types: Prediction Markets, Options Markets, 
   * Powered by DFlow, which tokenizes Kalshi markets on Solana
   * Winning shares are redeemed manually through DFlow after resolution
 * **Options Markets**
-  * LONG/SHORT spread markets with a defined range and expiry
-  * Run on MegaETH
-  * Trade in USDM
-  * Cash-settled at expiry
-  * LONG and SHORT split a combined value of $1 at settlement
+  * Price spread markets run on MegaETH, trade in USDM, and split a combined value of $1 at settlement
+  * Covered Calls run on Robinhood Chain and are backed and settled in the underlying asset
+  * Each instrument has a defined strike or range and expiry
 * **RWA / Spot Markets**
   * Spot orderbooks for supported assets
   * Run on MegaETH
@@ -40,6 +38,8 @@ Premarket offers three main product types: Prediction Markets, Options Markets, 
   * Value is realised by buying, holding, and selling
 
 Market labels such as Pre-TGE, Pre-IPO, and some crypto listings describe categories within options-style markets when they use the same LONG/SHORT spread mechanics. Yield Farm is a filtered view of prediction market legs, not a separate product.
+
+Covered Calls are another flow within Premarket's Options Markets. Their separate [Robinhood Chain entry point](http://robinhood.premarket.xyz/) reflects the deployment network, not a separate Premarket application.
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Markets interface showing the available market types and current listings.</p></figcaption></figure>
 
@@ -51,13 +51,14 @@ Some market labels describe what the market is about, not how it works.
 * **Options Markets** are a product type.
 * **RWA / Spot Markets** are a product type.
 * **Pre-TGE** and **Pre-IPO** usually describe categories within options-style markets when they use the same LONG/SHORT spread mechanics.
+* **Covered Calls** are a flow within Options Markets, deployed on Robinhood Chain.
 * **Yield Farm** is a discovery view for prediction market legs, not a separate contract type.
 
 Start by identifying the product type first. Then read the market rules for the specific category or underlying.
 
 ## How to Read the Orderbook
 
-The orderbook shows all active buy and sell orders for a market in a single unified book. On options-style spread markets, the LONG and SHORT sides share one orderbook. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
+For markets at [app.premarket.xyz](https://app.premarket.xyz/), the orderbook shows all active buy and sell orders for a market in a single unified book. On options-style spread markets, the LONG and SHORT sides share one orderbook. Bids are orders from buyers, asks are orders from sellers. The gap between the highest bid and the lowest ask is called the spread. A tight spread means the market is liquid and active. A wide spread means fewer participants and harder execution. If the orderbook is empty on one side, your order will not execute until someone else places a matching order.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Market page showing bids, asks, spread, and trade</p></figcaption></figure>
 
@@ -67,23 +68,25 @@ When you place a market order, it matches against the best available orders in t
 
 ## What Onchain Settlement Means for You
 
-Trades on Premarket are matched offchain for speed, but every fill and final settlement is recorded onchain. This means your trade execution is fast, but the canonical record of what you own and what you are owed lives onchain.
+Trades through the main Premarket orderbook are matched offchain for speed, but every fill and final settlement is recorded onchain. This means your trade execution is fast, but the canonical record of what you own and what you are owed lives onchain. Covered Call matching on the Robinhood Chain interface is not documented on this page.
 
 Settlement and post-trade handling differ by product:
 
 * **Prediction Markets:** if the market resolves normally, winning shares are redeemable for $1 and losing shares expire at $0. Redemption is manual through DFlow.
-* **Options Markets:** positions are cash-settled at expiry based on the market rules and final settlement value. LONG and SHORT split a combined value of $1.
+* **MegaETH Options Spreads:** positions are cash-settled at expiry. LONG and SHORT split a combined value of $1.
+* **Covered Calls:** positions settle on Robinhood Chain in the underlying asset. LONG receives the call payout and SHORT receives the remaining collateral.
 * **RWA / Spot Markets:** these markets do not use expiry-based settlement. Users realise value by buying and selling supported assets through the orderbook.
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Representative market page</p></figcaption></figure>
 
-For MegaETH products, your smart account handles deposits, balances, open positions, and settlement proceeds. See [Smart Account and 1-Click Trading](../readme/getting-started/smart-account.md) for the current account setup flow.
+For MegaETH products, your smart account handles deposits, balances, open positions, and settlement proceeds. See [Smart Account and 1-Click Trading](../readme/getting-started/smart-account.md) for the current account setup flow. Covered Calls use the [Robinhood Chain entry point](http://robinhood.premarket.xyz/).
 
-After placing a trade, your position may briefly appear as pending in your portfolio while the fill is confirmed onchain. Once confirmed, it will show full position details.
+After placing a trade in the main app, your position may briefly appear as pending in your portfolio while the fill is confirmed onchain. Once confirmed, it will show full position details.
 
 Choose the guide that matches the product you want to trade:
 
 1. [Prediction Markets](prediction-markets.md): binary YES/NO event markets on Solana, with manual redemption through DFlow.
-2. [Options Markets](options-markets.md): LONG/SHORT spread markets on MegaETH, including categories such as Pre-TGE and Pre-IPO where the same mechanics apply.
-3. [RWA / Spot Markets](rwa-markets.md): spot orderbook markets for supported assets on MegaETH.
-4. [Yield Farm](yield-farm.md): a filtered view of prediction market legs, not a separate product type.
+2. [Options Markets](options-markets.md): an overview of Premarket's options-style flows.
+3. [Covered Calls](covered-calls.md): underlying-backed calls on Robinhood Chain.
+4. [RWA / Spot Markets](rwa-markets.md): spot orderbook markets for supported assets on MegaETH.
+5. [Yield Farm](yield-farm.md): a filtered view of prediction market legs, not a separate product type.

@@ -5,7 +5,9 @@ coverY: 0
 
 # Placing a Buy Order
 
-A buy order lets you open a position on an outcome, spread, or asset. When you buy, you spend USDM (on MegaETH) or USDC (on Solana) and receive shares, position tokens, or asset tokens representing your exposure.
+A buy order lets you open a position on an outcome, spread, or asset through [app.premarket.xyz](https://app.premarket.xyz/). When you buy, you spend USDM (on MegaETH) or USDC (on Solana) and receive shares, position tokens, or asset tokens representing your exposure.
+
+Covered Calls use a different collateral flow at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/). Premiums and any fees are paid in the supported underlying token. An unmatched order remains open until expiry or user cancellation. See [How to Use a Covered Call](../walkthroughs/covered-call.md) for the complete order flow.
 
 ## Before You Buy
 

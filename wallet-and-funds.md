@@ -5,7 +5,9 @@ coverY: 0
 
 # Wallet and Funds
 
-All trading on Premarket happens through a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
+Trading through [app.premarket.xyz](https://app.premarket.xyz/) uses a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
+
+Covered Calls use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain and lock the underlying asset as collateral. Account creation, wallet onboarding, and gas abstraction follow the same flow used for Premarket on MegaETH. Premiums and any fees are also paid in the underlying token.
 
 For a product overview of the account flow, see [Smart Account and 1-Click Trading](readme/getting-started/smart-account.md).
 
@@ -29,14 +31,15 @@ Withdrawal: Smart Account > Primary Wallet
 
 ## Networks and Currencies
 
-| Network | Currency | Markets                        |
-| ------- | -------- | ------------------------------ |
-| MegaETH | USDM     | Pre IPO, Pre TGE, Options, RWA |
-| Solana  | USDC     | Prediction Markets, Yield Farm |
+| Network | Trading or collateral asset | Markets                              |
+| ------- | --------------------------- | ------------------------------------ |
+| MegaETH | USDM                        | Pre IPO, Pre TGE, price spreads, RWA |
+| Solana  | USDC                        | Prediction Markets, Yield Farm       |
+| Robinhood Chain | Supported underlying asset | Covered Calls                 |
 
-You hold balances by chain and product context in your smart account. Make sure you are depositing on the chain that matches the market you intend to trade.
+In the main app, you hold balances by chain and product context in your smart account. Make sure you are depositing on the chain that matches the market you intend to trade. For Covered Calls, use the account and balance views shown in the Robinhood Chain experience.
 
-## How to Deposit
+## How to Deposit in the Main App
 
 1. Go to your Portfolio.
 2. Select the token you want to deposit.
@@ -44,9 +47,11 @@ You hold balances by chain and product context in your smart account. Make sure 
 4. Click Approve if this is your first deposit of that token.
 5. Click Deposit and confirm in your wallet.
 
+For Covered Calls, fund the smart account at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) with the supported underlying token for the market you want to trade.
+
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Funding smart wallet</p></figcaption></figure>
 
-## How to Withdraw
+## How to Withdraw from the Main App
 
 1. Go to your Portfolio and find the Withdraw section.
 2. Select the token and enter the amount. You can only withdraw funds not locked in active positions.

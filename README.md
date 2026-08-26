@@ -5,7 +5,7 @@ coverY: 0
 
 # Premarket Docs
 
-Premarket is a trading platform for assets and outcomes before they exist or resolve anywhere else. You can take positions on token launches, pre IPO valuations, real world events, options on existing assets, and tokenised real world assets. Markets run on a live orderbook with offchain matching and onchain settlement. This documentation covers everything you need to get set up, understand each market type, and trade with confidence.
+Premarket is a trading platform for assets and outcomes before they exist or resolve anywhere else. You can take positions on token launches, pre IPO valuations, real world events, options on existing assets, and tokenised real world assets. Premarket combines live orderbook markets with fully collateralised options flows, with positions and settlement recorded onchain. This documentation covers everything you need to get set up, understand each market type, and trade with confidence.
 
 {% content-ref url="readme/getting-started/" %}
 [getting-started](readme/getting-started/)
