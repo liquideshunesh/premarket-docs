@@ -31,6 +31,17 @@ Options Markets use LONG and SHORT spread tokens. LONG behaves like exposure to 
 
 Do not treat "outside the band" as automatically a loss. Above the upper strike is a max win for LONG. Below the lower strike is a max win for SHORT.
 
+## Covered Calls
+
+Covered Calls on Robinhood Chain lock one unit of the underlying per position. At settlement, LONG and SHORT divide that same underlying rather than splitting a fixed value of $1.
+
+| Final settlement price | LONG payout | SHORT payout |
+| --- | --- | --- |
+| At or below the strike | `0` underlying | Full underlying |
+| Above the strike | `(final price - strike) / final price` underlying | `strike / final price` underlying |
+
+Together, the two payouts equal the collateral originally locked. See [Covered Calls](../understanding-markets/covered-calls.md) for a numerical example.
+
 ## Pre TGE and Pre IPO Categories
 
 Pre TGE and Pre IPO markets are market categories or underlyings for options-style valuation spreads unless the market rules specify different mechanics. They use the same LONG/SHORT settlement model when listed as valuation spreads.
@@ -43,4 +54,4 @@ RWA/Spot Markets do not use an expiry, LONG/SHORT payout curve, or settlement fo
 
 ## Cancellation
 
-If a market cannot resolve normally, it may be cancelled according to the market rules. In that case, positions are handled using the cancellation rules for that product. See [Market Cancellation](cancellation.md) for details.
+If a market cannot resolve normally, it may be cancelled according to the market rules. In that case, positions are handled using the cancellation rules for that product. A Covered Call marked with a null outcome splits its locked collateral equally between LONG and SHORT. See [Market Cancellation](cancellation.md) for details.

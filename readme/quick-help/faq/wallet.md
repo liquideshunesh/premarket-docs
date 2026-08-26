@@ -33,7 +33,7 @@ Your available balance is either zero or your funds are locked in open positions
 
 <summary><strong>What networks are supported for deposits?</strong></summary>
 
-Premarket supports Solana (for Prediction Markets and Yield Farm, USDC) and MegaETH (for Pre IPO, Pre TGE, Options, and RWA markets, USDM).
+Premarket supports Solana for Prediction Markets and Yield Farm, MegaETH for Pre IPO, Pre TGE, price spreads, and RWA markets, and Robinhood Chain for Covered Calls. Covered Call onboarding and gas abstraction follow the same flow as MegaETH. Fund the account with the supported underlying token, which is used for collateral, premiums, and fees.
 
 </details>
 
