@@ -21,6 +21,8 @@ For Pre IPO markets, substitute the market-defined listing valuation source desc
 
 A spread is a valuation range with a lower strike and an upper strike. Each spread has two sides, LONG and SHORT, with its own orderbook and price.
 
+The same range-based structure can use a different reference value. An FDV spread tracks where a token's final valuation lands, while a price spread tracks where an asset's final price lands. For example, a market could use a $2B to $3B FDV range or a $2,400 to $2,500 ETH price range.
+
 ## LONG and SHORT Directions
 
 | Direction | Meaning |
@@ -47,7 +49,9 @@ SHORT payout = 1 - LONG payout
 
 The formula is capped at $0 and $1. Above the upper strike, LONG receives $1. Below the lower strike, SHORT receives $1.
 
-## Example Trade
+## Example Trades
+
+### FDV Spread
 
 ```
 You buy: LONG on a $2B to $3B valuation spread
@@ -59,5 +63,9 @@ Final valuation $2.1B: LONG pays $0.10, SHORT pays $0.90.
 Final valuation $2.6B: LONG pays $0.60, SHORT pays $0.40.
 Final valuation $3.2B: LONG pays $1, SHORT pays $0.
 ```
+
+### Price Spread
+
+An ETH price spread might use a $2,400 lower strike and a $2,500 upper strike. LONG receives more as the final ETH price moves higher through the range, while SHORT receives more as it moves lower. At $2,450, each side receives $0.50.
 
 The most a LONG or SHORT buyer can lose in the standard trading flow is the amount paid for the position.

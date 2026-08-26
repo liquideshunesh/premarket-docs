@@ -11,7 +11,7 @@ RWA markets are the exception. They are perpetual with no expiry and no settleme
 
 ## Two Ways to Realise Value
 
-**Exit Early (Trading):** sell your position into the orderbook before expiry. Profit or loss is based on sell price minus buy price. Requires a counterparty to execute.
+**Exit Early:** sell your position into the orderbook before expiry. Profit or loss is based on sell price minus buy price, and a counterparty is required to execute. Covered Call holders can also unwind equal LONG and SHORT amounts back into the underlying token.
 
 **Hold to Settlement:** your position resolves based on the final outcome if the market resolves normally. Payout depends on the product and market rules. Not applicable to RWA markets.
 
@@ -23,11 +23,12 @@ RWA markets are the exception. They are perpetual with no expiry and no settleme
 | Yield Farm         | Underlying prediction market resolves | $1 if leg resolves correctly, $0 if not |
 | Pre IPO Markets    | Market-defined listing event          | LONG/SHORT valuation spread payout         |
 | Pre TGE Markets    | Market-defined token launch event     | LONG/SHORT valuation spread payout         |
-| Options Markets    | Expiry time reached                   | LONG/SHORT price spread payout             |
+| MegaETH Price Spreads | Expiry time reached                | LONG/SHORT price spread payout             |
+| Covered Calls      | Expiry and final underlying price     | Locked underlying divided between LONG and SHORT |
 | RWA / Spot Markets | None (perpetual)                      | Realised only on sell                   |
 
 {% hint style="success" %}
-Options-style MegaETH markets are cash-settled at expiry according to the market rules. LONG and SHORT split a combined value of $1.
+Options-style MegaETH spread markets are cash-settled at expiry according to the market rules. LONG and SHORT split a combined value of $1. Covered Calls on Robinhood Chain settle in the underlying asset instead.
 {% endhint %}
 
 {% hint style="info" %}

@@ -7,6 +7,10 @@ coverY: 0
 
 Premarket uses a smart account as the trading account that holds balances, positions, open orders, and claimable settlement proceeds. It is designed to make the trading flow smoother after you have created the account, deposited funds, and set the required permissions.
 
+{% hint style="info" %}
+This page describes the account flow at [app.premarket.xyz](https://app.premarket.xyz/). Covered Calls use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain with the same smart-account onboarding and gas-abstraction flow used on MegaETH.
+{% endhint %}
+
 ## Account Creation
 
 Users can create a trading account through social login and simplified wallet onboarding. After setup, your smart account is the account used for trading, deposits, balances, and portfolio management inside Premarket.
@@ -17,7 +21,7 @@ The smart account allows a smoother trading flow after funds are deposited and p
 
 ## Deposits
 
-Users can deposit supported currencies and assets into the smart account. This includes USDM for MegaETH markets, USDC for Solana prediction markets where relevant, and supported spot/RWA assets if available for deposit and trading.
+Users can deposit supported currencies and assets into the smart account. This includes USDM for MegaETH markets, USDC for Solana prediction markets where relevant, supported spot/RWA assets if available for deposit and trading, and the supported underlying token for Covered Calls on Robinhood Chain.
 
 Always check that you are depositing the asset and network supported by the product you want to trade.
 

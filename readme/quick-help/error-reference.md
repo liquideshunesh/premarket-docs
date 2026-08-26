@@ -30,7 +30,7 @@ coverY: 0
 | Trading still locked after verification | Smart account not created or no funds deposited | Complete remaining setup steps in Getting Started |
 
 {% hint style="info" %}
-Identity verification is only required to trade Prediction Markets and Yield Farm. If you are trading Pre TGE, Options, Pre IPO, or RWA markets, verification is not required.
+Identity verification is only required to trade Prediction Markets and Yield Farm in the main app. It is not required for Pre TGE, MegaETH price spreads, Pre IPO, RWA markets, or Covered Calls.
 {% endhint %}
 
 ## Position Errors

@@ -5,11 +5,25 @@ coverY: 0
 
 # Options Markets
 
-Premarket Options Markets let users trade LONG and SHORT tokens on a defined price range and expiry. LONG behaves like exposure to a call spread. SHORT behaves like exposure to a put spread. At settlement, LONG and SHORT split a combined value of $1.
+Premarket Options Markets include multiple options-style flows. Price spread markets run through [app.premarket.xyz](https://app.premarket.xyz/) on MegaETH. Covered Calls run through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain. Both are part of Premarket.
+
+## Covered Calls on Robinhood Chain
+
+Covered Calls lock the underlying asset as collateral and create equal LONG and SHORT claims. At expiry, those claims divide the locked underlying according to the final price and strike. They do not use the `$1` spread payout described below.
+
+They appear under Premarket's Options tab as strike-based option chains. Select an expiry and strike, then choose the LONG or SHORT side in the trade panel.
+
+Premiums and any fees are paid in the underlying token. An unmatched order remains open until expiry or user cancellation. Before settlement, holders can sell either side through the orderbook or unwind equal LONG and SHORT amounts back into the underlying.
+
+See [Covered Calls](covered-calls.md) for the complete collateral, premium, and settlement lifecycle.
+
+## MegaETH Price Spread Markets
+
+Premarket's MegaETH price spread markets let users trade LONG and SHORT tokens on a defined price range and expiry. LONG behaves like exposure to a call spread. SHORT behaves like exposure to a put spread. At settlement, LONG and SHORT split a combined value of $1.
 
 If the final settlement price is above the upper strike, LONG receives $1 and SHORT receives $0. If the final settlement price is below the lower strike, SHORT receives $1 and LONG receives $0. If the final settlement price lands inside the range, both sides receive a partial payout based on where the price lands.
 
-Users do not use margin or leverage in the standard trading flow. The most a user can lose is the amount paid for the position.
+Users do not use margin or leverage in the standard MegaETH spread trading flow. The most a user can lose is the amount paid for the position.
 
 > **Example:** ETH has a $2,400 to $2,500 spread. Buy LONG if you want exposure that increases as ETH settles higher through the range and reaches max payout above $2,500. Buy SHORT if you want exposure that increases as ETH settles lower through the range and reaches max payout below $2,400.
 
@@ -77,10 +91,10 @@ Positions are cash-settled at expiry according to the market rules.
 At settlement, LONG and SHORT always split a combined value of $1. Token price markets use oracle + TWAP rules, and the exact source should be checked in the market rules.
 {% endhint %}
 
-## Fees
+## MegaETH Price Spread Fees
 
-Options market fees: 0.15% maker, 0.40% taker.
+MegaETH options spread fees: 0.15% maker, 0.40% taker. This fee schedule does not apply to Covered Calls on Robinhood Chain.
 
 {% hint style="info" %}
-**Fees are 0% at launch.** Trading fees are waived across all markets for the launch period. The schedule above is the standard rate that applies once fees are switched on.
+**MegaETH price spread fees are 0% at launch.** The schedule above is the standard rate that applies once fees are switched on.
 {% endhint %}

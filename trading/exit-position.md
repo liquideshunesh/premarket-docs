@@ -7,6 +7,8 @@ coverY: 0
 
 Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
 
+This page describes markets at [app.premarket.xyz](https://app.premarket.xyz/). For Covered Calls, sell a LONG or SHORT position through the orderbook when liquidity is available. If you hold equal LONG and SHORT amounts for the same strike and expiry, you can unwind the paired amount back into the underlying token.
+
 ## When You Can Exit
 
 You can exit any time before market resolution as long as the market is still active and there are buyers available on the other side of the orderbook. The position history tab provides a summary view of positions exited in a single area.

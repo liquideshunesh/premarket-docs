@@ -46,7 +46,7 @@ coverY: 0
 | **TGE** | Token Generation Event. The official launch of a token |
 | **IPO** | Initial Public Offering. The official listing of a private company's shares |
 | **FDV** | Fully Diluted Valuation. Total value of a project assuming all tokens are in circulation |
-| **Band** | A valuation range with a lower strike and an upper strike |
+| **FDV Band** | An FDV range with a lower strike and an upper strike |
 | **LONG** | Call-spread-like exposure. Payout increases as settlement moves higher through the range and reaches max value above the upper strike |
 | **SHORT** | Put-spread-like exposure. Payout increases as settlement moves lower through the range and reaches max value below the lower strike |
 
@@ -54,12 +54,17 @@ coverY: 0
 
 | Term | Definition |
 | --- | --- |
-| **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a defined price range at expiry |
-| **LONG / SHORT** | The two sides of a spread market. LONG and SHORT split a combined value of $1 at settlement |
+| **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a strike or range at expiry |
+| **Price Spread** | A price range with a lower strike and an upper strike. LONG and SHORT payouts depend on where the final price lands relative to the range |
+| **Covered Call** | An options position backed by the underlying asset. LONG receives the call payout above the strike and SHORT receives the remaining collateral |
+| **Underlying** | The asset whose final price determines the option payout. For Covered Calls, it is also the collateral and settlement asset |
+| **Strike** | The price above which a Covered Call's LONG claim begins to receive a payout |
+| **Premium** | The price paid by the LONG holder to acquire the claim. For Covered Calls, it is paid in the underlying token and is separate from the expiry payout calculation |
+| **LONG / SHORT** | The two sides of an options-style position. MegaETH spreads split a combined value of $1; Covered Calls divide the locked underlying |
 | **Mint match** | When a LONG buy matches a SHORT buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
 | **Merge match** | When a LONG sell matches a SHORT sell, the positions merge and collateral is released to each side automatically |
-| **Minting** | Depositing USDM as collateral to receive both sides of a spread directly. This is an optional advanced path |
-| **Unwind** | Recovering collateral by returning both sides before expiry. Happens automatically via merge match when you trade on the book |
+| **Minting** | Locking the collateral required for a market to create equal LONG and SHORT claims. The collateral asset depends on the market shape |
+| **Unwind** | Recovering collateral by returning equal LONG and SHORT amounts before expiry. For Covered Calls, the paired claims return the underlying token |
 | **Expiry** | The time at which an options market resolves and positions are settled |
 | **Inside the Range** | When the final settlement price lands between the lower and upper strike, so LONG and SHORT receive partial payouts |
 | **Outside the Range** | When the final settlement price lands above the upper strike or below the lower strike. Which side wins depends on direction |

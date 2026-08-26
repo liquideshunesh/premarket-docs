@@ -31,6 +31,10 @@ Step by step guides for every key user flow on Premarket. The flows covered in t
 [unwind-options.md](unwind-options.md)
 {% endcontent-ref %}
 
+{% content-ref url="covered-call.md" %}
+[covered-call.md](covered-call.md)
+{% endcontent-ref %}
+
 {% content-ref url="deposit-withdraw.md" %}
 [deposit-withdraw.md](deposit-withdraw.md)
 {% endcontent-ref %}
