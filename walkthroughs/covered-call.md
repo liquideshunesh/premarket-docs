@@ -3,70 +3,82 @@ cover: ../.gitbook/assets/Default.png
 coverY: 0
 ---
 
-# How to Use a Covered Call
+# How to Trade Covered Options
 
-This walkthrough follows the Covered Call collateral and settlement lifecycle on Robinhood Chain. Covered Calls are part of Premarket and are accessed through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
+This walkthrough covers covered calls and cash-secured puts on Robinhood Chain. They are part of Premarket and are available through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
 
-Covered Call account creation, wallet onboarding, and gas abstraction follow the same flow as Premarket on MegaETH. No KYC is required. Fund the account with the supported underlying token before placing an order.
+## Step 1: Connect and Fund Your Account
 
-## Step 1: Open the Covered Call Experience
+Connect your wallet and complete the same smart-account onboarding and gas-abstraction flow used by Premarket on MegaETH. No KYC is required.
 
-Go to [robinhood.premarket.xyz](http://robinhood.premarket.xyz/), open the **Options** tab, and select a Covered Call market. Market cards show the underlying, expiry, available strikes, and any quoted LONG or SHORT prices.
+Deposit the asset required for the action you plan to take:
 
-## Step 2: Select an Expiry and Strike
+* **Buying an option:** deposit USDG for the premium.
+* **Writing a covered call:** deposit or hold the underlying token used as collateral.
+* **Writing a cash-secured put:** deposit USDG for collateral.
 
-Open the expiry tab in the option chain and compare the strike rows. Each row can show:
+Complete the one-time vault operator approval before trading. Without this approval, an order can be signed but cannot fill.
 
-* Strike
-* LONG quote
-* SHORT quote
-* Max payout
+## Step 2: Choose a Market
 
-Select a strike to update the trade panel and target line on the price chart. The strike determines when the LONG claim begins to receive a payout.
+Open the market selector, choose **Options**, and select an underlying. The interface currently shows CASHCAT, STONKBROKER, AAPL, AMZN, TSLA, and NVDA markets. Available markets can change, so use the live selector as the current list.
 
-## Step 3: Choose Your Role
+## Step 3: Select the Contract
 
-Select **Buy**, then choose a side:
+Use the option chain to:
 
-* **LONG:** acquires the call payoff above the strike for the quoted price.
-* **SHORT:** takes the covered-call writer side, which receives the locked collateral minus the LONG payout.
+1. Choose **Call** or **Put**.
+2. Select an expiry.
+3. Compare the available strikes.
+4. Review the bid, ask, LP APR, and mark shown for each strike.
+5. Select a strike to open its trade ticket.
 
-When a new position pair is created, one unit of the underlying is locked per position and equal LONG and SHORT claims are created.
+For calls, the option leg is labelled **Long**. For puts, it is labelled **Short**. The writer side is labelled **LP** for both.
 
-{% hint style="warning" %}
-The SHORT obligation follows the SHORT claim. Transferring that claim transfers the obligation and the right to the remaining collateral.
-{% endhint %}
+## Step 4: Choose an Action
 
-## Step 4: Enter the Order
+Use the option-leg or LP selector, then choose the action that matches your intent:
 
-Choose the available order type. The screenshots confirm a **Market** order flow. Enter the amount using the underlying-denominated amount control or the 25%, 50%, 75%, and 100% balance shortcuts.
+* **Buy Long** on a call or **Buy Short** on a put to open an option position. You pay the premium in USDG.
+* **Sell Long** on a call or **Sell Short** on a put to close an option position you hold. You receive the premium in USDG.
+* **Write LP** to open a fully collateralized writer position. The required call or put collateral is locked when the order fills, and you receive the premium in USDG.
+* **Burn LP** to close a writer position. You pay the USDG premium required by the orderbook and unlock the full associated collateral.
 
-Before confirming, verify the selected strike, LONG or SHORT side, displayed quote, amount, available balance, and transaction details. The premium and any fees are paid in the underlying token. The applicable fee rate is not documented in this guide.
+## Step 5: Review and Confirm
+
+Choose the order type, enter the size, and review the ticket. A Market order uses available resting liquidity; a Limit order rests at the price you set until it matches or expires. Depending on the action, the ticket can show your available balance, cost, strike at which the option starts paying, breakeven, and liquidity status.
 
 {% hint style="info" %}
-If the trade panel shows **No liquidity on this side**, a Market order cannot be confirmed. Select another strike or side, or wait for liquidity.
+If the ticket shows **No liquidity on this side**, a Market order cannot execute. You can select another contract or wait for liquidity.
 {% endhint %}
 
-## Step 5: Review Orders and Positions
+Before confirming, verify the underlying, call or put type, strike, expiry, selected leg, Buy/Sell or Write/Burn action, premium, size, and required approval.
 
-Expand the selected strike to view the Order Book, Live Trades, Orders, History, Positions, and Chart tabs. The orderbook shows price, size, and total value. The balance panel separates your total balance, amount in orders, and available amount for the underlying and selected position side.
+## Step 6: Track the Order
 
-If an order does not match, it remains in the orderbook until it reaches its expiry or you cancel it.
+Expand the selected strike to review the **Order Book**, **Live Trades**, **Orders**, **History**, and **Positions** tabs. Your Portfolio also separates positions, open orders, history, collateral, and spot balances.
 
-## Step 6: Exit or Unwind Before Expiry
+Position history can label a completed **Write** action as **Mint LP**. Both names refer to opening the LP writer position.
 
-To exit one side, select **Sell** and place an order for the LONG or SHORT position you hold. The sale executes only when it matches available orderbook liquidity.
+An unmatched order remains open until it fills, reaches its selected order expiry, or you cancel it. Cancellation is free and immediate.
 
-If you hold equal amounts of LONG and SHORT for the same strike and expiry, unwind the paired claims to receive the underlying token back.
+## Step 7: Mint or Unwind a Pair
 
-## Step 7: Hold to Expiry
+Open the trade settings and select **Mint** to deposit the contract's collateral and receive equal amounts of its option and LP legs.
 
-The underlying remains as collateral for the LONG and SHORT claims. At expiry, the market rules determine the final price.
+After minting, you can sell the option leg and keep the LP writer position, sell the LP leg and keep the option position, or retain both. Minting the pair does not itself pay a premium.
 
-## Step 8: Settle the Position
+Use **Unwind** when you hold equal option and LP amounts for the same contract. The paired tokens are burned and the full associated collateral is returned. Premiums previously paid or received remain separate.
 
-* At or below the strike, LONG receives nothing and SHORT receives the full underlying.
-* Above the strike, LONG receives `(final price - strike) / final price` units of the underlying. SHORT receives the remainder.
-* If no final price is available and the market is marked with a null outcome, LONG and SHORT each receive half of the collateral.
+## Step 8: Exit or Hold to Expiry
 
-See [Covered Calls](../understanding-markets/covered-calls.md) for the payout example and important restrictions.
+Before expiry, use **Sell** for an option position, **Burn** for an LP position, or **Unwind** for an equal pair. Sell and Burn orders require matching orderbook liquidity.
+
+If you hold the position through expiry:
+
+* A call's Long leg receives the call payout above the strike, while LP receives the remaining underlying collateral.
+* A put's Short leg receives the put payout below the strike, while LP receives the remaining USDG collateral.
+* The two settlement payouts always add up to the collateral originally locked for the position.
+* If no final oracle price is available, the option and LP legs each receive half of the locked collateral.
+
+See [Covered Options](../understanding-markets/covered-calls.md) for numerical settlement examples and the complete position model.

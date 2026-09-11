@@ -34,9 +34,9 @@ For token price options markets, settlement depends on the final value of the un
 
 Do not use the last traded orderbook price as the settlement price.
 
-## Covered Calls
+## Covered Options
 
-Covered Calls use the final price of the underlying at expiry and the instrument's strike to divide the locked underlying between LONG and SHORT. Check the market rules shown in the [Robinhood Chain experience](http://robinhood.premarket.xyz/) for the exact price source, time window, and fallback hierarchy.
+Covered options use the final oracle price of the underlying at expiry and the instrument's strike. A covered call divides the locked underlying token between Long and LP. A cash-secured put divides the locked USDG between Short and LP. Check the market rules shown in the [Robinhood Chain experience](http://robinhood.premarket.xyz/) for the exact price source, time window, and fallback hierarchy.
 
 ## Pre TGE Markets
 
@@ -55,7 +55,7 @@ RWA/Spot Markets do not have an expiry-based settlement price. The value of the 
 1. Market reaches expiry and trading stops.
 2. The applicable market rules determine the reference outcome, price, or valuation.
 3. The settlement formula is applied.
-4. Positions update or become claimable according to the product flow once settlement confirms. Solana prediction markets require manual redemption through DFlow. Covered Call LONG and SHORT claims redeem or withdraw their respective shares of the underlying.
+4. Positions update or become claimable according to the product flow once settlement confirms. Solana prediction markets require manual redemption through DFlow. Covered-option option and LP legs redeem their respective shares of the locked collateral.
 
 {% hint style="warning" %}
 If data sources conflict or no reliable data is available, the market rules determine the fallback path. The market may be cancelled if it cannot resolve normally.

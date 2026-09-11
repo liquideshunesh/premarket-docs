@@ -56,18 +56,29 @@ coverY: 0
 | --- | --- |
 | **Option** | A conditional payout instrument tied to where an underlying asset settles relative to a strike or range at expiry |
 | **Price Spread** | A price range with a lower strike and an upper strike. LONG and SHORT payouts depend on where the final price lands relative to the range |
-| **Covered Call** | An options position backed by the underlying asset. LONG receives the call payout above the strike and SHORT receives the remaining collateral |
-| **Underlying** | The asset whose final price determines the option payout. For Covered Calls, it is also the collateral and settlement asset |
-| **Strike** | The price above which a Covered Call's LONG claim begins to receive a payout |
-| **Premium** | The price paid by the LONG holder to acquire the claim. For Covered Calls, it is paid in the underlying token and is separate from the expiry payout calculation |
-| **LONG / SHORT** | The two sides of an options-style position. MegaETH spreads split a combined value of $1; Covered Calls divide the locked underlying |
+| **Underlying** | The asset whose final price determines the option payout |
+| **Strike** | The price used to determine whether and how much an option pays at expiry |
+| **LONG / SHORT** | The two directional sides of a MegaETH price spread. Together they split a combined value of $1 at settlement |
 | **Mint match** | When a LONG buy matches a SHORT buy on the orderbook, the position pair is minted automatically and each side receives the side they bought |
 | **Merge match** | When a LONG sell matches a SHORT sell, the positions merge and collateral is released to each side automatically |
-| **Minting** | Locking the collateral required for a market to create equal LONG and SHORT claims. The collateral asset depends on the market shape |
-| **Unwind** | Recovering collateral by returning equal LONG and SHORT amounts before expiry. For Covered Calls, the paired claims return the underlying token |
 | **Expiry** | The time at which an options market resolves and positions are settled |
 | **Inside the Range** | When the final settlement price lands between the lower and upper strike, so LONG and SHORT receive partial payouts |
 | **Outside the Range** | When the final settlement price lands above the upper strike or below the lower strike. Which side wins depends on direction |
+
+## Covered Options
+
+| Term | Definition |
+| --- | --- |
+| **Covered Call** | A call position fully backed and settled by the underlying token. Long receives the call payout and LP receives the remaining collateral |
+| **Cash-Secured Put** | A put position fully backed and settled by USDG. Short receives the put payout and LP receives the remaining collateral |
+| **Option Leg** | The position that receives the option payout. It is labelled Long for calls and Short for puts |
+| **LP Leg** | The covered writer position that receives collateral remaining after the option payout |
+| **Premium** | The price paid by the option buyer to the seller or writer. Covered-option premiums are paid in USDG and are separate from collateral and settlement |
+| **Write** | Opening an LP position by locking the contract's collateral and offering the option for a USDG premium |
+| **Burn** | Closing an LP position by paying the orderbook premium, returning the LP token, and unlocking its full collateral |
+| **Mint** | Depositing the contract's collateral to create equal amounts of its option and LP legs |
+| **Unwind** | Burning equal option and LP amounts for the same contract to redeem their associated collateral |
+| **Vault Operator Approval** | The one-time permission required before a covered-option order can fill |
 
 ## RWA / Spot Markets
 
@@ -82,6 +93,7 @@ coverY: 0
 | --- | --- |
 | **USDM** | The stablecoin used for trading and settlement on MegaETH markets |
 | **USDC** | The stablecoin used for trading and settlement on Solana markets (Prediction Markets, Yield Farm) |
+| **USDG** | The stablecoin used for covered-option premiums and cash-secured-put collateral on Robinhood Chain |
 | **Smart Account** | A delegated trading wallet that batches transactions and abstracts gas |
 | **Subkey** | A delegated key that operates the smart account. Managed by the system |
 | **Onchain Settlement** | Final execution of a trade or settlement recorded on the blockchain |

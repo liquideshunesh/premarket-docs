@@ -7,7 +7,7 @@ coverY: 0
 
 Exiting a position means closing your trade before the market resolves. You sell your shares or position tokens back into the orderbook, locking in your profit or loss without waiting for final settlement.
 
-This page describes markets at [app.premarket.xyz](https://app.premarket.xyz/). For Covered Calls, sell a LONG or SHORT position through the orderbook when liquidity is available. If you hold equal LONG and SHORT amounts for the same strike and expiry, you can unwind the paired amount back into the underlying token.
+This page describes markets at [app.premarket.xyz](https://app.premarket.xyz/). For covered options on Robinhood Chain, use **Sell** to close the option leg, **Burn** to close the LP writer leg, or **Unwind** to redeem collateral when you hold equal option and LP amounts for the same contract. Sell and Burn orders require matching liquidity.
 
 ## When You Can Exit
 

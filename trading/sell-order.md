@@ -7,7 +7,7 @@ coverY: 0
 
 A sell order lets you exit an existing position before settlement. You sell your shares back into the orderbook and receive USDM (on MegaETH markets) or USDC (on Solana markets) in return. Your profit or loss is locked in at the point of sale.
 
-This page describes the orderbook flow at [app.premarket.xyz](https://app.premarket.xyz/). In the Covered Call experience, use the **Sell** tab to place an order for a LONG or SHORT position you hold. The sale executes when it matches available liquidity and is paid in the underlying token. If you hold equal LONG and SHORT amounts for the same strike and expiry, you can instead unwind the paired amount back into the underlying.
+This page describes the orderbook flow at [app.premarket.xyz](https://app.premarket.xyz/). In the covered-options experience, use **Sell** to close a Long call or Short put position you hold and receive its premium in USDG. Use **Burn** to close an LP writer position and unlock its collateral. If you hold equal option and LP amounts for the same contract, you can instead **Unwind** the pair directly back into collateral.
 
 {% hint style="info" %}
 In the standard trading flow, you can only sell a position you already hold. Selling closes or reduces an existing position.

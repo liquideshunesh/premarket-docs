@@ -5,17 +5,17 @@ coverY: 0
 
 # Options Markets
 
-Premarket Options Markets include multiple options-style flows. Price spread markets run through [app.premarket.xyz](https://app.premarket.xyz/) on MegaETH. Covered Calls run through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain. Both are part of Premarket.
+Premarket Options Markets include multiple options-style flows. Price spread markets run through [app.premarket.xyz](https://app.premarket.xyz/) on MegaETH. Covered options run through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain. Both are part of Premarket.
 
-## Covered Calls on Robinhood Chain
+## Covered Options on Robinhood Chain
 
-Covered Calls lock the underlying asset as collateral and create equal LONG and SHORT claims. At expiry, those claims divide the locked underlying according to the final price and strike. They do not use the `$1` spread payout described below.
+The covered-options flow supports covered calls backed by the underlying token and cash-secured puts backed by USDG. Minting creates equal option and LP legs. At expiry, the option leg receives its payoff and LP receives the remaining collateral. The two payouts always add up to the fixed collateral locked for the position.
 
-They appear under Premarket's Options tab as strike-based option chains. Select an expiry and strike, then choose the LONG or SHORT side in the trade panel.
+These markets appear under Premarket's **Options** view as strike-based option chains. Select **Call** or **Put**, an expiry, and a strike. The option leg is labelled **Long** for calls and **Short** for puts; the writer side is labelled **LP** for both.
 
-Premiums and any fees are paid in the underlying token. An unmatched order remains open until expiry or user cancellation. Before settlement, holders can sell either side through the orderbook or unwind equal LONG and SHORT amounts back into the underlying.
+Premiums are quoted and paid separately in USDG. Use **Buy** or **Sell** for the option leg and **Write** or **Burn** for the LP leg. An unmatched order remains open until its order expiry or user cancellation. Before settlement, equal option and LP amounts can be unwound to recover the associated collateral directly.
 
-See [Covered Calls](covered-calls.md) for the complete collateral, premium, and settlement lifecycle.
+See [Covered Options](covered-calls.md) for the complete collateral, premium, and settlement lifecycle.
 
 ## MegaETH Price Spread Markets
 
@@ -93,7 +93,7 @@ At settlement, LONG and SHORT always split a combined value of $1. Token price m
 
 ## MegaETH Price Spread Fees
 
-MegaETH options spread fees: 0.15% maker, 0.40% taker. This fee schedule does not apply to Covered Calls on Robinhood Chain.
+MegaETH options spread fees: 0.15% maker, 0.40% taker. This fee schedule does not apply to covered options on Robinhood Chain.
 
 {% hint style="info" %}
 **MegaETH price spread fees are 0% at launch.** The schedule above is the standard rate that applies once fees are switched on.

@@ -15,7 +15,7 @@ Premarket is a trading platform for assets and outcomes before they exist or res
 
 ## Product Types and Market Categories
 
-Premarket uses a similar interface across products, but payout logic, infrastructure, and settlement differ by product. The main product structures are Prediction Markets, Options Markets, and RWA/Spot Markets. Options include price spreads on MegaETH and Covered Calls on Robinhood Chain. Labels such as Yield Farm, Pre IPO, and Pre TGE are views or categories within those product structures.
+Premarket uses a similar interface across products, but payout logic, infrastructure, and settlement differ by product. The main product structures are Prediction Markets, Options Markets, and RWA/Spot Markets. Options include price spreads on MegaETH and covered calls and cash-secured puts on Robinhood Chain. Labels such as Yield Farm, Pre IPO, and Pre TGE are views or categories within those product structures.
 
 ### 1. Prediction Markets
 
@@ -43,7 +43,7 @@ Trade valuation spreads on tokens before launch. Pre TGE is a market category fo
 
 Trade structured LONG or SHORT exposure on existing assets. Price spread markets use predefined ranges on MegaETH, trade in USDM, and split a combined value of $1 at settlement. Live spread markets are BTC/USD, ETH/USD, HYPE/USD, and ZEC/USD Spreads.
 
-Covered Calls are another Premarket Options flow. They lock the underlying asset, settle in that asset, and are available through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) because the experience is deployed on Robinhood Chain. See [Covered Calls](../../understanding-markets/covered-calls.md) for details.
+Covered options are another Premarket Options flow, available through [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) because the experience is deployed on Robinhood Chain. Covered calls lock and settle in the underlying token; cash-secured puts lock and settle in USDG. Premiums are paid separately in USDG. See [Covered Options](../../understanding-markets/covered-calls.md) for details.
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption><p>Options chain with buy and sell choices</p></figcaption></figure>
 
@@ -61,16 +61,16 @@ Trade tokenised real world assets directly against USDM. These are perpetual spo
 
 ## How All Markets Work
 
-Markets at [app.premarket.xyz](https://app.premarket.xyz/) run on a live orderbook. Prices are not set by the platform, they emerge from real buy and sell orders. A higher price means the market collectively believes something is more likely. You can enter and exit these positions before settlement when liquidity is available. For Covered Calls, follow the position flow shown at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
+Markets at [app.premarket.xyz](https://app.premarket.xyz/) run on a live orderbook. Prices are not set by the platform, they emerge from real buy and sell orders. A higher price means the market collectively believes something is more likely. You can enter and exit these positions before settlement when liquidity is available. For covered options, follow the position flow shown at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
 
 {% hint style="warning" %}
 **Before you start:**
 
 * You can lose your full position if the outcome goes against you.
-* Early exit through an orderbook depends on available liquidity and is never guaranteed. Covered Call holders can sell LONG or SHORT positions, or unwind equal LONG and SHORT amounts back into the underlying token.
-* If a market resolves normally, settlement follows the market rules. Options-style MegaETH markets are cash-settled at expiry. Covered Calls on Robinhood Chain settle in the underlying asset. Prediction Markets and Yield Farm run on Solana and require manual redemption through DFlow.
+* Early exit through an orderbook depends on available liquidity and is never guaranteed. Covered-option holders can sell the option leg, burn the LP leg, or unwind equal option and LP amounts back into collateral.
+* If a market resolves normally, settlement follows the market rules. Options-style MegaETH markets are cash-settled at expiry. Covered options on Robinhood Chain divide the locked collateral between the option and LP legs. Prediction Markets and Yield Farm run on Solana and require manual redemption through DFlow.
 * RWA/Spot Markets do not have expiry-based settlement. You realise value by selling or holding the asset.
-* Prediction Markets and Yield Farm require identity verification and are not available in all regions. Covered Calls do not require KYC; geographic availability is not defined in this guide.
+* Prediction Markets and Yield Farm require identity verification and are not available in all regions. Covered options do not require KYC; geographic availability is not defined in this guide.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Example market page</p></figcaption></figure>

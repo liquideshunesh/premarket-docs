@@ -11,7 +11,7 @@ RWA markets are the exception. They are perpetual with no expiry and no settleme
 
 ## Two Ways to Realise Value
 
-**Exit Early:** sell your position into the orderbook before expiry. Profit or loss is based on sell price minus buy price, and a counterparty is required to execute. Covered Call holders can also unwind equal LONG and SHORT amounts back into the underlying token.
+**Exit Early:** sell your position into the orderbook before expiry. Profit or loss is based on sell price minus buy price, and a counterparty is required to execute. Covered-option users can sell an option leg, burn an LP writer leg, or unwind equal option and LP amounts back into collateral.
 
 **Hold to Settlement:** your position resolves based on the final outcome if the market resolves normally. Payout depends on the product and market rules. Not applicable to RWA markets.
 
@@ -24,11 +24,12 @@ RWA markets are the exception. They are perpetual with no expiry and no settleme
 | Pre IPO Markets    | Market-defined listing event          | LONG/SHORT valuation spread payout         |
 | Pre TGE Markets    | Market-defined token launch event     | LONG/SHORT valuation spread payout         |
 | MegaETH Price Spreads | Expiry time reached                | LONG/SHORT price spread payout             |
-| Covered Calls      | Expiry and final underlying price     | Locked underlying divided between LONG and SHORT |
+| Covered Calls      | Expiry and final underlying price     | Locked underlying divided between Long and LP |
+| Cash-Secured Puts  | Expiry and final underlying price     | Locked USDG divided between Short and LP |
 | RWA / Spot Markets | None (perpetual)                      | Realised only on sell                   |
 
 {% hint style="success" %}
-Options-style MegaETH spread markets are cash-settled at expiry according to the market rules. LONG and SHORT split a combined value of $1. Covered Calls on Robinhood Chain settle in the underlying asset instead.
+Options-style MegaETH spread markets are cash-settled at expiry according to the market rules. LONG and SHORT split a combined value of $1. On Robinhood Chain, covered calls settle in their underlying token and cash-secured puts settle in USDG.
 {% endhint %}
 
 {% hint style="info" %}
