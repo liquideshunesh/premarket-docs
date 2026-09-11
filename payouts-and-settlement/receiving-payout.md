@@ -25,11 +25,13 @@ Price spread options markets run on MegaETH. LONG behaves like exposure to a cal
 
 Settlement proceeds are reflected according to the market rules once settlement confirms.
 
-## Covered Calls
+## Covered Options
 
-Covered Calls run on Robinhood Chain and settle in the underlying asset. At or below the strike, LONG receives nothing and SHORT can withdraw the full underlying. Above the strike, LONG redeems `(final price - strike) / final price` units of the underlying and SHORT withdraws the remainder. The two payouts always equal the underlying locked for the position.
+Covered options run on Robinhood Chain. A covered call's Long option leg and LP leg divide the locked underlying token. At or below the strike, Long receives nothing and LP receives the full underlying. Above the strike, Long redeems `(final price - strike) / final price` units of the underlying and LP receives the remainder.
 
-Before expiry, a holder can sell LONG or SHORT through the orderbook when liquidity is available. A holder with equal LONG and SHORT amounts for the same strike and expiry can unwind the paired claims back into the underlying token.
+A cash-secured put's Short option leg and LP leg divide its locked USDG. Below the strike, Short receives the put payout and LP receives the remainder. At or above the strike, LP receives the full collateral.
+
+Before expiry, use **Sell** to close an option position or **Burn** to close an LP writer position when liquidity is available. A holder with equal option and LP amounts for the same contract can **Unwind** the pair back into its collateral.
 
 ## RWA / Spot Markets
 
@@ -43,4 +45,4 @@ RWA markets do not settle. There is no expiry and no automatic redemption. To re
 | Cannot withdraw                   | Funds are still locked in an active position  | Close or wait for the position      |
 | Zero payout                       | Position resolved out of the money            | Expected outcome, no action needed  |
 | Solana position not auto credited | Manual redemption required via DFlow          | Initiate redemption on the position |
-| Covered Call payout differs from `$1` spread | Covered Calls settle in the underlying | Check the strike and final price |
+| Covered-option payout differs from `$1` spread | Covered options divide their locked collateral | Check the option type, strike, and final price |

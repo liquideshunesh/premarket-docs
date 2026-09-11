@@ -13,6 +13,9 @@ coverY: 0
 | Approval required | You have not approved the settlement currency for spending | Click Approve in the trade panel and retry |
 | Insufficient balance | Your smart account does not have enough USDM (MegaETH) or USDC (Solana) | Deposit more via your Portfolio |
 | Transaction failed | Onchain transaction was rejected | Check your network connection and try again |
+| Covered-option order signs but cannot fill | Vault operator approval is missing | Complete the one-time approval and retry |
+| Covered-option order stopped filling after an upgrade | The order was signed for an earlier exchange version | Cancel the stale order and create a new one |
+| Insufficient covered-option balance | You lack USDG for a premium or the required writer collateral | Deposit USDG, the call underlying, or the required put collateral |
 
 ## Wallet Errors
 
@@ -30,7 +33,7 @@ coverY: 0
 | Trading still locked after verification | Smart account not created or no funds deposited | Complete remaining setup steps in Getting Started |
 
 {% hint style="info" %}
-Identity verification is only required to trade Prediction Markets and Yield Farm in the main app. It is not required for Pre TGE, MegaETH price spreads, Pre IPO, RWA markets, or Covered Calls.
+Identity verification is only required to trade Prediction Markets and Yield Farm in the main app. It is not required for Pre TGE, MegaETH price spreads, Pre IPO, RWA markets, or covered options.
 {% endhint %}
 
 ## Position Errors
@@ -39,4 +42,4 @@ Identity verification is only required to trade Prediction Markets and Yield Far
 | --- | --- | --- |
 | Sell button not visible | You do not hold a position in this market | Buy first before attempting to sell |
 | Position still showing after sell | UI sync delay | Refresh the page and wait for onchain confirmation |
-| Cannot unwind | You do not hold equal amounts of LONG and SHORT | Buy back the missing side before attempting to unwind |
+| Cannot unwind | You do not hold equal amounts of both position legs | Acquire the missing matching leg before attempting to unwind |

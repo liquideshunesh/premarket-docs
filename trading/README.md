@@ -7,7 +7,7 @@ coverY: 0
 
 A guide to placing orders, understanding pricing, and managing positions on Premarket.
 
-The order guides in this section describe the markets at [app.premarket.xyz](https://app.premarket.xyz/). For the Covered Call lifecycle on Robinhood Chain, see [How to Use a Covered Call](../walkthroughs/covered-call.md). An unmatched Covered Call order remains open until expiry or user cancellation. Holders can sell LONG or SHORT through the orderbook, or unwind equal amounts of both sides back into the underlying token.
+The order guides in this section describe the markets at [app.premarket.xyz](https://app.premarket.xyz/). For covered calls and cash-secured puts on Robinhood Chain, see [How to Trade Covered Options](../walkthroughs/covered-call.md). Covered-market premiums are paid in USDG. Use **Sell** to close the option leg, **Burn** to close the LP leg, or **Unwind** to redeem collateral when you hold equal option and LP amounts.
 
 {% content-ref url="pricing.md" %}
 [pricing.md](pricing.md)

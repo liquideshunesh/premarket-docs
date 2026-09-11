@@ -3,117 +3,143 @@ cover: ../.gitbook/assets/Default.png
 coverY: 0
 ---
 
-# Covered Calls
+# Covered Options
 
-Covered Calls are part of Premarket's Options Markets. The experience is available at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) because it is deployed on Robinhood Chain. It is another entry point to Premarket, not a separate application or product.
+Covered options are part of Premarket's Options Markets. The experience is available at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) because it is deployed on Robinhood Chain. It is another entry point to Premarket, not a separate application or product.
 
-## What is a Covered Call?
+The current covered-options flow supports covered calls and cash-secured puts. Each position is fully backed by collateral, so there is no margin engine or liquidation.
 
-A Covered Call lets a holder lock an underlying asset and sell the LONG claim on price gains above a chosen strike. The premium provides value to the SHORT side when the LONG claim changes hands, while the locked underlying fully backs the position.
+## How the Position Works
 
-Premarket Covered Calls settle in the underlying asset. They do not use the `$1` LONG/SHORT payout model used by Premarket's MegaETH spread markets.
+Each option is represented by two transferable position tokens created from fixed collateral:
 
-## Roles
-
-| Role | What the position represents |
+| Position | What it represents |
 | --- | --- |
-| Position creator | Locks the underlying and receives equal LONG and SHORT claims |
-| LONG holder | Holds the call payoff above the strike |
-| SHORT holder | Holds the locked collateral minus the LONG payout |
+| Option leg | Receives the option payout at settlement. The interface labels this **Long** for calls and **Short** for puts. |
+| LP leg | Receives the locked collateral that remains after the option payout. This is the writer side for both calls and puts. |
 
-Creating the pair is direction-neutral. A typical covered call writer keeps the SHORT claim and sells the LONG claim to collect the quoted premium. The obligation follows the SHORT claim, not the person who originally created the position. Transferring the SHORT claim transfers that obligation with it.
+For a covered call, the collateral is the underlying token, such as AAPL. For a cash-secured put, the collateral is USDG. The two settlement payouts always add up to the collateral locked for the position.
+
+The quoted premium is a separate USDG payment between traders. It is not part of the locked collateral and is not deducted from the settlement payout.
+
+{% hint style="info" %}
+The LP position carries the writer's collateral rights and settlement exposure. If the LP token changes hands, those rights and obligations move with it.
+{% endhint %}
 
 ## Reading the Market
 
-Covered Call markets appear under the **Options** tab. A market card identifies the underlying, available expiry, strike rows, and any quoted LONG or SHORT prices. A dash means no price is currently displayed for that side.
+Covered-option markets appear under the **Options** view. Select an underlying, then use the option chain to:
 
-Inside a market, the price history shows the current spot price when available and marks the selected strike as the target. Use the option chain to review the instrument:
+* Switch between **Call** and **Put**.
+* Choose an expiry.
+* Compare strikes, bid and ask premiums, LP APR, and the displayed mark.
+* Select a strike to open its trade ticket.
+* Expand a strike to review the Order Book, Live Trades, Orders, History, and Positions.
+* Use **Details** to review contract terms and **Builder** to inspect the displayed payoff for a selected position.
 
-* Choose an expiry tab.
-* Compare the available strikes.
-* Review the quoted LONG price, SHORT price, and displayed max payout for each strike.
-* Select a strike to open its trade panel and expanded market details.
-* Use the Order Book, Live Trades, Orders, History, Positions, and Chart tabs to review activity for the selected instrument.
+The mark is a reference value. Your actual premium is determined by the orderbook price at which your order fills.
 
-The orderbook displays price, size, and total value. Available prices and sizes can differ between LONG and SHORT.
+The supplied market view shows CASHCAT, STONKBROKER, AAPL, AMZN, TSLA, and NVDA. Use the live market selector for the current list of supported underlyings and available expiries.
 
-## Supported Underlyings
+## Trading Actions
 
-The current Covered Call market view includes:
+The trade ticket separates the option leg from the LP leg.
 
-* AAPL
-* AMZN
-* CASHCAT
-* NVDA
-* STONKBROKERS
-* TSLA
+| Selected leg | Action | Result |
+| --- | --- | --- |
+| Long on a call or Short on a put | **Buy** | Pay a USDG premium to open or add to the option position. |
+| Long on a call or Short on a put | **Sell** | Sell an option position you already hold and receive a USDG premium. |
+| LP | **Write** | Lock the required collateral and receive a USDG premium when the order fills. |
+| LP | **Burn** | Buy back the option exposure attached to your LP position, return the LP token, and unlock the full collateral. |
 
-Check the **Options** tab for the strikes and expiries available for each underlying.
+Both legs trade through the same premium orderbook. **Sell** and **Write** orders rest as asks; **Buy** and **Burn** orders rest as bids. A **Buy** order can fill against a writer creating a new covered position or a holder selling an existing option position.
+
+An option buyer's maximum loss is the USDG premium paid. A writer receives the premium when the order fills, while the required collateral remains locked until expiry or a completed Burn.
 
 ## Before You Start
 
-* Open the Covered Call experience at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
-* Account creation, wallet onboarding, and gas abstraction follow the same flow used for Premarket on MegaETH.
-* Covered Calls do not require KYC.
-* Confirm the underlying asset, strike, expiry, and settlement rules for the instrument.
-* To create one full position, have one unit of the underlying available for each position you want to create.
-* Review the selected side's quote, your available underlying balance, fees, and transaction details. The premium and any fees are paid in the underlying token. The fee rate is not documented here.
+* Connect at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/). Account creation, wallet onboarding, and gas abstraction follow the same flow as Premarket on MegaETH.
+* Deposit USDG to pay premiums for buy-side orders.
+* To write a covered call, hold the underlying token required as collateral.
+* To write a cash-secured put, hold the required USDG collateral.
+* Cash-secured puts require supported stablecoins for both collateral and settlement; the current flow uses USDG.
+* Complete the one-time vault operator approval. An order can be signed without this approval, but it cannot fill.
+* Review the option type, underlying, strike, expiry, order type, premium, and size before confirming.
 
-## Position Lifecycle
+Covered options do not require KYC. Geographic availability is not specified in this guide.
 
-1. A position creator locks one unit of the underlying per position.
-2. The position creates equal LONG and SHORT claims.
-3. The LONG claim can pass to a buyer for the quoted premium. The covered call writer normally keeps the SHORT claim.
-4. The underlying remains locked as collateral for the two claims.
-5. At expiry, the market's final price is compared with the strike.
-6. The LONG holder redeems the call payout. The SHORT holder withdraws the remaining underlying. Together, the two payouts equal the underlying locked for the position.
+## Minting a Position Pair
 
-{% hint style="info" %}
-If the selected side has no liquidity, the trade panel shows **No liquidity on this side** and the order cannot be confirmed as a Market order.
-{% endhint %}
+The **Mint** position tool lets you create both legs directly:
+
+1. Select the option contract.
+2. Deposit its required collateral.
+3. Receive equal amounts of the option leg and LP leg.
+
+For example, minting one pair of the AAPL call shown in the interface deposits `1 AAPL` and creates one option position and one LP position. You can then:
+
+* Sell the option leg to receive its premium and keep the LP writer position.
+* Sell the LP leg and keep the option position.
+* Keep both legs and unwind them later.
+
+Minting does not itself pay a premium. Premium changes hands only when an order fills.
+
+## Unwinding to Collateral
+
+If you hold equal amounts of the option and LP legs for the same strike and expiry, use **Unwind** to burn the pair and redeem the associated collateral.
+
+Unwinding returns the full collateral for the paired amount. It does not add or subtract premiums previously paid or received. If you hold only one leg, you must acquire the matching leg before you can unwind directly.
 
 ## Open Orders and Cancellation
 
-An unmatched order remains in the orderbook until it reaches its expiry or you cancel it.
+Orders are signed offchain and remain open until they fill, reach their selected order expiry, or you cancel them. The interface currently offers `1h`, `24h`, `7d`, and `30d` order expiries.
 
-## Exit or Unwind Before Expiry
+Cancelling an unmatched order is free and immediate. If Premarket upgrades the exchange, an order signed for the previous exchange version may no longer fill; cancel it and create a new order.
 
-You can exit a LONG or SHORT position by selling it through the orderbook. The order must match available liquidity before the sale executes.
+## Exiting Before Expiry
 
-If you hold equal amounts of LONG and SHORT for the same strike and expiry, you can unwind those paired claims back into the underlying token. Only the matched LONG and SHORT amount can be unwound.
+Your exit depends on the leg you hold:
 
-## Settlement
+* Use **Sell** to close an option position through the orderbook.
+* Use **Burn** to close an LP writer position and unlock its collateral.
+* Use **Unwind** if you hold equal option and LP amounts and want to redeem the collateral directly.
 
-Let `F` be the final settlement price and `K` the strike price for a position backed by one unit of the underlying.
+Orderbook exits require matching liquidity. An unmatched exit order remains open until its order expiry or cancellation.
 
-| Final price | LONG payout | SHORT payout |
+## Covered Call Settlement
+
+Let `F` be the final price and `K` the strike for a call backed by one unit of its underlying token.
+
+| Final price | Long option payout | LP payout |
 | --- | --- | --- |
-| At or below the strike | `0` underlying | `1` underlying |
-| Above the strike | `(F - K) / F` underlying | `K / F` underlying |
+| At or below `K` | `0` underlying | `1` underlying |
+| Above `K` | `(F - K) / F` underlying | `K / F` underlying |
 
-The payouts are made in the underlying asset and always add up to the one unit originally locked. There is no margin engine or liquidation step for this flow.
+For example, assume one AAPL is locked for a covered call with a `$250` strike:
 
-## Example
-
-Assume a Covered Call has a `$250` strike and one AAPL is locked as collateral.
-
-| Final AAPL price | LONG receives | SHORT receives |
+| Final AAPL price | Long receives | LP receives |
 | --- | --- | --- |
 | `$250` | `0 AAPL` | `1 AAPL` |
 | `$300` | `0.1667 AAPL`, worth `$50` | `0.8333 AAPL`, worth `$250` |
 | `$500` | `0.5 AAPL`, worth `$250` | `0.5 AAPL`, worth `$250` |
+| `$2,500` | `0.9 AAPL`, worth `$2,250` | `0.1 AAPL`, worth `$250` |
 
-The LONG holder also subtracts the premium paid when calculating net profit. The SHORT holder adds the premium received. Premiums vary and are not part of the expiry payout formula, so use the quoted premium to calculate each side's net result.
+The premium is paid separately in USDG. Include the premium paid or received when calculating each trader's net result.
 
-## Null Outcome
+## Cash-Secured Put Settlement
 
-If the market has no final price and is marked with a null outcome, each claim receives half of the locked collateral. For a position backed by one unit of the underlying, LONG receives `0.5` and SHORT receives `0.5` of that asset.
+For a cash-secured put with a `$250` strike, `$250` of USDG collateral backs each full position:
 
-## Important Behaviors
+| Final underlying price | Short option payout | LP payout |
+| --- | --- | --- |
+| `$0` | `250 USDG` | `0 USDG` |
+| `$125` | `125 USDG` | `125 USDG` |
+| At or above `$250` | `0 USDG` | `250 USDG` |
 
-* The position is fully collateralised with the underlying. It is not a naked call.
-* Collateral follows the claim. Selling the SHORT claim transfers the short obligation.
-* Small differences can arise from conservative rounding when collateral and liabilities are calculated.
-* Selling a LONG or SHORT position depends on orderbook liquidity. Unwinding equal LONG and SHORT amounts returns the paired collateral in the underlying token.
+The option leg is labelled **Short** because its payout increases as the underlying settles below the strike. The writer side remains **LP**.
 
-For the lifecycle in checklist form, see [How to Use a Covered Call](../walkthroughs/covered-call.md).
+## If No Final Price Is Available
+
+If the oracle does not provide a final price and the market uses its fallback outcome, the option and LP legs each receive half of the locked collateral.
+
+For a step-by-step trading flow, see [How to Trade Covered Options](../walkthroughs/covered-call.md).

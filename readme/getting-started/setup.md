@@ -11,10 +11,10 @@ Setting up on Premarket takes a few steps before you can place your first trade.
 
 <figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption><p>Premarket application homepage</p></figcaption></figure>
 
-Use [app.premarket.xyz](https://app.premarket.xyz/) for Premarket on MegaETH and Solana. For Covered Calls, use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/). Covered Calls are part of Premarket; the separate entry point exists because that experience is deployed on Robinhood Chain.
+Use [app.premarket.xyz](https://app.premarket.xyz/) for Premarket on MegaETH and Solana. For covered options, use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/). Covered options are part of Premarket; the separate entry point exists because that experience is deployed on Robinhood Chain.
 
 {% hint style="info" %}
-The remaining account setup steps describe the main Premarket app. Covered Calls on Robinhood Chain use the same smart-account onboarding and gas-abstraction flow as Premarket on MegaETH. Fund the account with the supported underlying token for the Covered Call you want to trade.
+The remaining account setup steps describe the main Premarket app. Covered options on Robinhood Chain use the same smart-account onboarding and gas-abstraction flow as Premarket on MegaETH. Deposit USDG for option premiums. Writers also need the underlying token for covered calls or USDG collateral for cash-secured puts.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Premarket app entry</p></figcaption></figure>
@@ -24,7 +24,7 @@ The remaining account setup steps describe the main Premarket app. Covered Calls
 Prediction Markets and Yield Farm use DFlow/Kalshi market infrastructure that requires identity verification. You can start verification in two ways: click Buy Yes or Buy No on any prediction market, or go to your Portfolio and click Verify Identity. Either path redirects you to the identity verification provider. Submit a government issued ID and complete face verification if prompted. Once done, return to the app and your account will be enabled for trading.
 
 {% hint style="info" %}
-Identity verification is only required for Prediction Markets and Yield Farm in the main app. If you only trade Pre IPO, Pre TGE, MegaETH price spreads, RWA markets, or Covered Calls, skip this step and continue to Step 3. Covered Calls do not require KYC.
+Identity verification is only required for Prediction Markets and Yield Farm in the main app. If you only trade Pre IPO, Pre TGE, MegaETH price spreads, RWA markets, or covered options, skip this step and continue to Step 3. Covered options do not require KYC.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Identity verification prompt shown before trading Prediction Markets or Yield Farm.</p></figcaption></figure>
@@ -49,7 +49,7 @@ Make sure you are depositing on the correct network for the product you want to 
 | ------- | ------------------------------------ | --------------------------- |
 | MegaETH | Pre IPO, Pre TGE, price spreads, RWA | USDM                        |
 | Solana  | Prediction Markets, Yield Farm       | USDC                        |
-| Robinhood Chain | Covered Calls                | Supported underlying asset  |
+| Robinhood Chain | Covered calls and cash-secured puts | USDG premiums; underlying or USDG collateral |
 
 Depositing on the wrong network means your funds will not be available for the market you want to trade.
 
@@ -57,13 +57,13 @@ Depositing on the wrong network means your funds will not be available for the m
 
 ## Step 5: Place Your First Trade
 
-Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose LONG or SHORT. For RWA markets, select the asset and place a buy order. For Covered Calls, review the underlying, strike, expiry, collateral, and premium before choosing the LONG or SHORT role. See [How to Use a Covered Call](../../walkthroughs/covered-call.md) for the supported lifecycle.
+Go to any active market and select an outcome. For Prediction Markets and Yield Farm, choose Buy Yes or Buy No. For Pre IPO, Pre TGE, and Options spread markets, select the spread and choose LONG or SHORT. For RWA markets, select the asset and place a buy order. For covered options, select a call or put, expiry, and strike, then choose the option or LP leg. Complete the one-time vault operator approval before placing an order. See [How to Trade Covered Options](../../walkthroughs/covered-call.md) for the supported lifecycle.
 
 ## Step 6: Manage Your Position
 
-After placing a trade in the main app, track it in your Portfolio. You can monitor price changes and exit early by selling your position before settlement, provided there is liquidity available on the other side. For Covered Calls, sell a LONG or SHORT position through the orderbook, or unwind equal LONG and SHORT amounts back into the underlying token.
+After placing a trade in the main app, track it in your Portfolio. You can monitor price changes and exit early by selling your position before settlement, provided there is liquidity available on the other side. For covered options, use **Sell** to close the option leg, **Burn** to close the LP leg, or **Unwind** to redeem collateral when you hold equal option and LP amounts.
 
-If you hold to expiry, settlement depends on the market type. Options-style MegaETH markets are cash-settled according to their market rules. Covered Calls on Robinhood Chain divide the locked underlying between LONG and SHORT. Prediction Markets and Yield Farm run on Solana and require a manual redemption step through DFlow once your position expires. RWA markets do not have expiry-based settlement; you realise value by selling or holding the asset. See [Receiving Your Payout](../../payouts-and-settlement/receiving-payout.md) for details.
+If you hold to expiry, settlement depends on the market type. Options-style MegaETH markets are cash-settled according to their market rules. Robinhood Chain covered options divide the locked collateral between the option and LP legs. Prediction Markets and Yield Farm run on Solana and require a manual redemption step through DFlow once your position expires. RWA markets do not have expiry-based settlement; you realise value by selling or holding the asset. See [Receiving Your Payout](../../payouts-and-settlement/receiving-payout.md) for details.
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Active Portfolio</p></figcaption></figure>
 

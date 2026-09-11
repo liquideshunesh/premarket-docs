@@ -11,7 +11,7 @@ This page documents the geographic restrictions currently defined for Prediction
 
 If you are based in a restricted country, you can still visit Premarket and view all markets. You will not be able to interact with Prediction Markets or Yield Farm specifically. Pre IPO, Pre TGE, MegaETH price spreads, and RWA/Spot Markets remain accessible under the policy documented here.
 
-Covered Calls do not require KYC. A separate country-by-country eligibility policy for Covered Calls has not been specified in this guide; check access at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
+Covered options do not require KYC. A separate country-by-country eligibility policy for covered options has not been specified in this guide; check access at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/).
 
 ### Restricted Countries (Prediction Markets and Yield Farm only)
 

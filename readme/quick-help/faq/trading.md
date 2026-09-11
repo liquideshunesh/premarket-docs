@@ -5,7 +5,7 @@ coverY: 0
 
 # Trading FAQ
 
-These answers describe the orderbook at [app.premarket.xyz](https://app.premarket.xyz/) unless Covered Calls are mentioned explicitly.
+These answers describe the orderbook at [app.premarket.xyz](https://app.premarket.xyz/) unless covered options are mentioned explicitly.
 
 <details>
 
@@ -35,7 +35,7 @@ Your trade consumed liquidity from the orderbook and changed the available order
 
 <summary><strong>Can I cancel an order?</strong></summary>
 
-For orderbook markets at [app.premarket.xyz](https://app.premarket.xyz/), you can cancel an open order directly from the UI or through the smart contracts if you prefer to interact onchain. In the Covered Call experience, an unmatched order remains in the book until it reaches its expiry or you cancel it.
+For orderbook markets at [app.premarket.xyz](https://app.premarket.xyz/), you can cancel an open order directly from the UI or through the smart contracts if you prefer to interact onchain. Covered-option orders are signed offchain and remain open until they fill, reach their selected order expiry, or you cancel them. Cancellation is free and immediate.
 
 </details>
 
@@ -62,7 +62,7 @@ Each market has a maker fee paid by the order placer and a taker fee paid by the
 
 **Fees in the table are 0% at launch** in the main app. The rates above are the standard schedule that applies once fees are switched on.
 
-The table does not define the Covered Call fee rate on Robinhood Chain. Covered Call fees are paid in the underlying token.
+The table does not define a fee rate for covered options on Robinhood Chain.
 
 </details>
 
@@ -74,7 +74,7 @@ No. In the standard trading flow, you can only sell positions you already hold. 
 
 Some options-style markets have a SHORT side. Buying SHORT is a directional position in that spread; it is not the same as borrowing an asset or opening a naked short sale.
 
-For Covered Calls, the SHORT claim carries the obligation and the right to the remaining underlying collateral. Transferring the SHORT claim transfers both.
+For Robinhood Chain covered options, **Short** is the user-facing name of the put option leg. The writer side is labelled **LP** for both calls and puts. LP positions are fully collateralized; transferring LP transfers its settlement exposure and rights to the remaining collateral.
 
 </details>
 
@@ -82,6 +82,14 @@ For Covered Calls, the SHORT claim carries the obligation and the right to the r
 
 <summary><strong>What happens if there is no liquidity when I want to exit?</strong></summary>
 
-You will not be able to sell your position before expiry. For markets with settlement, hold to expiry and your position resolves according to the market rules if the market resolves normally. For RWA markets there is no expiry-based settlement, so the only exit is to wait for a buyer. For Covered Calls, you can also unwind equal LONG and SHORT amounts for the same strike and expiry back into the underlying token without selling either side separately.
+You will not be able to sell your position before expiry. For markets with settlement, hold to expiry and your position resolves according to the market rules if the market resolves normally. For RWA markets there is no expiry-based settlement, so the only exit is to wait for a buyer. For covered options, you can also unwind equal option and LP amounts for the same contract back into collateral without selling either leg separately.
+
+</details>
+
+<details>
+
+<summary><strong>Why was my covered-option order signed but not filled?</strong></summary>
+
+Check the one-time vault operator approval. Without it, an order can be signed but cannot fill. Also confirm that the order has matching liquidity and was created for the current exchange version. After an exchange upgrade, cancel any stale order and create it again.
 
 </details>

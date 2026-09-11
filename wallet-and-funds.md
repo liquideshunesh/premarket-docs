@@ -7,7 +7,7 @@ coverY: 0
 
 Trading through [app.premarket.xyz](https://app.premarket.xyz/) uses a smart account. Your funds flow from your personal wallet into the smart account for trading, and back out to your personal wallet when you withdraw.
 
-Covered Calls use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain and lock the underlying asset as collateral. Account creation, wallet onboarding, and gas abstraction follow the same flow used for Premarket on MegaETH. Premiums and any fees are also paid in the underlying token.
+Covered options use [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) on Robinhood Chain. Account creation, wallet onboarding, and gas abstraction follow the same flow used for Premarket on MegaETH. Premiums are paid separately in USDG. Covered calls lock the underlying token as collateral; cash-secured puts lock USDG.
 
 For a product overview of the account flow, see [Smart Account and 1-Click Trading](readme/getting-started/smart-account.md).
 
@@ -35,9 +35,9 @@ Withdrawal: Smart Account > Primary Wallet
 | ------- | --------------------------- | ------------------------------------ |
 | MegaETH | USDM                        | Pre IPO, Pre TGE, price spreads, RWA |
 | Solana  | USDC                        | Prediction Markets, Yield Farm       |
-| Robinhood Chain | Supported underlying asset | Covered Calls                 |
+| Robinhood Chain | USDG and supported underlying tokens | Covered calls and cash-secured puts |
 
-In the main app, you hold balances by chain and product context in your smart account. Make sure you are depositing on the chain that matches the market you intend to trade. For Covered Calls, use the account and balance views shown in the Robinhood Chain experience.
+In the main app, you hold balances by chain and product context in your smart account. Make sure you are depositing on the chain that matches the market you intend to trade. For covered options, use the account and balance views shown in the Robinhood Chain experience.
 
 ## How to Deposit in the Main App
 
@@ -47,7 +47,7 @@ In the main app, you hold balances by chain and product context in your smart ac
 4. Click Approve if this is your first deposit of that token.
 5. Click Deposit and confirm in your wallet.
 
-For Covered Calls, fund the smart account at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) with the supported underlying token for the market you want to trade.
+For covered options, fund the smart account at [robinhood.premarket.xyz](http://robinhood.premarket.xyz/) with USDG for premiums. Writers also need the supported underlying token for covered calls or enough USDG to collateralize cash-secured puts. Complete the one-time vault operator approval before placing an order; without it, an order can be signed but cannot fill.
 
 <figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Funding smart wallet</p></figcaption></figure>
 
